@@ -5,4 +5,5 @@ June 26, 2022 (Sunday)
 * Added an instruction manual to my Red bubble GUI uploader. I've used Tkinter, selenium, pillow and other modules for this one.
 * Partial follow-code with Pedro Tech channel on using ReactJS, MySQL, NodeJS
 * Install Mysql server on ubuntu 21.04 laptop with the command 'sudo mysql -u root -p' as the login.
+* After how many hours I finally got the install mysql-workbench-community in ubuntu 21.04 laptop.
 
