@@ -1,3 +1,8 @@
+June 27, 2022 (Monday)
+
+* Added new components to my portfolio with logo of my languages and framework used.
+* Watch a video of how to upload react project to github as well as host your portfolio there.
+
 June 26, 2022 (Sunday)
 
 * Added new features for my ongoing personal portfolio project. I'm using react and codepen to make this one and so far so good. I'm building it one step
@@ -9,5 +14,4 @@ June 26, 2022 (Sunday)
 * Revisit auto-py-to-exe folder. Executing user interface can be done by locating run.py and typing 'python run.py' on command line.
 * Conduct debugging for Ubuntu 21.04 linux for installing lightdm. Found out it is conflicting with the boot startup. Ended up de-installing.
 * Continue mirror coding with Pedro Tech crud tutorial for reference.
-
 
