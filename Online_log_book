@@ -1,6 +1,8 @@
 July 8, 2022 (Friday)
 
 * Write second CRUD reference with Pedro Tech
+* Resolved first CRUD reference by opening different terminals for client and server. Run 'npm start' for App.js for client. And, run 'npm run devstart' 
+  for server side to trigger operation of mysql.
 
 July 6, 2022 (Wednesday)
 
