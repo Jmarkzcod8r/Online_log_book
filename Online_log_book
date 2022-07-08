@@ -3,6 +3,9 @@ July 8, 2022 (Friday)
 * Write second CRUD reference with Pedro Tech
 * Resolved first CRUD reference by opening different terminals for client and server. Run 'npm start' for App.js for client. And, run 'npm run devstart' 
   for server side to trigger operation of mysql.
+* Apparently, there are more stuffs to install on the server side than the client one. These are some of them: "axios, body-parser, cors, express, mysql,
+  nodemon". These can be seen in the package.json. Use 'npm init' to install package.json and click 'enter' all the way. For client side, use
+  'npm install axios' to install axios which serves as the bridge to send and receive things from frontend and backend.
 
 July 6, 2022 (Wednesday)
 
