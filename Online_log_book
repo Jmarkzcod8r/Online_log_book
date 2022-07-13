@@ -13,7 +13,20 @@ July 14, 2022 (Thursday)
             mySQL (gold standard)                               Web server: nginx, docker, terraform, 
             Redis (2nd database)                                Version Control: Github
   Note: Use script tags for APIs, Consider Bun for frontend.
-
+* Revisit how to deploy react to github. 
+   1. Make a git repository thru the site github. Take note of the name.
+   2. Add these to package.json... 
+   
+   "homepage": "https://Jmarkzcod8r.github.io/<Name_of_repository>", 
+   "name": "<Name_of_repository>",
+      
+      "scripts": {
+    "start": "react-scripts start",
+    "predeploy:": "npm run build",
+    "deploy": "gh-pages -d build",
+    
+   3. Use:  'npm install gh-pages' , 'git init', 'git add .', 'git add origin "https://Jmarkzcod8r.github.io/<Name_of_repository>", 
+             'npm run build', 'npm run deploy', 'git push origin master'
 July 13, 2022 (Wednesday)
 
 * Continue familiarizing myself with firebase. I'm here in CBTL here in SM Gensan which is nice. The coffee is good as always. Cafe Mocha has been my 
