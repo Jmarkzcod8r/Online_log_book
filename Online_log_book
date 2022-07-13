@@ -12,7 +12,7 @@ July 14, 2022 (Thursday)
   Database: mongodb, mySQL, noSQL                               Module Bundler: Webpack
             mySQL (gold standard)                               Web server: nginx, docker, terraform, 
             Redis (2nd database)                                Version Control: Github
-  Note: Use script tags for APIs
+  Note: Use script tags for APIs, Consider Bun for frontend.
 
 July 13, 2022 (Wednesday)
 
