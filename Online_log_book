@@ -3,6 +3,16 @@ July 14, 2022 (Thursday)
 * Finally able to deploy a basic react app to my site using firebase. It was the primitive one with the spinning logo. 
 * Practice some python challenges.
 * Waiting for my online portfolio to be deployed if ever it is truly the case using firebase.
+* Watch Fireship video on how he would make a website:
+  Frontend: Javascript, ios, android, flutter                   Framework:  Typescript (catch bugs earlier), React (Most popular), React Native (Mobile)
+  API: Stripe (payment), Apollo, GraphQL, (For complex APIs)                            Petite-vue, ionic
+      Auth0 (Authentication), Aws rekognition,                  State Management: Redux, 
+  Backend: Nodejs with NestJS, python (Flask, Django),          CSS Framework: Tailwinds, Sass, PostCSS, Bootstrap
+            Firebase
+  Database: mongodb, mySQL, noSQL                               Module Bundler: Webpack
+            mySQL (gold standard)                               Web server: nginx, docker, terraform, 
+            Redis (2nd database)                                Version Control: Github
+  Note: Use script tags for APIs
 
 July 13, 2022 (Wednesday)
 
