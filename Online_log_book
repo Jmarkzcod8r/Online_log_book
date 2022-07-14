@@ -4,6 +4,9 @@ July 15, 2022 (Friday)
   "firebase init" (select hosting with optional update to github),"firebase deploy". Before this, I tried changing the package.json which didn't really
   helped much. Oh boy! If you find yourself not having an output, try deleting the build folder and running "npm run build" again to sort of restart
   your system.
+* Finally able to deploy my online portfolio in my webpage "jmwebgo.com". At this point, I still have no idea why my initial build didn't go through.
+  I'll save the figuring out to some other days. I copied the src file and pasted it to the directory that works and it went through in there.
+  THANK YOU LORD!
 
 July 14, 2022 (Thursday)
 
