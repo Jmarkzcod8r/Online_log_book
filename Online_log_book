@@ -2,7 +2,8 @@ July 15, 2022 (Friday)
 
 * Finally able to deploy my second attempt for a react app. Here is the order to remember: "sudo npm install -g firebase-tools","npm run build",
   "firebase init" (select hosting with optional update to github),"firebase deploy". Before this, I tried changing the package.json which didn't really
-  helped much. Oh boy!
+  helped much. Oh boy! If you find yourself not having an output, try deleting the build folder and running "npm run build" again to sort of restart
+  your system.
 
 July 14, 2022 (Thursday)
 
