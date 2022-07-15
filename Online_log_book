@@ -7,6 +7,9 @@ July 15, 2022 (Friday)
 * Finally able to deploy my online portfolio in my webpage "jmwebgo.com". At this point, I still have no idea why my initial build didn't go through.
   I'll save the figuring out to some other days. I copied the src file and pasted it to the directory that works and it went through in there.
   THANK YOU LORD!
+* Started learning about react router to cater multiple pages for my react app. Followed some tutorial at youtube but when I tried it, it didn't go
+  accordingly. Found out the code was outdated. I read the documentation for the new version and it worked. Still needs to explore more with the 
+  router though.
 
 July 14, 2022 (Thursday)
 
