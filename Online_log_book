@@ -10,8 +10,8 @@ July 17, 2022 (Sunday)
     'GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT, REFERENCES, RELOAD on *.* TO 'sammy'@'localhost' WITH GRANT OPTION;' => Example
     'GRANT ALL PRIVILEGES ON *.* TO 'sammy'@'localhost' WITH GRANT OPTION;' => Grants all privileges to user on all tables
     For more reference: Use https://do.co/3OiSNah
-    
-    
+* Finally made a reference code for responsive navbar with react and bootstrap. In retrospect, I downloaded a zip file from github on it.
+
 July 15, 2022 (Friday)
 
 * Finally able to deploy my second attempt for a react app. Here is the order to remember: "sudo npm install -g firebase-tools","npm run build",
