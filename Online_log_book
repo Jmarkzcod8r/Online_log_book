@@ -1,3 +1,7 @@
+July 17, 2022 (Sunday)
+
+* Revisited MySQL database. Gain more familiarity with the system because installing wordpress seems to require it.
+
 July 15, 2022 (Friday)
 
 * Finally able to deploy my second attempt for a react app. Here is the order to remember: "sudo npm install -g firebase-tools","npm run build",
