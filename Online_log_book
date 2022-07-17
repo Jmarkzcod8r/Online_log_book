@@ -1,7 +1,17 @@
 July 17, 2022 (Sunday)
 
 * Revisited MySQL database. Gain more familiarity with the system because installing wordpress seems to require it.
-
+* This is a mini documentation for mySQL:
+    'mysql -u root -p' => access mysql at the root level. Change the 'root' for the username you want to use as you see fit.
+    'mysql -u root -p <Data.Table> =>Logs into your mysql at the root level and selecting instantly the name of the table for immediate use. 
+     mysql> USE menagerie => initializing the USE statement and then the name of the table by chich we are going to use or modify.
+    'CREATE USER 'sammy'@'localhost' IDENTIFIED BY 'password';' => This creates a new username by the name of sammy with a password of 'password'.
+    'GRANT PRIVILEGE ON database.table TO 'username'@'host';' => Grants privileges to a certain user. Change Privilege to either CREATE, ALTER, and DROP               databases, tables, and users, as well as the power to INSERT, UPDATE, and DELETE data from any table on the server. It also grants the user               the ability to query data with SELECT, create foreign keys with the REFERENCES keyword, and perform FLUSH operations with the RELOAD.
+    'GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT, REFERENCES, RELOAD on *.* TO 'sammy'@'localhost' WITH GRANT OPTION;' => Example
+    'GRANT ALL PRIVILEGES ON *.* TO 'sammy'@'localhost' WITH GRANT OPTION;' => Grants all privileges to user on all tables
+    For more reference: Use https://do.co/3OiSNah
+    
+    
 July 15, 2022 (Friday)
 
 * Finally able to deploy my second attempt for a react app. Here is the order to remember: "sudo npm install -g firebase-tools","npm run build",
