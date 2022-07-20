@@ -3,7 +3,7 @@ July 21, 2022 (Thursday)
 * For the first time, I had my first coding test and you guessed it, I BOMBED at it. The pressure given was 30 mins. I knew I could do it if given 
   more time but later found out, there is a more efficient way to dealing with it than what I previously was doing. This would have been the code
   to go. I have known for a while that the "For" loop is good for list but I got to remember that the for-if-conitnue combination is good to set
-  hierarchies of conditions. Still, I'm grateful.
+  hierarchies of conditions. I'll try to remember that in a foor loop, there is like a hidden commented "continue"  Still, I'm grateful.
 
      def test():
         for x in range (1,101):
@@ -22,6 +22,7 @@ July 21, 2022 (Thursday)
             # fourth condition
             if x%1==0:
                 print(x)
+            # continue
     test()
 
 
