@@ -1,6 +1,12 @@
 July 20, 2022 (Wednesday)
 
 * Forked 8 repositories about ecommerce. I guess this is the way to for me for now as what Aaron Jack recommended.
+* Tried to maneuver my way with one of the forked repositories. It involved new stuffs I have yet to fully familiarize myself with like Turborepo, 
+  pnpm, storybook, cherry-pick and nvm. NVM stands for node version manager which is what you use for switching to different versions of nodes you 
+  would use. PNPM is performant node package manager which is similar to yarn and npm. I had a bit of headached configuring how to switch versions with 
+  pnpm. Also, it's good to put on the name of your package from time to time to read some documentation. The one that finally got me to switch from 
+  different versions of pnpm would be "curl -f https://get.pnpm.io/v6.js | node - add --global pnpm@6". From here, it'll be easier to manipulate.
+* Install MongoDB on laptop with user "Jmarkzcod8r" as admin. password is similar to mySQL.
 
 July 17, 2022 (Sunday)
 
