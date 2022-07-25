@@ -1,4 +1,9 @@
-July 24, 2022 (Monday)
+July 25, 2022 (Monday)
+
+* Started converting my online portfolio to bootstrap that can cater to a mobile app when viewing. Setting the width to a percentage for an image css
+  seems to have done the trick. 
+
+July 24, 2022 (Sunday)
 
 * Spent about 2 hours with react bootstrap configuring a responsive navBar.
 
