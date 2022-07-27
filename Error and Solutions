@@ -16,4 +16,7 @@ Error: Had trouble with react bootstrap container. width is set     Solution: Se
 Error: Make large picture as background engulf small components.    Solution: Set css to position:absolute ; left: 0;(try for every container) and 
                                                                              position the container beforehand. 
 Error: React bootstrap NavBar won't show up.                        Solution: It must be inside <Route></Route>
+Error: Can't justify contents of Nav inside NavBar to right.        Solution: For Nav component, use clasName="mr-auto" and do not use 
+                                                                              "position:absolute" for this.
+
                                                                     
