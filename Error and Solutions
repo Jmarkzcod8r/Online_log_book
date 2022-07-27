@@ -13,5 +13,6 @@ Error: TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument        Solution: "n
 Error: Dropdown Navbar won't fully go down.                         Solution: css attribute.. "overflow:hidden" is active. Find and change this.
 Error: Had trouble with react bootstrap container. width is set     Solution: Set the container to fluid by adding fluid next to it.
       to 100% as well as the engulfing container which is "App"
-Error: Make large picture as background engulf small components.    Solution: Set css to position:absolute (try for every container) and position the                                                                                     container beforehand.
+Error: Make large picture as background engulf small components.    Solution: Set css to position:absolute ; left: 0;(try for every container) and 
+                                                                             position the container beforehand. A
                                                                     
