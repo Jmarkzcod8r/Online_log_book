@@ -7,5 +7,8 @@ Error: --openssl-legacy-provider is not allowed in NODE_OPTIONS     Solution: Ed
                                                                     "build": "react-scripts build",
 Error: "the issue that's been bugging me about babel-eslint"        Solution: As recommended on the last part of the instruction. Created a file named 
                                                                     '.env' and typed "SKIP_PREFLIGHT_CHECK=true" to it, saved and it works. Yeahyyy..
+Error: "sass node modules not found"                                Solution: Simply install 'npm install  node-sass"
+Error: TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument        Solution: "npm i react-dev-utils@10.0.0^C"
+      must be of type string. Received undefined
                                                              
                                                                     
