@@ -5,4 +5,7 @@ Error: --openssl-legacy-provider is not allowed in NODE_OPTIONS     Solution: Ed
                                                                     To:
                                                                     "start": "react-scripts start",
                                                                     "build": "react-scripts build",
+Error: "the issue that's been bugging me about babel-eslint"        Solution: As recommended on the last part of the instruction. Created a file named 
+                                                                    '.env' and typed "SKIP_PREFLIGHT_CHECK=true" to it, saved and it works. Yeahyyy..
+                                                             
                                                                     
