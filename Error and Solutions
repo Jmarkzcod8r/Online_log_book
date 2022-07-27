@@ -10,5 +10,6 @@ Error: "the issue that's been bugging me about babel-eslint"        Solution: As
 Error: "sass node modules not found"                                Solution: Simply install 'npm install  node-sass"
 Error: TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument        Solution: "npm i react-dev-utils@10.0.0^C"
       must be of type string. Received undefined
+Error: Dropdown Navbar won't fully go down.                         Solution: css attribute.. "overflow:hidden" is active. Find and change this.
                                                              
                                                                     
