@@ -1,3 +1,8 @@
+July 31, 2022 (Sunday)
+
+* Started to incorporate react-router-dom into my website. It turns out that it is best to create a folder of your routes inside the src file to
+  avoid some conflicts along the way.
+
 July 30, 2022 (Saturday)
 
 * Started learning to incorporate javascript to react.
