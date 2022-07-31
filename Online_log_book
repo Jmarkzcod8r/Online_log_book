@@ -2,6 +2,9 @@ July 31, 2022 (Sunday)
 
 * Started to incorporate react-router-dom into my website. It turns out that it is best to create a folder of your routes inside the src file to
   avoid some conflicts along the way.
+* Put some codepen outputs on some of my routes in my webpage source code and a particular pen is catchy because even though it doesn't use bootstrap,
+  the variables works as a block using the scss description, html {....@supports(display: grid) {display: block;}
+* By route sample 03, the javascript element uses a dollar sign '$'. By research, I found out it has something to do with jquery. okay.
 
 July 30, 2022 (Saturday)
 
