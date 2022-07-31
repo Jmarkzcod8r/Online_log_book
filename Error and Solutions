@@ -18,5 +18,5 @@ Error: Make large picture as background engulf small components.    Solution: Se
 Error: React bootstrap NavBar won't show up.                        Solution: It must be inside <Route></Route>
 Error: Can't justify contents of Nav inside NavBar to right.        Solution: For Nav component, use clasName="mr-auto" and do not use 
                                                                               "position:absolute" for this.
-
+Error: Can't make html like bootstrap using only scss               Solution: html{...@supports(display: grid) {display: block;}
                                                                     
