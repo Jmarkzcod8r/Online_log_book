@@ -4,6 +4,8 @@ August 07, 2022 (Sunday)
 * Just like before, using firebase to deploy my new app into my webpage is troublesome but I found that the best way to never overwrite the public folder
   or create a new one. This goes the same for index.html. It is best to run 'npm run build' and once you have your 'build' folder, change its name to
   'public'. Check also the index.html file if it is the one you want.
+* Apparently, here us is the way I see it, I should  make a new branch whenever I would deploy my code to a website because it might be harder to edit
+  the code after that.
 
 August 06, 2022 (Saturday)
 
