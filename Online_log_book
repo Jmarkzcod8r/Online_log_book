@@ -22,12 +22,8 @@ August 19, 2022 (Thursday)
   The directory is pointed to src and the way to do it this apparently was to take out the firebase files in there and type 'npm run build'. The build
   folder will be created without influence from firebase. Now, put the firebase files back and also the build folder on which you will have to rename
   to 'build'. Once that is finish, you may now type 'firebase deploy'.
-
-
-
-  
-
-
+* Started learning about cloudflare and SSl. Firebase based on fireship provides free ssl. need to learn more about this more.
+* Started learning about back-end with firebase.
 
 August 17, 2022 (Wednesday)
 
