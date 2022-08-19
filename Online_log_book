@@ -10,6 +10,17 @@ August 19, 2022 (Thursday)
 * Add some codepen and html samples.
 * Install html end tag label extension for vscode.
 * Gotta learn Next.js framework. Been hearing it a lot from fireship.
+* Instruction for git: react example
+          Go to src directory and not outside and then push to github to avoid errors.
+                      git init
+                      git remote add origin https://github.com/Jmarkzcod8r/Whiteseed.com.git
+                      git commit -m "first commit"
+                      git checkout -b Main
+                      git push -u origin Main
+
+
+
+  
 
 
 
