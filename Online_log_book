@@ -23,7 +23,8 @@ August 19, 2022 (Thursday)
   folder will be created without influence from firebase. Now, put the firebase files back and also the build folder on which you will have to rename
   to 'build'. Once that is finish, you may now type 'firebase deploy'.
 * Started learning about cloudflare and SSl. Firebase based on fireship provides free ssl. need to learn more about this more.
-* Started learning about back-end with firebase.
+* Started learning about back-end with firebase. There are two types of databases with firebase accordingly, realtime and firestore. Firestore seemed to
+  be the better one.
 * My namecheap website isn't that secure compared to the one i bought with godaddy.com.
 
 August 17, 2022 (Wednesday)
