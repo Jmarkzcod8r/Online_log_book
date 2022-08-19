@@ -17,6 +17,11 @@ August 19, 2022 (Thursday)
                       git commit -m "first commit"
                       git checkout -b Main
                       git push -u origin Main
+* Got my 2nd website but this time with namecheap.com. I was finally able to costumize or in other terms push my react app in there. Whiteseed.live is 
+  now live. Just like before, i tried manipulating by changing the name of the build folder into public folder but this time, I took some extra steps.
+  The directory is pointed to src and the way to do it this apparently was to take out the firebase files in there and type 'npm run build'. The build
+  folder will be created without influence from firebase. Now, put the firebase files back and also the build folder on which you will have to rename
+  to 'build'. Once that is finish, you may now type 'firebase deploy'.
 
 
 
