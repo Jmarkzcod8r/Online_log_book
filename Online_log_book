@@ -1,3 +1,89 @@
+August 21, 2022 (Saturday)
+
+* Make some notes about django.
+* This install django in a virtual environment
+	'pipenv install django'
+
+This opens a file in vscode
+	'code .'
+
+This activates the virtual environment
+	'pipenv shell'
+
+This creates files in the current directory
+'django-admin startproject storefront .'
+
+This sets up our server. Try opening new terminal and type above if you are in trouble running server.
+'python3 manage.py runserver'
+
+Go to storefront directory and type. Note: everytime you make an app add it to settings.py INSTALLED_APPS list at the bottom. For this case, add in 'playground' with a comma at last.
+'python manage.py startapp playground'
+
+These sets "Hello World"
+Go to playground and views.py and add
+
+'from django.http import HttpResponse
+
+def say_hello(request):
+    #Pull data from db
+    #transform data
+    # return data
+    return HttpResponse('Hello World')
+
+Go to playground and add a new file named 'urls.py'
+
+'from django.urls import path
+from . import views
+
+urlpatterns = [
+	path('hello/', views.say_hello)
+]'
+
+Go to storefront and urls.py. Add include function to line 17.
+from:
+	'from django.urls import path'
+to:
+	'from django.urls import path, include'
+from:
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    ]
+
+to:	
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('playground/',include('playground.urls'))
+]
+
+Note always end wit '/' forward slash on urls.
+
+This gives an error to your homepages django. To counter this, remove 'include' as well as path.
+	
+=----------------------------------------
+Html templates examples:
+
+Go to playground, add new folder named 'templates' and add an html file. In this case, let's name it hello.html. with a content of
+'<h1> Hello World </h1>'
+
+Go to views.py and configure. The render function is use in this case and not the HttpResponse. 
+
+'def say_hello(request):
+    return render (request, 'hello.html')'
+    
+This is to use as new function.
+
+For dictionary, use:
+
+'{% if name    %}
+<h1>Hello {{name}}</h1>
+{% else    %}
+<h1>Hello World</h1>
+{%  endif   %}'
+
+and
+
+      'return render (request, 'hello.html', {'name':'Jmark'})'
+
 August 19, 2022 (Thursday)
 
 * Geez, where to start?
