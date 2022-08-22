@@ -1,6 +1,7 @@
 August 22, 2022 (Monday)
 
 * Continue to work on online portfolio.
+* Found one solution for whitescreen react error.. <Router basename='/index.html'>
 
 August 20, 2022 (Saturday)
 
