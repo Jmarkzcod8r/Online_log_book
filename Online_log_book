@@ -7,6 +7,7 @@ August 25, 2022 (Thursday)
 	Found out that 	upgrading my react dom and bootstrap can lead to unwanted consequences.
 * Worked on whiteseed.live on this local laptop. I made some pretty decent gains today. Thank You Lord! But, still I have a long way to go. The back-end
 	still needs to be done for it. I'll do it with django. For now, it's time to push some codes to github.
+* Update my git commands knowledge.
 
 August 23, 2022 (Tuesday)
 
@@ -117,12 +118,18 @@ August 19, 2022 (Thursday)
 * Gotta learn Next.js framework. Been hearing it a lot from fireship.
 * Instruction for git: react example
           Go to src directory and not outside and then push to github to avoid errors.
+	  
                       git init
                       git remote add origin https://github.com/Jmarkzcod8r/Whiteseed.com.git
                       git commit -m "first commit"
-                      git checkout -b Main
+		      git branch				---> Check which branch you are in and also available ones
+		      git branch "new_branch"			---> Make new branch
+		      git switch "branch-you-want-to-switch-to"	---> switch to specific branch
+                      git checkout 				---> Younger brother of git branch
                       git push -u origin Main
-            Also, use firebase use --add
+		      git push --set-upstream origin "name-of-brach-you-want-to-push-your-codes-to"
+            			Also, use firebase use --add
+	    
 * Got my 2nd website but this time with namecheap.com. I was finally able to costumize or in other terms push my react app in there. Whiteseed.live is 
   now live. Just like before, i tried manipulating by changing the name of the build folder into public folder but this time, I took some extra steps.
   The directory is pointed to src and the way to do it this apparently was to take out the firebase files in there and type 'npm run build'. The build
