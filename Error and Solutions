@@ -21,4 +21,6 @@ Error: Can't justify contents of Nav inside NavBar to right.        Solution: Fo
 Error: Can't make html like bootstrap using only scss               Solution: html{...@supports(display: grid) {display: block;}
 Error: App.js behaved differently after adding routes               Solution: Adjust scss or css of other conflicting js files. Use <div></div> instead of
                                                                               <Body></Body>
+Error: Problem with <switch> at react router dom                    Solution: Replace switch with '<Routes>'  
+
                                                                     
