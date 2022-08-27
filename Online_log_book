@@ -2,7 +2,8 @@ August 27, 2022 (Saturday)
 
 * Finally got a working button for my django simple app. Also, I've been learning quite progressively with it.
 * FIREBASE DEPLOY! I was wondering why my code didn't push through despote I'm done with 'firebase init'. It was quite silly of me.
-* When configuring with the html files on the templates, i think it is best to modify the 'urls.py' next and then the 'views.py'
+* When configuring with the html files on the templates, i think it is best to modify the 'urls.py' next and then the 'views.py'.
+* So far, my django references includes rendering html files. It may be good to have a counter, i think.
 
 August 26,2022 (Friday)
 
