@@ -22,5 +22,7 @@ Error: Can't make html like bootstrap using only scss               Solution: ht
 Error: App.js behaved differently after adding routes               Solution: Adjust scss or css of other conflicting js files. Use <div></div> instead of
                                                                               <Body></Body>
 Error: Problem with <switch> at react router dom                    Solution: Replace switch with '<Routes>'  
-
+Error: cannot find details for project - on deploying firebase      Solution: 'Firebase use --add' , 'Firebase init' , Firebase deploy'. When uploading new
+                                                                          version of app, run 'npm run build'. Copy and paste new contents to './src/public'
+                                                                          and proceed with above firebase commands.
                                                                     
