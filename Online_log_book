@@ -144,6 +144,7 @@ August 19, 2022 (Thursday)
 	  
                       git init
                       git remote add origin https://github.com/Jmarkzcod8r/Whiteseed.com.git
+		      git remote set-url origin https://git-repo/new-repository.git		---> This changes the target repo
                       git commit -m "first commit"
 		      git branch				---> Check which branch you are in and also available ones
 		      git branch "new_branch"			---> Make new branch
