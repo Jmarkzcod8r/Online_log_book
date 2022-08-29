@@ -2,7 +2,7 @@ August 29, 2022 (Moday)
 
 * Gonna try configuring samples here on github. Hosted one for now.
 * Continue working on whiteseed.live
-* on Django,. make migrations with a dedicated terminal runnig the server on the background and also, when rendering html files, it must be in 
+* on Django,. make migrations with a dedicated terminal running the server on the background and also, when rendering html files, it must be in 
 	<!DOCTYPE html>
 	<html lang="en">
 	<head>
