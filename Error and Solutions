@@ -31,4 +31,5 @@ Error: ?: (corsheaders.E013) Origin '/' in CORS_ORIGIN_WHITELIST    Solution: Up
        is missing scheme...                                                   CORS_ORIGIN_WHITELIST = ['http://localhost:3000','http://localhost:8000',
                                                                                           'http://localhost:8080',]
 Error: "Couldn't import Django. Are you sure it's installed and... Solution: 'pip install django'
+Error: no such table: crud_detailsmodel fix                        Solution: 'python3 manage.py migrate --run-syncdb' creates tables without migrations 
                                                                     
