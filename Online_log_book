@@ -17,6 +17,7 @@ August 31, 2022 (Wednesday)
 * Tried hosting a simple html file to 'whiteseed.live' and it worked. Now, it's time to revert it back. Now, in have the option to not use react as
 	frontend. It was quite fast. My main problem now is hosting with the back-end involve.
 * I'll need to find a way to simplify react bootstrap especially taking out the ReactBootStrap at the beginning of tags.
+* Finally found the cullprit for the above predicament. '
 
 
 August 30, 2022 (Tuesday)
