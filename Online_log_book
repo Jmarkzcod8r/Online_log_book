@@ -4,6 +4,7 @@ August 31, 2022 (Wednesday)
 	in the src directory. Just 'cd ..' your way out into it if you are inside it or have just run 'npm start' and then proceed to the deployment
 	process shortly after 'npm run build' and then use the updated build folder to replace the default public folder 'firebase init' will ask 
 	you down the line.
+* Work more with my navbar references and with css using float. It seems that display:block and float is the way to go.
 
 August 30, 2022 (Tuesday)
 
