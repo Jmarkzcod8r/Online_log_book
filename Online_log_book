@@ -1,3 +1,7 @@
+September 1, 2022 (Thursday)
+
+* I should remember that 'models.py' is used to create entries to the database of django while 'admin.py' is for creating users.
+
 August 31, 2022 (Wednesday)
 
 * Practice my deploying skills with firebase to my site whiteseed.live. This time it went well. I figured I don't need to put a public folder
