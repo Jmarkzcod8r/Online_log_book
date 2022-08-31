@@ -5,6 +5,17 @@ August 31, 2022 (Wednesday)
 	process shortly after 'npm run build' and then use the updated build folder to replace the default public folder 'firebase init' will ask 
 	you down the line.
 * Work more with my navbar references and with css using float. It seems that display:block and float is the way to go.
+* A lot can be put into entry today. First, let's start with the interview i was preparing myself into. It never went through. Apparently, I slept 
+	through it or did I really? I'm not sure. I found out that the company jamiitech is a startup with few employees or that's what my perception is.
+* Started learning about react and django. I haven't integrated with it firebase yet. I think I'm not there yet. Apparently, the video tutorial i was 
+	following encountered a delay in my part. As i look in the API in the localhost:8000,.it indicates no 'POST' in there. This is something I need
+	to resolve maybe by looking through more sample codes or tutorials. These are just some things I neeed to master; 'useState, useEffect, param,
+	cors, axios, rest_framework (this seems to be the basic api framework), onChange among many other things. In the video tutorial, the use of 
+	POSTMAN in testing out API can be seen. In my case, I use the thunder client in vscode. I doubt, using the postman will make any difference. I 
+	need to since in the localhost:8000,.only the get, options and head are allowed. Also, I think i need to dig deeper with cors.
+* Tried hosting a simple html file to 'whiteseed.live' and it worked. Now, it's time to revert it back. Now, in have the option to not use react as
+	frontend. It was quite fast. My main problem now is hosting with the back-end involve.
+
 
 August 30, 2022 (Tuesday)
 
