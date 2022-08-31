@@ -4,6 +4,8 @@ September 1, 2022 (Thursday)
 * Finally, I have a working reference for django. Still, I haven't used the three. The reference just uses react and django but it's a start.
 * I think i finally figured out why there was no POST on the previous reference video i tired to go for and it's because either the models or view.py
 	wasn't configured right. Also, i think the router needs some clarifications.
+* Okay, if 'pyrebase' serves as the bridge for your Django backend to the Firebase database, then axios makes the connection for your frontend and 
+	backend to connect with each other. 
 
 August 31, 2022 (Wednesday)
 
