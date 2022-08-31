@@ -18,6 +18,10 @@ August 31, 2022 (Wednesday)
 	frontend. It was quite fast. My main problem now is hosting with the back-end involve.
 * I'll need to find a way to simplify react bootstrap especially taking out the ReactBootStrap at the beginning of tags.
 * Finally found the cullprit for the above predicament. '
+* Tried 'notepad coding'. i had 2 errors. (1st) is that for embedded css which is usually placed in the <head></head>, the "... ..." is no longer needed.
+	It is only applicable for inline css. (2nd) is that i had a ":" instead of ";" which is a minor inconvenience. On using the float property, the
+	element itself must be 'display:block'. The parent element is optional as it can be 'display:block' or don't put at all. The 'margin' comes next
+	to what seems to be significant. Note, that using 'display:flex' isn't recommended here at all.
 
 
 August 30, 2022 (Tuesday)
