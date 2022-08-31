@@ -16,6 +16,7 @@ August 31, 2022 (Wednesday)
 	I just followed recently mentions somethign about 'npm run build' but i'm not sure if it has an impact to my predicament right now.
 * Tried hosting a simple html file to 'whiteseed.live' and it worked. Now, it's time to revert it back. Now, in have the option to not use react as
 	frontend. It was quite fast. My main problem now is hosting with the back-end involve.
+* I'll need to find a way to simplify react bootstrap especially taking out the ReactBootStrap at the beginning of tags.
 
 
 August 30, 2022 (Tuesday)
