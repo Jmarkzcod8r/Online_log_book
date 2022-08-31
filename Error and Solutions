@@ -30,4 +30,5 @@ Error: WARNINGS: todo.Todo: (models.W042) Auto-created primary      Solution: Pu
 Error: ?: (corsheaders.E013) Origin '/' in CORS_ORIGIN_WHITELIST    Solution: Update this in settings.py " DEFAULT_AUTO_FIELD='django.db.models.AutoField' 
        is missing scheme...                                                   CORS_ORIGIN_WHITELIST = ['http://localhost:3000','http://localhost:8000',
                                                                                           'http://localhost:8080',]
+Error: "Couldn't import Django. Are you sure it's installed and... Solution: 'pip install django'
                                                                     
