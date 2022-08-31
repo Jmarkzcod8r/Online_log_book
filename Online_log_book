@@ -12,7 +12,8 @@ August 31, 2022 (Wednesday)
 	to resolve maybe by looking through more sample codes or tutorials. These are just some things I neeed to master; 'useState, useEffect, param,
 	cors, axios, rest_framework (this seems to be the basic api framework), onChange among many other things. In the video tutorial, the use of 
 	POSTMAN in testing out API can be seen. In my case, I use the thunder client in vscode. I doubt, using the postman will make any difference. I 
-	need to since in the localhost:8000,.only the get, options and head are allowed. Also, I think i need to dig deeper with cors.
+	need to since in the localhost:8000,.only the get, options and head are allowed. Also, I think i need to dig deeper with cors. I think the video 
+	I just followed recently mentions somethign about 'npm run build' but i'm not sure if it has an impact to my predicament right now.
 * Tried hosting a simple html file to 'whiteseed.live' and it worked. Now, it's time to revert it back. Now, in have the option to not use react as
 	frontend. It was quite fast. My main problem now is hosting with the back-end involve.
 
