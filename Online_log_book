@@ -10,6 +10,11 @@ September 1, 2022 (Thursday)
 	of the padding property for the parent element and (2nd) the one i would recommend would be to use display:flex and gap along with it. Also,
 	using 'justify-items:center' has no problem with flex with a good thing to note about. I'll dig deeper with the mobile view in the near future. 
 	At this point, I'm thinking about creating a vlog about my coding journey.
+* Well, I think today was a productive one. I finally deployed my first app with a backend on it at my site 'jmwebgo.com'. On the site, anyone can add 
+	to the database. The backend is in javascript which is faster than python but more difficult to master but I'm getting there. Also, I noticed
+	that my localhost has a tied to the firebase database which is convenient for me as a way to update the database alternatively. I also need to
+	take note of the templates or phrases there are and there seems to be a lot of them. 
+
 
 August 31, 2022 (Wednesday)
 
