@@ -16,7 +16,7 @@ September 1, 2022 (Thursday)
 	that my localhost has a tied to the firebase database which is convenient for me as a way to update the database alternatively. I also need to
 	take note of the templates or phrases there are and there seems to be a lot of them. One thing I need to consider would be the whiteseed.live's
 	response to multiple users when it finally gets live. I need to know more of the ip addresses setting it unique to others in order to avoid
-	conflicts when one user is using the questionnaire.
+	conflicts when one user is using the questionnaire. I think one way to handle this is through time or ip adresses or perhaps the uses of both.
 
 
 August 31, 2022 (Wednesday)
