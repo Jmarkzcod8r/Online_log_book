@@ -9,11 +9,14 @@ September 1, 2022 (Thursday)
 * Continue praticing my skills in front-end by trying out to recreate a navbar from a certain site. (1st) method involves display:block and manipulation
 	of the padding property for the parent element and (2nd) the one i would recommend would be to use display:flex and gap along with it. Also,
 	using 'justify-items:center' has no problem with flex with a good thing to note about. I'll dig deeper with the mobile view in the near future. 
-	At this point, I'm thinking about creating a vlog about my coding journey.
+	At this point, I'm thinking about creating a vlog about my coding journey. AT least, i'm getting more acquianted with what kind of display and 
+	property best fits the job. Yeyyyy!!!...
 * Well, I think today was a productive one. I finally deployed my first app with a backend on it at my site 'jmwebgo.com'. On the site, anyone can add 
 	to the database. The backend is in javascript which is faster than python but more difficult to master but I'm getting there. Also, I noticed
 	that my localhost has a tied to the firebase database which is convenient for me as a way to update the database alternatively. I also need to
-	take note of the templates or phrases there are and there seems to be a lot of them. 
+	take note of the templates or phrases there are and there seems to be a lot of them. One thing I need to consider would be the whiteseed.live's
+	response to multiple users when it finally gets live. I need to know more of the ip addresses setting it unique to others in order to avoid
+	conflicts when one user is using the questionnaire.
 
 
 August 31, 2022 (Wednesday)
