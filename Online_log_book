@@ -6,6 +6,10 @@ September 1, 2022 (Thursday)
 	wasn't configured right. Also, i think the router needs some clarifications.
 * Okay, if 'pyrebase' serves as the bridge for your Django backend to the Firebase database, then axios makes the connection for your frontend and 
 	backend to connect with each other. 
+* Continue praticing my skills in front-end by trying out to recreate a navbar from a certain site. (1st) method involves display:block and manipulation
+	of the padding property for the parent element and (2nd) the one i would recommend would be to use display:flex and gap along with it. Also,
+	using 'justify-items:center' has no problem with flex with a good thing to note about. I'll dig deeper with the mobile view in the near future. 
+	At this point, I'm thinking about creating a vlog about my coding journey.
 
 August 31, 2022 (Wednesday)
 
