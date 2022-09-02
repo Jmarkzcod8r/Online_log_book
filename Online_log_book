@@ -3,7 +3,7 @@ September 2, 2022 (Friday)
 * I should use codepen.io more. It's like an online cool editor but the setup is fast and lightweight. I could use it while react is still loading to
   to save some valuable time. Also, the way i use position:sticky is that i make a div with position:absolute and then inside that is another div with 
   'position:sticky'. Recently, I found out that there is another better way to do this by using only one div or container and then with this properties
-  "position: -webkit-sticky; position: sticky; top: 0;"
+  "position: -webkit-sticky; position: sticky; top: 0;". In addition, I played around with absolute and relative positions property.
 
 September 1, 2022 (Thursday)
 
