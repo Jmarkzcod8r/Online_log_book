@@ -4,6 +4,9 @@ September 6, 2022 (Tuesday)
 * Well, this is a first. I had an interview a while back but it never pushed through due to schedule conflicts and the company was a startup so
 	it's a downside. I think.
 * "Once you get one, you could always get more." as Aaron Jack,.programmer youtuber said about interview. Also, he recommends glassdoor..20%
+* I was wondering why my changes wouldn't reflect in the localhost server and found out that the problems lies with the import. React seems to have this
+  ability to change the import destination or that's what it seems. I need to observe further. On the positive side, I finally able to build the backend
+  for the questionnaires. Thank You Lord!.
 
 September 5, 2022 (Monday)
 
