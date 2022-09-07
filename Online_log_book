@@ -21,6 +21,7 @@ September 6, 2022 (Tuesday)
 * I was wondering why my changes wouldn't reflect in the localhost server and found out that the problems lies with the import. React seems to have this
   ability to change the import destination or that's what it seems. I need to observe further. On the positive side, I finally able to build the backend
   for the questionnaires. Thank You Lord!.
+* Made a decent mobile version for whiteseed.live. Hurrah! Thank You Lord!
 
 September 5, 2022 (Monday)
 
