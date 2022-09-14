@@ -1,8 +1,9 @@
 September 14, 2022 (Wednesday)
 
 * I now have a working reference for signing in with firebase with google authentication using a pop up window. It seems that 'PedroTech' tops the list
-	of reliable github repos I can fork in the near future.
+	of reliable github repos I can fork in the near future. Also, I read about trusted and untrusted providers so that's nice.
 * Still need to look at other auth samples with firebase.
+* I shoudl remember to use <iframe> tag if I want to embed some good videos on site.
 
 September 13, 2022 (Tuesday)
 
