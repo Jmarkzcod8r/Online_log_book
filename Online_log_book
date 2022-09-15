@@ -5,6 +5,13 @@ September 15, 2022 (Thursday)
 	working with time to include it on your rules. Comments are in my 'trialdb' database. Also, I need to get back one of these days to the way
 	fireship reduce pricing cost with the use of database from a video of his I had come across once.
 * Noteworthy is that firebase pricing can be unpredictable and can lead to a lot of trouble if i don't master it as soon as I can.
+* How Not To Burn Money in the Cloud:		
+					(1)	Setup Budget Alerts Globally --> Try to use aws budget actions if applicable or use pub sub
+					(2)	Do not create infinite loops in the cloud!!! (3x)
+					(3)	Don't configure things to scale when you're just messing around.
+					(4)	Think about algorithms
+					(5)	Secure your app (like apis, datas, security rules...etc)
+					
 
 September 14, 2022 (Wednesday)
 
