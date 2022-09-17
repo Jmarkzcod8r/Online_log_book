@@ -5,7 +5,11 @@ September 18, 2022 (Sunday)
 	and if statements. The 'continue' has the same function of skipping a specific iteration as well as in python. The forEach is used to iterate
 	through the elements of a given array. There are many ways to remove duplicates in a list and that's by filter, set, forEach, Reduce,
 	Underscore JS, Array.prototype.unique, 
+* The '.includes' si a boolean that iterates through an array looking if a particular element is present. Thus the questions mark (?) followed by two
+	actions either for true or false can be used for it.
 * The '.map' is the younger brother of 'forEach' the way I see it. 
+* Apparently, there are some things called 'no code app builder' which I will be looking through soon enough.
+* Found a cool navbar code using only css and html. "&#9776" this string signifies a hamburger menu.
 
 September 17, 2022 (Saturday)
 
