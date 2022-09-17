@@ -1,3 +1,12 @@
+September 18, 2022 (Sunday)
+
+* Practice my coding skills with javascript and this time utilizing node.js for it which works pretty well compared to opening a browser.
+* Javascript seems to be a bit harder to learn than python but this is my take for it. There is a 'micro' and a 'macro;. This is true for functions
+	and if statements. The 'continue' has the same function of skipping a specific iteration as well as in python. The forEach is used to iterate
+	through the elements of a given array. There are many ways to remove duplicates in a list and that's by filter, set, forEach, Reduce,
+	Underscore JS, Array.prototype.unique, 
+* The '.map' is the younger brother of 'forEach' the way I see it. 
+
 September 17, 2022 (Saturday)
 
 * Prepared for the testgorilla test but still bombed. I think this is the 5th one. Now, It's safe to say that getting into tech normally isn't
