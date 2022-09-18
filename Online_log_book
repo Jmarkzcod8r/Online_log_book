@@ -1,6 +1,11 @@
 September 19, 2022 (Monday)
 
-* Download 'life360' app as it can be a model to a location app I will be building in the near future.
+* Donwloaded the 'life360' app which makes up close to what my app would be. This is gonna be a challenge and I think it'll take me weeks before deployment 
+  and after that would be marketing. I know of a coworket who is a good at selling but I have yet to decide how I can partner with him. Sir Dongjay...
+* Download Android studio for whatever it's worth as per the tutorial video recommended.
+* Finally able to run my first flutter app. 'sudo snap install flutter --classic' ... this helped me in a recent issue.
+* In the flutter site, there is a template that involves a location app with google and the code is in github so I guess that's beneficial for me. Yay!
+* This will come in handy. "https://flutter.github.io/samples"
 
 September 18, 2022 (Sunday)
 
