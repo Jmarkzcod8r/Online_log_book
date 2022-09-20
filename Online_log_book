@@ -1,3 +1,31 @@
+September 21, 2022 (Wednesday)
+
+* Can't really stay up late tonight so by 0100H I'm out. It's good that I finally have a glimpse of a 'backmeup' project I have in mind of building. The
+  	linux command has a tool that list all the changes made in logs in a certain period of time. 
+* In terms of building discbook:
+	Framework:	I think I'll have this specifications. I'll be using Nextjs for this one but although the routing capabilities of the
+			framework is phenomenal, firebase isn't that much friendly to dynamic pages as I have to get the help of things such as google 
+			cloud functions. But, just like react, there are ways to go about this. I can make a single page app but the problem would 
+			be when the 'refresh' gets called and there would be chaos. I can use the css property 'display: none' and 'visibility:hidden' 
+			for this one. 
+	Back-end: 	I'll use firebase for the database and authentication. I'll use google and yahoo mostly for this. In the end, I'll have access
+			to a list of user and their emails for what it's worth. I don't think I'll be utilizing the email and password for now. One 
+			important thing to note is that as early as now, I'll learn how to use one document for the entire database just like how
+			fireship did it in able to not acquire colossal fees.
+	Database:	I'll use object oriented programming as i think it does well in keeping my data uniform. The data for authentication is already 
+			handles so a user would have this list of data for him: {Devotionals:[],Prayers:{Current:[], Answered:[]}, Events:[], Fasting:[]}.
+			Just like in the 'to-do list', the map function for array would be utilized for this. In able for me to make the database the way
+			I want it to,I need to have a reference and this means going back to the video fireship posted and coding along the way.
+	API: 		I'll utilize a bible api so that whenever it is clicked, a form will appear and after filling up the form, a pop-up will be one
+			screen to showcase the chapter being sought for.
+	Background:	I think I'll dsplay the navigation at the left side in a vertical position so that a nice background can be seen. Also, in the 
+			header I'll display a verse.
+	HomePage:	Maybe similar to 'whiteseed.live' so the things I'll be including in the navbar would be: About ( this is a simple site designed
+			for anyone to have an online 
+	Messaging:	I'll include this one and the ability to see other people's profiles. Maybe I'll use Mongdb as the database for this one.
+	
+	
+
 September 20, 2022 (Tuesday)
 
 * Next.js is a beast! It's routing is easy and I like it very well.
