@@ -1,3 +1,9 @@
+September 22, 2022 (Thursday)
+
+* Use an access token for one of my repo: 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 . Took out 'yarn.lock' to enable 'npm' to run instead on mrojecty nextjs
+  project. make sure 'npm run build' is updated before deploying to github and then eventually to vercel and Used const myloader to generate an 
+  image in a vercel deployment project page. Retrieveing and making jason files for data seems to be the way to go in the form of a dictionary.
+
 September 21, 2022 (Wednesday)
 
 * Can't really stay up late tonight so by 0100H I'm out. It's good that I finally have a glimpse of a 'backmeup' project I have in mind of building. The
