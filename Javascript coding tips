@@ -3,3 +3,4 @@
 (3) Use '.map' for dictionairies. 
 (4) Use 'forEach' for list with variables. 
 (5) Use 'for' for list with numbers.
+(6) Use '.split("") to convert string into array.
