@@ -1,3 +1,7 @@
+September 23, 2022 (Friday)
+
+* Finally was able to configure the authentication of my site 'discbook' but it still got a long way to go.
+
 September 22, 2022 (Thursday)
 
 * Use an access token for one of my repo: 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 . Took out 'yarn.lock' to enable 'npm' to run instead on mrojecty nextjs
