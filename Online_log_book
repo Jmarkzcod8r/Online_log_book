@@ -1,3 +1,16 @@
+September 25, 2022 (Sunday)
+
+* Firebase config problem? restarting might be the solution.
+* After making env.local. keys and setting it up in gitignore -restart IDE as necessary.
+* After some time, I found out that what should be 'accessToken' was 'accesToken' which gave me errors.
+* JS callbacks are good for functions with result as parameter.
+* I think it's best to do localStoage.getItem at useEffect.
+* To avoid using dependencies in useEffect, define a function and call it right after.
+* I'm gonna experiment with session storage soon.
+* The 'typeof' method proves to be useful in debugging.
+* using 'async-await' under 'useEffect' seems to be very beneficial. This was because when I looked at the console, too much rendering was being made.
+* Got a working reference of what I would want my site to be thanks to an indian dude. Also, tailwind is aweosme. I really should be practicing it more.
+
 September 23, 2022 (Friday)
 
 * Finally was able to configure the authentication of my site 'discbook' but it still got a long way to go.
