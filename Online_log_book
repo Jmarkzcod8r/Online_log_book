@@ -1,3 +1,11 @@
+September 26, 2022 (Monday)
+
+* Using async doesn't necessaruly mean you use await. Solved an issue by adding 'JSON.parse' to 'localStorage.getItem'
+* Instead of console.log use 'useState' instead for debugging and performance
+* You can try display flex and configure with margin and padding as a css tip
+* Use padding as first priority and margin as second or experiment with both.
+* Using tailwind with nextjs is nice.
+
 September 25, 2022 (Sunday)
 
 * Firebase config problem? restarting might be the solution.
