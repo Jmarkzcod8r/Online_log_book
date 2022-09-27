@@ -16,6 +16,9 @@ September 27, 2022 (Tuesday)
 * Got an email as a consideration for a senior back-end developer. But, just like any other, I didn't qualiy for it since I don't have the degree or the
 	necessary experience for the job. It would be nice though if you could have an offer of $50 per hour or more one day. I know it's possible in
 	this industry. For now, I just have to keep learning and elevating the value that I can give potentially.
+* I set up useeffect to take the data of the photoURL and just like what I logged before, making a function inside it and then calling it right afterwards
+	seems to be better than putting up a list of dependencies. I setup a useState for photoURL which in turn works extremely well. As a habit, I 
+	should degine my variables I will be using the page in useState.
 
 September 26, 2022 (Monday)
 
