@@ -1,6 +1,10 @@
+September 28, 2022 (Wednesday)
+
+* Saw a video with 'Tech with Tim' and it was nice to know the hiring side with tips.
+
 September 27, 2022 (Tuesday)
 
-* * Deployed a sample project to vercel using google login authentication but just like before, i kept getting the 404 when getting user data 
+* Deployed a sample project to vercel using google login authentication but just like before, i kept getting the 404 when getting user data 
 	from google. Gonna have to try again later at the vercel web app.
 * Had a minor proble with vercel login google authentication. It turns out that I just have to add the domain to the 'authorized domains' at 
 	the 'sign-in method' in firebase.
