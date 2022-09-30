@@ -1,3 +1,10 @@
+October 1, 2022 (Saturday)
+
+* Added some new tips of how to lower reads on my previouse entry after reviewing fireship video. I had a little issue with mongodb with user not 
+	having access to write in database. It turns out, I just need to configure the role for user. The good thing is that I successfully written some
+	data on my trial database at Mongodb. Also, I found a tutorial that incorporates nextjs and mongodb although there is a possibilit I may need to
+	restart my web app at vercel.
+
 September 30, 2022 (Friday)
 
 * Work all the more in my nextjs project. Added additional logins like facebook and yahoo but the backend is still to be operational and i have to 
@@ -151,6 +158,8 @@ September 15, 2022 (Thursday)
 					(3)	Don't configure things to scale when you're just messing around.
 					(4)	Think about algorithms
 					(5)	Secure your app (like apis, datas, security rules...etc)
+					(6) 	Minimize document reads
+					(7)	Configure rules
 					
 
 September 14, 2022 (Wednesday)
