@@ -2,10 +2,15 @@ September 30, 2022 (Friday)
 
 * Work all the more in my nextjs project. Added additional logins like facebook and yahoo but the backend is still to be operational and i have to 
 	look for a tutorial detailing how to set up native email and password login. Just like codepen, desygne and mui has some good ui desings.
-* Practice my coding javascript skills with (10) easy questions and (1) easy for now: @edabit.com
+* Practice my coding javascript skills with (10) easy questions and (4) easy for now: @edabit.com.. so farm this is a good site and according to their
+	site, they will allow up to 15 'freemium' questions before they would ask for payment. I guess that answers the question of how they are making
+	money. Also, I like that their affiliate marketing is global.
 	 To convert a number to a binary string:	use 'toString(2)'
 	 To convert object -> string word:		use 'JSON.stringify('object').replaceAll (',','')
 	 To convert string to an array: 		use Array.from('string') 
+* I know this is indirectly connected to coding but I just got my first sale to red bubble. I got paid $0.19. Yeay!! If It gives the idea to make a web
+	app that automates uploading designs to red bubble but I think I'm gonna have to use Django for this one since the legacy code is in python. I
+	guess it can be considered as another one of my projects.
 
 September 28, 2022 (Wednesday)
 
