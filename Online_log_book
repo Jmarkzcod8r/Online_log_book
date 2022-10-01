@@ -1,3 +1,8 @@
+October 2, 2022 (Sunday)
+
+* Managed to get the current date for today with javascript. Now, the next i think would be emojis. Got a minor error with 'document not defined' but
+	it's okay now. This helped 'if (typeof window !== 'undefined') {...  ...}'
+
 October 1, 2022 (Saturday)
 
 * Added some new tips of how to lower reads on my previouse entry after reviewing fireship video. I had a little issue with mongodb with user not 
