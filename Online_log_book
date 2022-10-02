@@ -12,6 +12,7 @@ October 2, 2022 (Sunday)
 	automatically signing in with Google which I really don't want it to. It started with my local but shifted to the vercel version. I think this 
 	is in the browser. Okay, now I know why. I've pre-logged in to my google account on the browser and it reflected to my logging in. Deleting 
 	the database where user.id can be seen didn't help so there's that.
+* As what I've read, providing unique key for using '.map' method helps the virtual DOM to listen to changes. I think it is a good practice to do so.
 
 October 1, 2022 (Saturday)
 
