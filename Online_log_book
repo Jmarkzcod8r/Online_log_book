@@ -1,7 +1,17 @@
 October 2, 2022 (Sunday)
 
 * Managed to get the current date for today with javascript. Now, the next i think would be emojis. Got a minor error with 'document not defined' but
-	it's okay now. This helped 'if (typeof window !== 'undefined') {...  ...}'
+	it's okay now. This helped 'if (typeof window !== 'undefined') {...  ...}'.
+* Fixed a minor css issue caused by 'p-... pt-...' giving an overflow to the web page.
+* Continue working with database for firebase-auth-two.
+* I think it would be a good idea to bring out 3 test button right at the start.
+* Setting up useeffect with data integration seems to be a recipe for disaster especially when your app starts to scale. Binding it to a button pretty 
+	much is the way to go the way I see it so far.
+* On the process of getting to know how ' onAuthStateChanged ' works with firebase. It seems to remember your last login and the problemw with this 
+	is that if a user wishes to login with a differentg gmail account, then he would have a terrible time indeed. My web app seems to be
+	automatically signing in with Google which I really don't want it to. It started with my local but shifted to the vercel version. I think this 
+	is in the browser. Okay, now I know why. I've pre-logged in to my google account on the browser and it reflected to my logging in. Deleting 
+	the database where user.id can be seen didn't help so there's that.
 
 October 1, 2022 (Saturday)
 
