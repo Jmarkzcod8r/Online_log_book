@@ -1,3 +1,14 @@
+October 4, 2022 (Tuesday)
+
+Reminder: Use '{...}' for objects and '(...)' for keys or object children. Don't forget to use '{}' on objects when using them as arguments or 
+	parameters of a function. When passing function or arguments from main js to a component js, use '{... ...}' for parameters.
+* Found out that I get an error for 'usernav.js' due to its useEffect calling a useState inside of it. I think I have to find a way around this problem.
+* Had a bit of a problem with useState inside useeffect getting errors due to infinite loop. Got it solved by setting up an empty dependency array in 
+	the useEffect of the component 'usernav.js' and disabling eslint althouh I am still thankful for trying out eslint quick fixes which none of them 
+	resolve my issue full well. At this point, I think it would be better to include an empty dependency array whenever I use useEffect.
+	As what I thought, 'block' can mostly only be responsive if it has components with properties of 'inline-block'. The inline-block holds more 
+	priority rather than setting 'height:auto' for block.
+
 October 3, 2022 (Monday)
 
 * Continue working on my nextjs side project.
