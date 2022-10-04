@@ -1,3 +1,15 @@
+October 5, 2022 (Wednesday)
+
+* How to send data to mongoose:
+	Create 3 js files:	
+		* connection.js ===> This is where your api is
+		* Schema.js ===> This specifies your folder and subfolder. This is where models are.
+		* Users.js ===> This can be named to 'data.js'. This is where your 'to-be-uploaded' data is.
+				Connect -> Specify -> Send		
+* It seems that the price of scalability through mongodb is some a bit more of code complication. I think the hierarchy for the datas in Mongodb 
+	are first Model and then the sub which is schema. Model -> schema
+	Note: schemas is lowercase for all letters, start with a small letter and end with an 's'
+
 October 4, 2022 (Tuesday)
 
 Reminder: Use '{...}' for objects and '(...)' for keys or object children. Don't forget to use '{}' on objects when using them as arguments or 
