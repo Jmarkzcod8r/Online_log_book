@@ -9,6 +9,7 @@ October 5, 2022 (Wednesday)
 * It seems that the price of scalability through mongodb is some a bit more of code complication. I think the hierarchy for the datas in Mongodb 
 	are first Model and then the sub which is schema. Model -> schema
 	Note: schemas is lowercase for all letters, start with a small letter and end with an 's'
+* I need to make a mini test app with inputs and test buttons and send them to the database.
 
 October 4, 2022 (Tuesday)
 
