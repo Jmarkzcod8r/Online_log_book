@@ -1,3 +1,10 @@
+October 6, 2022 (Thursday)
+
+* I'm having a hard time with mongodb actually. I think I need to break this down little by little. First of all, I need to set a connection to 
+	the database I possess now. There are a lot of examples there. I need to setup a function that checks whether a specific schema is there.
+	From what I see async functions can have the arguments of request(req) and respons(res) and you can specify a return json file to showcase
+	the result which is most likely in the 'api' folder.
+
 October 5, 2022 (Wednesday)
 
 * How to send data to mongoose:
