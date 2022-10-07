@@ -1,3 +1,15 @@
+October 8, 2022 (Saturday)
+
+*  Finally fiexed this error,.OverwriteModelError: Cannot overwrite `client` model once compiled. it should be mongoose.models.client || 
+	mongoose.model("client", ClientSchema); The previous was that the first 'client' has a capital for 'c'.
+*  Got some first insights with Mongodb vscode extension. Use('DATABASE') ---> this is use to specify the database we would be working on. 
+	When creating a database,the below command is necesary.db.createCollection('COLLECTIONNAME') ---> This is use to create a database with 
+	a collection inside it with an initial content of '{ "ok":1}'.
+*  When getting infos using await or res, the default is labeled to 'data'. Naming it to others will result in error. Use console.log to verify.
+*  You can use useState to store an object provided that you would only use its children and not the whole package or you would have to use 
+	'JSON.stringify' to convert it first to a string. Using this method, you would use less code. I think I'll go with this one for static 
+	web pages but what I am building has some dynamic variables so I might reconsider.
+
 October 7, 2022 (Friday)
 
 * When I tried connecting to the Mongodb using the clone that was working before, I was having a hard time. I think I need to bring back on my 
