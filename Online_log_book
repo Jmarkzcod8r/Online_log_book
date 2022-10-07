@@ -1,3 +1,10 @@
+October 7, 2022 (Friday)
+
+* When I tried connecting to the Mongodb using the clone that was working before, I was having a hard time. I think I need to bring back on my 
+        references that worked well. Another is that I need to trim the sample databases I had. I didn't expect it was that many so for now I'll 
+        leave only one which is the 'mflix database'. When I got to connect to the database, I need to get the data and put in a div or element
+        tag as what I've already planned.
+
 October 6, 2022 (Thursday)
 
 * I'm having a hard time with mongodb actually. I think I need to break this down little by little. First of all, I need to set a connection to 
