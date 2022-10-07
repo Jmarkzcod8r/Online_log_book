@@ -36,4 +36,5 @@ Error: Export package . is not imported from firebase...           Solution: 'im
 Error: Cannot find module 'next/babel' on next.js                  Solution: Create file called .babelrc in your root directory and add this code:
                                                                               { "presets": ["next/babel"],"plugins": [] } And in .eslintrc, replace the                                                                                     existing code with: {"extends": ["next/babel","next/core-web-vitals"] }
                                                                               { "extends": ["next/babel","next/core-web-vitals"] }
-
+Error: OverwriteModelError: Cannot overwrite `client` model        Solution: Check spelling for client.
+        once compiled
