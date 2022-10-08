@@ -1,3 +1,8 @@
+October 9, 2022 (Sunday)
+
+* Continue to work on my online side Project. When dealing with getting data in collection, it is best to follow the format. all small letters and ending
+	with an 's' are they should be. the 's' gets taken out when specifing in the 'client.js'. Look at example for further verification.
+
 October 8, 2022 (Saturday)
 
 *  Finally fiexed this error,.OverwriteModelError: Cannot overwrite `client` model once compiled. it should be mongoose.models.client || 
