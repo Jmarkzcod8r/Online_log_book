@@ -1,3 +1,9 @@
+October 10, 2022 (Monday)
+
+* Having a hard time with axios posting some data in Mongodb. This was not the case on one of my working references using express.js. It's a bit confusing
+	apparently. Maybe it has something to do with <FormControl>. I don't know at this point. Also, the issue with _id is annoying and there seems
+	to be no good answer on the web. I could reconsider having a 'cred' for credential field on my objects to avoid manipulating ids. Let's see.
+
 October 9, 2022 (Sunday)
 
 * Continue to work on my online side Project. When dealing with getting data in collection, it is best to follow the format. all small letters and ending
