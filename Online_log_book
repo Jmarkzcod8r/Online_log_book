@@ -1,3 +1,18 @@
+October 11, 2022 (Tuesday)
+
+* 'new Client({name:'Joy', desc:'nice', comments:'complicated'}).save()' This is how I got to save to the mongodb database without the use of express or
+	axios. The 'new' command helps. The next thing I need to do is study about the switch cases. Also, I', having trouble with the axios.post as it
+	would return error 500 or something but the neat part is that I am able to add data to Mongodb thru the frontend also by using axios.
+	This is probably the timesaver for me. I set my code up like this one and the thing work at a fine level.
+	const res = await axios.post('https://httpbin.org/post', { hello: 'world' }, {
+  		headers: {	     // 'application/json' is the modern content-type for JSON, but some
+				    // older servers may use 'text/json'.
+				    // See: http://bit.ly/text-json
+				    'content-type': 'text/json'			 }	});
+* I need to prepare for hackerrank. I have an exam due in ten days. Also, I need to be more familiariza with the key and indes when using the '.map'
+
+res.data.headers['Content-Type']; // text/json
+
 October 10, 2022 (Monday)
 
 * Having a hard time with axios posting some data in Mongodb. This was not the case on one of my working references using express.js. It's a bit confusing
