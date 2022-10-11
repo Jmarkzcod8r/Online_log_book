@@ -1,3 +1,5 @@
 (1) How do you center a div?
+            There are quite a number of ways to do this. We can specify the parent element as 'flex' and use 'justify-content:center'. We can use
+       'grid' and use 'place-items:center'.
 (2) What is stackoverflow?
 (3)
