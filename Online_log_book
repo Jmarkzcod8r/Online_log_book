@@ -1,3 +1,13 @@
+October 13, 2022 (Thursday)
+
+* Gain some good insights with the dynamic property of pages with the back-end. Thank You Lord.
+* Found the error that has been causing me some issus with axios.post on the front-end and it is with the
+	status being set to 201 instead of 200.
+* Don't take out the dependecy array in useEffect.
+* Had a problem with posting at database. It turns out that I just have to wait a few seconds and let the compiling complete before I do anything. The way I think I see it is that any changes made to the back-end needs a restart at the most.
+* Almost done with my online journal. Now, I need to configure in a way that each user has a database of his owm and I think I can do
+	that using user's unique google user id.
+
 October 12, 2022 (Wednesday)
 
 * I had a recent interview and it went well. But, my English skills definitely had to work an extra mile. Nicholas was a nice guy and let's just hope 
