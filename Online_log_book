@@ -1,3 +1,24 @@
+October 14, 2022 (Friday)
+
+* I'm looking at using getServerSideProps, getStaticPaths and getStaticProps if I won't be able to resolve this issue with axios not being able 
+	to get data on vercel. I think I need a reference project.
+* The good thing is that I was able to resolve the issue I was having with using '.map' and that is by using 'index*2' and 'index*3' as keys.
+* Confirmed a force-assigned python web programming order. Let's see how I may be able to do this.
+* process.env can be console.log but the output would be on the terminal and not on the browser as it will produce an undefined in there.
+	I can use JSON.strinify on one of the environment variables and still the output can only be seen on the terminal.
+* When exporting a function from a different folder, one ought to lose 'default' and it better be not inside the pages folder.
+* The jsx file seems to be superior rathen then js file.
+* Better check from time to time if any .env file is uploaded to your repo and do something about it.
+* The good news is that I have finally incorporated nextjs and mongodb. It required some manipulating with the urls. It took a while but I'm glad 
+	I finally was able to do it. I'll do the polising later as there is still one thing I need to configure and it is to incorporate a database 
+	for each user. In doing so, i could think of using 'uid' and 'email' provided by google in doig this. I think I also need to take out the 
+	'name' field and change the 'date' to 'date Modified'. I also need to modify the app back to its default state of checking tokens.
+* In the near future, I would be learning about stripe and something about the incorporation of the payment system. The thought of
+	hosting multiple business websites thus is a general possibility for me just like what I saw in a previous video.
+* error: failed to push some refs to 'https://github.com/Jmarkzcod8r/firebase-auth-two.git' --> this is the first time i encounterd this
+	error and I think this happened because I did some changes in the github repo online and not on vscode. I should note this.
+
+
 October 13, 2022 (Thursday)
 
 * Gain some good insights with the dynamic property of pages with the back-end. Thank You Lord.
