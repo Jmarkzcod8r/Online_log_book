@@ -3,6 +3,9 @@ October 25, 2022 (Tuesday)
 * I'm starting to reconsider that recruiters may not be that bad at all if they can find you a good deal.
 * Finish the english test on one of my applications at devsoft.ph
 * Tried to upgrade my linux but encountered an error. I'm a bit hesitant to upgrade now. I guess I'll do it once I bought another spare laptop.
+* Started once again to work on my side project which is an onlie journal. i need to setup the database so that each user would have his own collection 
+	or model and I think I would have to use the dynamic routing setting up the four methods: GET, POST, PUT, OPTIONS in there. I had a hard time 
+	sending a query with useState. I think I need to use a list.
 
 October 24, 2022 (Monday)
 
