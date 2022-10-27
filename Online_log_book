@@ -1,3 +1,11 @@
+October 28, 2022 (Friday)
+
+* make it a habit that whenever you use an async function, iclude the parameters (req, res)
+* 3 things for good database integration: (1) Connection (2) Model (3) Schema
+* TypeError: t.versions.node is undefined --> You'll get this error if you'll try using mongoose in the client side. Only server side is acceptable.
+* I'm really having a hard time creating a model that corresponds to each user. I wanted the app to create a new model for each user but it seems 
+  I'd have to go for plan B.	
+
 October 25, 2022 (Tuesday)
 
 * I'm starting to reconsider that recruiters may not be that bad at all if they can find you a good deal.
