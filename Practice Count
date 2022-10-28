@@ -1,6 +1,32 @@
 edabit.com
 
+Python:
+Medium - 11111 - 11111 
+
 Javascript:...
-Medium - 11
+Medium - 1 
 Easy - 11111 - 111
 Very Easy - 1
+
+Oct. 29, 2022 (Saturday)
+
+* // --> operator that divides and discards the fractional part
+* I learned that you can set a default value for an argument.
+
+Medium Questions:
+1. Find Domain Name From DNS Pointer (PTR) Records Using IP Address
+2. Given the radius of a circle and the area of a square, return True if the circumference of the circle is greater than the square's 	
+	perimeter and False if the square's perimeter is greater than the circumference of the circle.
+3. Given a number, return a list containing the two halves of the number. If the number is odd, make the rightmost number higher.
+	
+4. Create a function that takes damage and speed (attacks per second) and returns the amount of damage after a given time.
+5. Luke Skywalker has family and friends. Help him remind them who is who. Given a string with a name, return the relation of that person to Luke.
+6. In this challenge, establish if a given integer num is a Curzon number. If 1 plus 2 elevated to num is exactly divisible by 1 plus 2 multiplied by num, 
+    then num is a Curzon number. Given a non-negative integer num, implement a function that returns True if num is a Curzon number, or False otherwise.
+7. Create a function that takes two numbers and a mathematical operator + - / * and will perform a calculation with the given numbers.
+8. Create a function that takes in a current mood and return a sentence in the following format: "Today, I am feeling {mood}". However, if no argument 
+    is passed, return "Today, I am feeling neutral".
+9. Write a function that stutters a word as if someone is struggling to read it. The first two letters are repeated twice with an 	ellipsis ... 
+    and space after each, and then the word is pronounced with a question mark ?.
+10. Create a function that takes an integer and returns the factorial of that integer. That is, the integer multiplied by all positive lower integers.
+
