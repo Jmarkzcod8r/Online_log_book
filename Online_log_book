@@ -5,6 +5,7 @@ October 28, 2022 (Friday)
 * TypeError: t.versions.node is undefined --> You'll get this error if you'll try using mongoose in the client side. Only server side is acceptable.
 * I'm really having a hard time creating a model that corresponds to each user. I wanted the app to create a new model for each user but it seems 
   I'd have to go for plan B.	
+* 
 
 October 25, 2022 (Tuesday)
 
