@@ -1,3 +1,10 @@
+October 29, 2022 (Saturday)
+
+* Solve 10 intermediate coding challenges at edabit.com which also took out my freemium period.
+* I learned that you can set a default value to an argument. okay.
+* // --> operator that divides and discards the fractional part
+* My vercel app is 90% complete. Thank You Lord.
+
 October 28, 2022 (Friday)
 
 * make it a habit that whenever you use an async function, iclude the parameters (req, res)
@@ -5,7 +12,6 @@ October 28, 2022 (Friday)
 * TypeError: t.versions.node is undefined --> You'll get this error if you'll try using mongoose in the client side. Only server side is acceptable.
 * I'm really having a hard time creating a model that corresponds to each user. I wanted the app to create a new model for each user but it seems 
   I'd have to go for plan B.	
-* 
 
 October 25, 2022 (Tuesday)
 
