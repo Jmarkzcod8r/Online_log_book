@@ -2,8 +2,12 @@ October 29, 2022 (Saturday)
 
 * Solve 10 intermediate coding challenges at edabit.com which also took out my freemium period.
 * I learned that you can set a default value to an argument. okay.
-* // --> operator that divides and discards the fractional part
+* // --> operator that divides and discards the fractional part in python
 * My vercel app is 90% complete. Thank You Lord.
+* I have a few ideas on how I can better my vercel online journal web app. First is to update the date created in the fomart of something like this.
+	" 18-Oct-2022 (Thu) ". Second is the configuration of the info button so that information about the site would pop-up. Third is to implement
+	the ctrl + right-click in the buttons that correspons to your entries in a way that the name would be configure so that it would serve as the 
+	title for the Entries.
 
 October 28, 2022 (Friday)
 
