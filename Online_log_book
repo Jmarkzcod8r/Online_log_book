@@ -26,6 +26,7 @@ October 30, 2022 (Sunday)
 		    result = max(result, cur_plant_time + growTime[i])
 		return result
 * Solve 3 intermediate coding challenges
+* +5 on jobs applied. It seems that being a python or programming instructor pays quite well.
 
 October 29, 2022 (Saturday)
 
