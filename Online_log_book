@@ -25,6 +25,7 @@ October 30, 2022 (Sunday)
 		    cur_plant_time += plantTime[i]
 		    result = max(result, cur_plant_time + growTime[i])
 		return result
+* Solve 3 intermediate coding challenges
 
 October 29, 2022 (Saturday)
 
