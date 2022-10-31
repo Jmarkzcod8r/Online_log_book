@@ -6,6 +6,7 @@ October 31, 2022 (Monday)
 * Created an account to https://www.pythonanywhere.com. I would like to deploy a django sample web app.
 * I have to promote my site on my own and maybe possibly put some add on it. I think this is a good enough hook.
 	"Hi, Is it okay if I can get a review for this site on your spare time?"
+* Finally was able to setup the NewPage button specifying a new blank entry by modifying the object to be send to the mongodb database.
 
 October 30, 2022 (Sunday)
 
