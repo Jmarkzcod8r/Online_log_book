@@ -1,3 +1,8 @@
+October 31, 2022 (Monday)
+
+* An addition to the backlist of this project is fixing the update button so that it wouldn't change the already set date created part. I think 
+  I can do that using the a conditional that if there is something already there, no change would be made. 
+
 October 30, 2022 (Sunday)
 
 * Thought I could put reload page function in a loop with break condition in Useeffect but it didn't help at all. Oh well!
