@@ -3,6 +3,9 @@ October 31, 2022 (Monday)
 * An addition to the backlist of this project is fixing the update button so that it wouldn't change the already set date created part. I think 
   I can do that using a conditional that if there is something already there, no change would be made. It turns out I just need to remove the date
   part and now this one is resolved.
+* Created an account to https://www.pythonanywhere.com. I would like to deploy a django sample web app.
+* I have to promote my site on my own and maybe possibly put some add on it. I think this is a good enough hook.
+	"Hi, Is it okay if I can get a review for this site on your spare time?"
 
 October 30, 2022 (Sunday)
 
