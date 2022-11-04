@@ -5,6 +5,13 @@ Nov. 5, 2022 (Friday)
 	come. I need to believe in myself and challenge myself frequently from one big project to another. 
 * I'm starting from scratch with Django as my formet files were nonfunctional.
 * This is a good reference for learning Django.. https://realpython.com/django-todo-lists/
+* Looking back to the interview I had the other day, I think sir Alex was hopeful that I would pass the test. He was kind enough to give me some hints
+	and he was also considerate. But, stuff happens and I can only hope for the better next time as I continue to improve my skills.
+* This is an observation of mine with django. On the project side, the settings.py and urls.py are part of the primary files while others are secondary 
+	while in the app side, there are also two which can be considered to be primary. These are urls.py and views.py. I don't why the developers 
+	didn't just named views.py to be 'functions.py' since it is where we can see store the functions weuse for our app. secondary would be the 
+	templates folder, admin.py and models.py
+
 
 Nov. 3, 2022 (Thursday)
 
