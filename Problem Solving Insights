@@ -1,0 +1,13 @@
+min(arr)          ---> Gets the smalles number in an array
+max(arr)          ---> Gets the biggest number in an array
+sum(arr)          ---> Gets the sum of all numbers in an array
+[start:stop:step] ---> This is an easier way to slice a string
+str(#str).zfill(#)---> This is a good way to enable leading zeros in a stringed number
+
+(1) Most of the problems requires a return but on small occassions you just have to do a print. Take note if the problem requires a print thought at
+    this point, I think it has a small chance. Nevertheless, it's good to be attentive still.
+(2) If you want to slice a string, you don't need to use or call the slice() method. Simple use indexing. Use this format if you want to slice from a 
+    specific index and cover the whole string... '[#: ]
+(3) The ...zfill(#) is a good way to put leading zeros in a stringed number
+    
+    
