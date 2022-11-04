@@ -11,6 +11,7 @@ Nov. 5, 2022 (Friday)
 	while in the app side, there are also two which can be considered to be primary. These are urls.py and views.py. I don't why the developers 
 	didn't just named views.py to be 'functions.py' since it is where we can see store the functions weuse for our app. secondary would be the 
 	templates folder, admin.py and models.py. The rest are tertiary.
+* Made a Railway account for what it's worth.
 
 
 Nov. 3, 2022 (Thursday)
