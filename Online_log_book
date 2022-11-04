@@ -12,6 +12,7 @@ Nov. 5, 2022 (Friday)
 	didn't just named views.py to be 'functions.py' since it is where we can see store the functions weuse for our app. secondary would be the 
 	templates folder, admin.py and models.py. The rest are tertiary.
 * Made a Railway account for what it's worth.
+* How to deploy a django project with staticfiles on vercel @ https://www.devmaesters.com/blog/15 --> I need to check this tutorial in the near future. 
 
 
 Nov. 3, 2022 (Thursday)
