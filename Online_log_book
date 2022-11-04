@@ -10,7 +10,7 @@ Nov. 5, 2022 (Friday)
 * This is an observation of mine with django. On the project side, the settings.py and urls.py are part of the primary files while others are secondary 
 	while in the app side, there are also two which can be considered to be primary. These are urls.py and views.py. I don't why the developers 
 	didn't just named views.py to be 'functions.py' since it is where we can see store the functions weuse for our app. secondary would be the 
-	templates folder, admin.py and models.py
+	templates folder, admin.py and models.py. The rest are tertiary.
 
 
 Nov. 3, 2022 (Thursday)
