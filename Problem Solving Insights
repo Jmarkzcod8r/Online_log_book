@@ -6,7 +6,8 @@ sum(arr)                        ---> Gets the sum of all numbers in an array
 [start:stop:step]               ---> This is an easier way to slice a string
 str(#str).zfill(#)              ---> This is a good way to enable leading zeros in a stringed number
 sort()                          ---> Sorts a list (does not return a new value)
-"%.6f" % floatNumber)           ---> This prints a float number in rounded according to input number. In this case '6'
+"%.6f" % floatNumber            ---> This prints a float number in rounded according to input number. In this case '6'
+arr.index('#')                  ---> Returns the position index of the value being search
 
 (1) Most of the problems requires a return but on small occassions you just have to do a print. Take note if the problem requires a print thought at
     this point, I think it has a small chance. Nevertheless, it's good to be attentive still.
@@ -14,5 +15,6 @@ sort()                          ---> Sorts a list (does not return a new value)
     specific index and cover the whole string... '[#: ]
 (3) The ...zfill(#) is a good way to put leading zeros in a stringed number.
 (4) Sort mutates the list and not returns a new one.
-    
+(5) "%.6f" % floatNumber This is for rounding off float numbers
+(6) Arr.index('#') returns the position index where the value being search is located
     
