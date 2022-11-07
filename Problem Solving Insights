@@ -1,3 +1,5 @@
+Solved Porblems: 6
+
 min(arr)                        ---> Gets the smalles number in an array
 max(arr)                        ---> Gets the biggest number in an array
 sum(arr)                        ---> Gets the sum of all numbers in an array
