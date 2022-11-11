@@ -1,4 +1,4 @@
-Solved Porblems: 8
+Solved Porblems: 9
 
 min(arr)                        ---> Gets the smalles number in an array
 max(arr)                        ---> Gets the biggest number in an array
@@ -8,6 +8,7 @@ str(#str).zfill(#)              ---> This is a good way to enable leading zeros 
 sort()                          ---> Sorts a list (does not return a new value)
 "%.6f" % floatNumber            ---> This prints a float number in rounded according to input number. In this case '6'
 arr.index('#')                  ---> Returns the position index of the value being search
+#.upper()                       ---> Mutates a string to its uppercase form
 
 (1) Most of the problems requires a return but on small occassions you just have to do a print. Take note if the problem requires a print thought at
     this point, I think it has a small chance. Nevertheless, it's good to be attentive still.
@@ -17,4 +18,4 @@ arr.index('#')                  ---> Returns the position index of the value bei
 (4) Sort mutates the list and not returns a new one.
 (5) "%.6f" % floatNumber This is for rounding off float numbers
 (6) Arr.index('#') returns the position index where the value being search is located
-    
+(7) #.upper() mutates a string into its uppercase form
