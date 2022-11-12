@@ -1,3 +1,14 @@
+Nov. 12, 2022 (Saturday)
+
+* Added a button for feedbacks in my journal web app. The hard part is basically done and now, costumizing comes next. I used swal as the input method to
+	take the feedbacks and after that, the result is put into an async function sending it to the database and then, another swal would appear
+	telling the user of the success. This needs further modification as I ought to take the response data and display it. This means that either a 
+	success or fail notification would come into the scene.
+
+Nov. 11, 2022 (Friday)
+
+* Practice solving some hackerrank problems. There is one problem I haven't solved yet and it involves one with the chocolate bar I think.
+
 Nov. 10, 2022 (Thursday) 
 
 * I guess it's safe to say that when you are learning something, you go through a blurry phase when everything seems to be out of place but at the end
