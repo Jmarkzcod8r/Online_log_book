@@ -4,6 +4,9 @@ Nov. 12, 2022 (Saturday)
 	take the feedbacks and after that, the result is put into an async function sending it to the database and then, another swal would appear
 	telling the user of the success. This needs further modification as I ought to take the response data and display it. This means that either a 
 	success or fail notification would come into the scene.
+* I've noticed that taking the data from Mongodb database is taking its time to display. I have yet to learn how to convert the list entries into one
+	that displays only a small portion and when you scroll down, that's when the rest of the data is shown or taken into account. Rght now, it would
+	take some time so I'll just leave it to future me for now.
 
 Nov. 11, 2022 (Friday)
 
