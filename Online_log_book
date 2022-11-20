@@ -1,3 +1,9 @@
+Nov. 20, 2022 (Sunday)
+
+* Finally was able to use react-reveal by replacing 'save' in npm install react-reveal --save with 'force'
+* Now have a good reference for scroll animation with javascript involving a loop.
+* Found out that you can identify an element with any of the words in its name separated by spaces.
+
 Nov. 19, 2022 ( Saturday)
 
 * Worked on my online portfolio. Instead of making it better, the bitter part is what got me. Arrgghh! My production is currently ruined and thus, I won't
