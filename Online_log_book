@@ -1,3 +1,8 @@
+Nov. 22, 2022 (Tuesday)
+
+* Practice some code challenges at hackerrank and manage to solve two. A good habit for debuggin would be to use '--' to separate loops varying 
+	in degrees.
+
 Nov. 20, 2022 (Sunday)
 
 * Finally was able to use react-reveal by replacing 'save' in npm install react-reveal --save with 'force'
