@@ -2,6 +2,10 @@ Nov. 23, 2022 (Wednesday)
 
 * I think I need a third monitor.
 * 5:1 is a good ratio for applying in glassdoor versus onlinejobs.ph
+* Manage to setup a live Nextjs site using one of my domains which is 'www.jmwebgo.com'. Also, it is good to know that the SSL certificate comes along
+	with it. Now, my online journal web app can be access at two definite sites. However, I haven't costumized the code to accomodate the database
+	Mongodb for 'jmwebgo.com' so the one I can go to right now is still in Vercel. Still, this is a good start and I can more confidently chat
+	kuya Rich regarding my willingness to build a website for the church provided they gave me a good UI/UX design.
 
 Nov. 22, 2022 (Tuesday)
 
