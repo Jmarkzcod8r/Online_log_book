@@ -1,3 +1,10 @@
+Nov. 24, 2022 (Thursday)
+
+* Revisited my old red bubble gui application. I managed to made it run again but niot without a few setbacks. I was greeted with the error involving
+	collection and MutableMapping. The upgraded python version seems to be the culprit. I was able to execute the program once more by installing
+	a virtual environment in there with 'python3 -m venv thisgui'. I installed requests to help me in changing the python version to 2.28.1. I 
+	re-installed in there selenium and webdriver and pillow. That was how, I was able to run the code. I'll deal with the rest of the errors later.
+
 Nov. 23, 2022 (Wednesday)
 
 * I think I need a third monitor.
