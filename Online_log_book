@@ -15,9 +15,10 @@ Nov. 23, 2022 (Wednesday)
 	(5)	You can type in 'pip freeze' to verify. If you see only a handful, your virtual environment is active.
 * Manage to deploy a Django web app to railway.app. It utilizes the same method line in Vercel where it connects to your github account and used the repo
 	to launch the code. This is a good start I guess and the next phase would be deploying the app to a costume site of mine in the near future.
-* It appears that the CNAME is the one responsible to deploying your web app to the site.
+* It appears that the CNAME is the one responsible to deploying your web app to a costume site.
+* As I get myself more familiar with pythonanywhere, it seems that creating a virtual environment in its bash console is different from when you do when
+	you are in your local mode.
 	
-
 Nov. 22, 2022 (Tuesday)
 
 * Practice some code challenges at hackerrank and manage to solve two. A good habit for debuggin would be to use '--' to separate loops varying 
