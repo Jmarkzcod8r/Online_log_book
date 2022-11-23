@@ -7,6 +7,13 @@ Nov. 23, 2022 (Wednesday)
 	Now, my online journal web app can be access at two definite sites. However, I haven't costumized the code to accomodate the database
 	Mongodb for 'jmwebgo.com' so the one I can go to right now is still in Vercel. Still, this is a good start and I can more confidently chat
 	kuya Rich regarding my willingness to build a website for the church provided they gave me a good UI/UX design.
+* This is how to activate virtual environment on your Django app:
+	(1)	Go to main folder terminal and type 'python3 -m venv <name-of-project>'. Type in the name of the project and not the app. 
+	(2)	Activate virtual environment with 'source <name-of-project>/bin/activate' 
+	(3) 	Install Django with 'python3 -m pip install Django'
+	(4) 	Type in 'cd <name-of-your-app>' and 'python3 manage.py runserver'
+	(5)	You can type in 'pip freeze' to verify. If you see only a handful, your virtual environment is active.
+	
 
 Nov. 22, 2022 (Tuesday)
 
