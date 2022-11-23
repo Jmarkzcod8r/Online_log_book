@@ -21,6 +21,8 @@ Nov. 23, 2022 (Wednesday)
 * I seem to be having trouble running my todo_app Django app to pythonanywhere.com. I assume it has something to do with the directory. As the error 
 	logs point out, `No module named 'todo_app'` seems to be the culprit.
 * I proceeded to delete some repositories that aren't really much to keep.
+* Thank You Lord! I was finally able to host my Django app to pythonanywhere.com. This would be the second hosting of my app since the first would be 
+	in 'railway.app'.
 	
 Nov. 22, 2022 (Tuesday)
 
