@@ -20,6 +20,7 @@ Nov. 23, 2022 (Wednesday)
 	you are in your local mode.
 * I seem to be having trouble running my todo_app Django app to pythonanywhere.com. I assume it has something to do with the directory. As the error 
 	logs point out, `No module named 'todo_app'` seems to be the culprit.
+* I proceeded to delete some repositories that aren't really much to keep.
 	
 Nov. 22, 2022 (Tuesday)
 
