@@ -13,6 +13,8 @@ Nov. 23, 2022 (Wednesday)
 	(3) 	Install Django with 'python3 -m pip install Django'
 	(4) 	Type in 'cd <name-of-your-app>' and 'python3 manage.py runserver'
 	(5)	You can type in 'pip freeze' to verify. If you see only a handful, your virtual environment is active.
+* Manage to deploy a Django web app to railway.app. It utilizes the same method line in Vercel where it connects to your github account and used the repo
+	to launch the code. This is a good start I guess and the next phase would be deploying the app to a costume site of mine in the near future.
 	
 
 Nov. 22, 2022 (Tuesday)
