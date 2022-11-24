@@ -6,6 +6,7 @@ Nov. 24, 2022 (Thursday)
 	re-installed in there selenium and webdriver and pillow. That was how, I was able to run the code. I'll deal with the rest of the errors later.
 * Revisited text-to-speech. I am reminded that the bigger priority is choosing which voice is sufficient. I think I found something best. I'm going to 
 	make a Django web site using text-to-speech for the testimonies I would be putting in there.
+* I'm gonna have to learn about scheduling so that a new entry or testimony would appear at the site everday for a specific period of time.
 
 Nov. 23, 2022 (Wednesday)
 
