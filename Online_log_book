@@ -7,6 +7,7 @@ Nov. 24, 2022 (Thursday)
 * Revisited text-to-speech. I am reminded that the bigger priority is choosing which voice is sufficient. I think I found something best. I'm going to 
 	make a Django web site using text-to-speech for the testimonies I would be putting in there.
 * I'm gonna have to learn about scheduling so that a new entry or testimony would appear at the site everday for a specific period of time.
+* Manage to run text-t0-speech reference code at chrome and not on firefox but still, the program pauses for some reason. I'll resolve it later.
 
 Nov. 23, 2022 (Wednesday)
 
