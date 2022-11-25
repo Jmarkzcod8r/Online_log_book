@@ -1,3 +1,9 @@
+Nov. 25, 2022 (Friday)
+
+* Thank God it's friday.
+* Manage to solve a minor issue with Django with my templates not being recognied, it turns out, I forgot to register the app in INSTALLED_APPS at 
+	settings.py. Also, been trying to incorporate tailwind to Django.
+
 Nov. 24, 2022 (Thursday)
 
 * Revisited my old red bubble gui application. I managed to made it run again but niot without a few setbacks. I was greeted with the error involving
