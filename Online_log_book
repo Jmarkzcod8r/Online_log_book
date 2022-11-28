@@ -39,7 +39,6 @@ Nov. 28, 2022 (Monday)
 			...flex-grow, flex-shrink and max-width are also noteworthy properties to look into. 
 			@media screen and (orientation: portrait) and (max-width: 480px) {#banner .image {max-height: 35vh; } } ....also this one
 				coupled with flex-direction of either column or row.
-	
 * This may prove to be useful:
 	breakpoints({
 			xlarge:   [ '1281px',  '1680px' ],
@@ -49,7 +48,8 @@ Nov. 28, 2022 (Monday)
 			xsmall:   [ '361px',   '480px'  ],
 			xxsmall:  [ null,      '360px'  ]
 		});
-``	
+* Just like what I did before, specifying the properties for each width seems to be the way to go.
+
 Nov. 26, 2022 (Saturday)
 
 * I think I need to do a reference code for Django once again.
