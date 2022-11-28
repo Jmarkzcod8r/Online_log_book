@@ -1,6 +1,7 @@
 Nov. 29, 2002 (Tuesday)
 
-* This is a good component for loading/waiting of the text to speech.. https://codepen.io/MyXoToD/pen/nqjjNN
+* This is a good component for loading/waiting of the text to speech.. https://codepen.io/MyXoToD/pen/nqjjNN or this one 
+	https://codepen.io/jmarkzcod8r/pen/VwdBbNj
 * Manage to modify the TTS code by Nitesh Singh to directly play the text instead of saving it to an mp3 beforehand. A minor error occured when I get an 
 	error upon first starting the Django app. Solved it by putting two return statements. The first is for the if-condition and the second is the 
 	default if no such condition is met being the request to be a POST.
