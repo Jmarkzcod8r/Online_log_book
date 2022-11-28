@@ -4,7 +4,16 @@ Nov. 28, 2022 (Monday)
 * I should have documented my step by step process of deploying to Django.
 * I forgot that the way to push folder files to pythonanywhere is to first upload it to github and then use 'git clone...' and then, you can proceed
 	from there. Note, to get present working directory use 'pwd' in console.
+* This is the settings for Django-new-to-Railway which is the one working fine so far that I can take as a refernce in pythonanywhere
 
+	Source code: 	/home/jmarkzcod8r/Django-new-to-Railway
+	Working directory:	/home/jmarkzcod8r/
+	WSGI configuration file:	/var/www/jmarkzcod8r_pythonanywhere_com_wsgi.py
+
+	Virtualenv:	/home/jmarkzcod8r/.virtualenvs/myenv
+			project_home = '/home/jmarkzcod8r/Django-new-to-Railway'
+			os.environ['DJANGO_SETTINGS_MODULE'] = 'mysite.settings'
+``	
 Nov. 26, 2022 (Saturday)
 
 * I think I need to do a reference code for Django once again.
