@@ -38,6 +38,7 @@ Nov. 28, 2022 (Monday)
 								components will behave like an in-line block.
 			...flex-grow, flex-shrink and max-width are also noteworthy properties to look into. 
 			@media screen and (orientation: portrait) and (max-width: 480px) {#banner .image {max-height: 35vh; } } ....also this one
+				coupled with flex-direction of either column or row.
 	
 * This may prove to be useful:
 	breakpoints({
