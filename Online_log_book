@@ -17,6 +17,9 @@ Nov. 28, 2022 (Monday)
 * Manage to deploy a text-to-speech Django app to pythonanywhere.com by first creating a virtual environment and then pointing out that env at the site.
 	The problem is that if I try to generate an mp3 tts, an error occurs.
 * Putting some tags in an html makes that part dynamic in Django.
+* Okay, this is crazy. Also, I am thankful. Finally, got a working web app text to speech at python anywhere. It turns out, I only needed to adjus the
+	save directory. As I found out, some countries aren't available like Australia and Mexico. I haven't looked at others yet. Still, this is good
+	progress to me having a website with testimonies with text to speech.
 ``	
 Nov. 26, 2022 (Saturday)
 
