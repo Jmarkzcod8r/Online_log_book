@@ -13,6 +13,9 @@ Nov. 28, 2022 (Monday)
 	Virtualenv:	/home/jmarkzcod8r/.virtualenvs/myenv
 			project_home = '/home/jmarkzcod8r/Django-new-to-Railway'
 			os.environ['DJANGO_SETTINGS_MODULE'] = 'mysite.settings'
+			
+* Manage to deploy a text-to-speech Django app to pythonanywhere.com by first creating a virtual environment and then pointing out that env at the site.
+	The problem is that if I try to generate an mp3 tts, an error occurs.
 ``	
 Nov. 26, 2022 (Saturday)
 
