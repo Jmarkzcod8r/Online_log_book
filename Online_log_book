@@ -16,6 +16,7 @@ Nov. 28, 2022 (Monday)
 			
 * Manage to deploy a text-to-speech Django app to pythonanywhere.com by first creating a virtual environment and then pointing out that env at the site.
 	The problem is that if I try to generate an mp3 tts, an error occurs.
+* Putting some tags in an html makes that part dynamic in Django.
 ``	
 Nov. 26, 2022 (Saturday)
 
