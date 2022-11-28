@@ -36,7 +36,8 @@ Nov. 28, 2022 (Monday)
 			...width: calc(100% - 1.5rem);	---> This property can prove to be significant
 			...flex-wrap: wrap    		---> The way I see it, If you set a container to flex and one of its property as such, the 
 								components will behave like an in-line block.
-			...flex-grow, flex-shrink and max-width are also noteworthy properties to look into.
+			...flex-grow, flex-shrink and max-width are also noteworthy properties to look into. 
+			@media screen and (orientation: portrait) and (max-width: 480px) {#banner .image {max-height: 35vh; } } ....also this one
 	
 * This may prove to be useful:
 	breakpoints({
