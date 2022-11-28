@@ -24,6 +24,25 @@ Nov. 28, 2022 (Monday)
 * I think I need to have a good timetable. Something, I am fairly familiar when I was the editor in chief at blueprint.
 * I think one of the main challenges of being a front-end developer is showcasing how your site can be as responsive as it can be among most dimensions.
 	On this one, I think I can get some good insights with HTML5UP samples.
+* These are my significant insights of the responsivenes of the first html5up sample (html5up-dimension):
+	body {	line-height: 1;	}
+	@-ms-viewport {	width: device-width; }
+	@media screen and (max-width: 480px) {	html, body {	min-width: 320px;	}	}
+	html {   box-sizing: border-box;	}	---> This seems to be popular for css developers
+	html {	font-size: 16pt;	} ---> This is the original font size
+		@media screen and (max-width: 1680px) {html {font-size: 12pt;}}   ---> By being responsive font-size is reduce as pixels are 
+		@media screen and (max-width: 736px) {html {font-size: 11pt;}}
+		@media screen and (max-width: 360px) {html {font-size: 10pt;}}
+	
+* This may prove to be useful:
+	breakpoints({
+			xlarge:   [ '1281px',  '1680px' ],
+			large:    [ '981px',   '1280px' ],
+			medium:   [ '737px',   '980px'  ],
+			small:    [ '481px',   '736px'  ],
+			xsmall:   [ '361px',   '480px'  ],
+			xxsmall:  [ null,      '360px'  ]
+		});
 ``	
 Nov. 26, 2022 (Saturday)
 
