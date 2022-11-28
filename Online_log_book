@@ -20,6 +20,8 @@ Nov. 28, 2022 (Monday)
 * Okay, this is crazy. Also, I am thankful. Finally, got a working web app text to speech at python anywhere. It turns out, I only needed to adjus the
 	save directory. As I found out, some countries aren't available like Australia and Mexico. I haven't looked at others yet. Still, this is good
 	progress to me having a website with testimonies with text to speech.
+* I don't know what's the deal with spaces but they were the reason I got an error when I put some text in the TTS web app at pythonanywhere. 
+* I think I need to have a good timetable. Something, I am fairly familiar when I was the editor in chief at blueprint.
 ``	
 Nov. 26, 2022 (Saturday)
 
