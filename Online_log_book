@@ -33,6 +33,7 @@ Nov. 28, 2022 (Monday)
 		@media screen and (max-width: 1680px) {html {font-size: 12pt;}}   ---> By being responsive font-size is reduce as pixels are 
 		@media screen and (max-width: 736px) {html {font-size: 11pt;}}
 		@media screen and (max-width: 360px) {html {font-size: 10pt;}}
+			...width: calc(100% - 1.5rem);	---> This property can prove to be significant
 	
 * This may prove to be useful:
 	breakpoints({
