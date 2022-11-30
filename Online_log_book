@@ -3,6 +3,7 @@ Nov. 30, 2002 (Wednesday)
 * I think I'll continue to work on my website Faithworkz.
 * It's good to know that my Django web app makes it easier for me to copy paste articles regarding whether there is an image selected.
 * I'll make it a goal to finish the Azure certification.
+* Solved an issue with Django on how to open a new tab which return the rendered page with this  <form action="ex_form" target="_blank">
 
 Nov. 29, 2002 (Tuesday)
 
