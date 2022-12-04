@@ -2,6 +2,9 @@ Dec. 05, 2022 (Monday)
 
 * One of the problems I encounter about making my site responsive is the cards. I found out the using flex is the most convenient way to go but I need it
 	to behave like a block so an additional property of height:auto is necessary and justify-content:space around would do the trick.
+* Added word counter for text area for log though it isn't perfect, it'll have to do for now. If I want it to be precise,I'll have to set some extra time 
+	for it. Maybe in the future.
+* Finally finish week 1 at hackerrank.com about one month preparation. Still, got a long way to go.
 
 Dec. 04, 2022 (Sunday)
 
