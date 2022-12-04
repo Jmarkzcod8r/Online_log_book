@@ -1,4 +1,9 @@
-Dec. 02, 2022 (Sunday)
+Dec. 05, 2022 (Monday)
+
+* One of the problems I encounter about making my site responsive is the cards. I found out the using flex is the most convenient way to go but I need it
+	to behave like a block so an additional property of height:auto is necessary and justify-content:space around would do the trick.
+
+Dec. 04, 2022 (Sunday)
 
 * Okay, today is Sunday. I need to get to practice some coding challenges more.
 
