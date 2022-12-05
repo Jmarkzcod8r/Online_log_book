@@ -28,7 +28,11 @@ Dec. 05, 2022 (Monday)
 * https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django ---> This is a good source to learn more about Django.
 * With regards to the christian testimonies Django website I'm building right now, I think I have to make two models. One is for the bible stories and the
 	other one would be for the testimonies. For the first, a simple name and body would do. For the second, these are the ones I can think of as of 
-	the moment, name, testimony-body, picture-link, article-link, source-mp3, heart-count, smile-count, giggle-count, care-count
+	the moment, name, testimony-body, picture-link, article-link, source-mp3, heart-count, smile-count, giggle-count, care-count.
+* HTML with Django seems to be a bit sensitive. I commented a specific part but it still made an impact and so, I ended up deleting it.
+* https://web.deta.sh ---> This may very well be better than pythonanywhere. It holds great promise but I need to verify as I use it further. The good 
+	thing is that their schedule automation is free and isn't limited entirely.
+* Can't believe when updating my environment variable with deta, the spaces almost cut me off. Okay!
 		
 Dec. 04, 2022 (Sunday)
 
