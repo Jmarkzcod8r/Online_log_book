@@ -23,7 +23,12 @@ Dec. 05, 2022 (Monday)
 		admin.site.register(Member)
 		admin.site.register(Section)
 		
-	python3 manage.py runserver ---> you can now go to the admin page to see your model database.	
+	python3 manage.py runserver ---> you can now go to the admin page to see your models database.	
+
+* https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django ---> This is a good source to learn more about Django.
+* With regards to the christian testimonies Django website I'm building right now, I think I have to make two models. One is for the bible stories and the
+	other one would be for the testimonies. For the first, a simple name and body would do. For the second, these are the ones I can think of as of 
+	the moment, name, testimony-body, picture-link, article-link, source-mp3, heart-count, smile-count, giggle-count, care-count
 		
 Dec. 04, 2022 (Sunday)
 
