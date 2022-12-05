@@ -5,6 +5,9 @@ Dec. 05, 2022 (Monday)
 * Added word counter for text area for log though it isn't perfect, it'll have to do for now. If I want it to be precise,I'll have to set some extra time 
 	for it. Maybe in the future.
 * Finally finish week 1 at hackerrank.com about one month preparation. Still, got a long way to go.
+* I think one of the advantages of Django is its ease of access when it comes to accessing its database which is at the admin page which can also be its 
+	weakness unless there is a way to strengthen the admin privileges than just a simple password. I can just go to the admin page and add the data
+	I wish and it would appear in my page provided I have already made the necessary setup.
 
 Dec. 04, 2022 (Sunday)
 
