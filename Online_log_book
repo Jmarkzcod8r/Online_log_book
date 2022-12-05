@@ -8,7 +8,23 @@ Dec. 05, 2022 (Monday)
 * I think one of the advantages of Django is its ease of access when it comes to accessing its database which is at the admin page which can also be its 
 	weakness unless there is a way to strengthen the admin privileges than just a simple password. I can just go to the admin page and add the data
 	I wish and it would appear in my page provided I have already made the necessary setup.
-
+* This is how you add database for Django for my reference:
+		python3 manage.py createsuperuser
+	Models.py:	---> Add class objects 
+		ex. class Member(models.Model):
+			name = models.CharField(max_length=255, blank=False, null=True,)
+		    class Section(models.Model):
+			name = models.CharField(max_length=255, blank=False, null=True,)
+		python3 manage.py makemigrations
+		pthon3 manage.py migrate		... These is to migrate the data models to the app
+	Admin.py:
+		from .models import Member, Section
+		
+		admin.site.register(Member)
+		admin.site.register(Section)
+		
+	python3 manage.py runserver ---> you can now go to the admin page to see your model database.	
+		
 Dec. 04, 2022 (Sunday)
 
 * Okay, today is Sunday. I need to get to practice some coding challenges more.
