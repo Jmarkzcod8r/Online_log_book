@@ -1,3 +1,8 @@
+Dec. 15, 2022 
+
+* I finally was able to login once again to wordpress Phpmyadmin by setting the Allowpassword to 'True'. Conventional login is not working and so, I have
+	to sort this alternative for now.
+
 Dec. 14, 2022
 
 * Maybe, I should make a python script that logs in here at my github accout and update this online log book so that my monitor would be filled 
