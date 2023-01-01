@@ -2,6 +2,8 @@ Jan.2, 2023
 
 * Opened an account with zapier and started learning about it.
 * Getting an access token in facebook graphAPI seems to be encountering a problem.
+* I think I now have an idea how to automate my stuffs with zapier. I need a python program that transfers or copies files from one folder of my google
+	drive to another. When a new file is detected by zapier it would then trigger to post it on instagram reel.
 
 Dec. 30, 2022
 
