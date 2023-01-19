@@ -38,4 +38,4 @@ Error: Cannot find module 'next/babel' on next.js                  Solution: Cre
                                                                               { "extends": ["next/babel","next/core-web-vitals"] }
 Error: OverwriteModelError: Cannot overwrite `client` model        Solution: Check spelling for client.
         once compiled
-Error: No module named 'django_browser_reload'
+Error: No module named 'django_browser_reload'                     Solution: python -m pip install django-browser-reload
