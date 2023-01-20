@@ -1,3 +1,8 @@
+Jan. 20, 2023
+
+* I was finally able to resolve my text to speech web app hosted at pythonanywhere. I change the source code on the download.html 
+	and took out the mainapp. It took me a few days to be able to resolve this and right now I'm just happy.
+
 Jan. 17, 2023
 
 *  Improved my nextjs journal web app by adding some code to highlight the currently selected entry on the list.
