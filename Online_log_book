@@ -1,3 +1,14 @@
+Feb. 03, 2023
+
+* Revisited my old python code for red bubble uploading automation. Sadly, it doesn't work the way it is supposed to for a bunch of reasons:
+	1. The OS I used back then was in windows so the os.path has changed and is now something I need to configure.
+	2. Red bubble has utilized cloudflare into their system making basic selenium obsolete but from what I read, I can use undetected chromedriver
+		for this. I need to test this out further. So far, it holds great potential. I may need to upgrade chrome to 109 if my initial
+		duct tape solution of adding `version_main=108` in line 460 fails in the near future.
+	3. I get an error after log in confirmation in line 502 which implies `os.listdir`
+* I see this to be a time consuming one.
+	
+
 Feb. 02, 2023
 
 * I may need a summary sheet for full stack interview.
