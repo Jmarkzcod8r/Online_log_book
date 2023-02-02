@@ -7,7 +7,7 @@ Feb. 03, 2023
 		duct tape solution of adding `version_main=108` in line 460 fails in the near future.
 	3. I get an error after log in confirmation in line 502 which implies `os.listdir`
 * I see this to be a time consuming one. Okay, I finally was able to get my code works. I turned out, I need to input something and click 'enter' as 
-	the code will try again that way. I modified the code to make it easier to grasp the instruction.
+	the code will try again that way. I modified the code to make it easier to grasp the instruction. It still needs some human intervention though.
 	
 
 Feb. 02, 2023
