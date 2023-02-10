@@ -1,3 +1,8 @@
+Feb. 10, 2023
+
+* I am today years old when I finally was able to integrate youtube to a simple Nextjs. This means that I can have a recently uploaded video to 
+	a certain channel embedded to my site as long as I have that youtube chaneel's ID. This is helpful for online church services.
+
 Feb. 09, 2023
 
 * Okay, I am today years old when I knew that I can use a costum domain of mine to hose my Nextjs web app. This is nice. But, I'll definitely have
@@ -6,7 +11,8 @@ Feb. 09, 2023
 	my next project would involve angular with typescript using aws dynamo database.
 * As a developer, it is important for me to be learning progressively and this time I will list of ways on how to do it.
 	(1) Build a project - This is the one that works for me. I have built at least five projects now and I may have to create some more.
-	(1.5) Commenting - I think this belongs here.
+	(1.5) Commenting - I think this belongs here. This is good to enhance your understanding. Keywords for your comments may include:
+		easy, hard, challenging, confusing, interesting, I think, exciting, `I am today years old`, etc
 	(2) Disposables - I used this technique in the past where I would get a blank sheet of paper and write in there the stuff I have learned
 		and as the name suggest later dispose of it only to recreate it in the near future. I may need to go back to this kind of method.
 	(3) Mneumonics - This is a good way for memorization.
