@@ -1,3 +1,22 @@
+Feb. 28, 2023
+
+* 
+Fix 'no module named next/babel with this.
+Create file called .babelrc in your root directory and add this code:
+
+{
+  "presets": ["next/babel"],
+  "plugins": []
+}
+
+And in .eslintrc, replace the existing code with:
+
+{
+  "extends": ["next/babel","next/core-web-vitals"]
+}
+
+
+
 Feb. 27, 2023
 
 * Just finished an order about data analysis on sales based on the last six months of the year. I'm feeling amazing right now. Thank You Lord! I was able
