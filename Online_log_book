@@ -1,5 +1,7 @@
 Feb. 27, 2023
 
+* Made some progress with Genshop.biz. I used an old reliable Nextjs folder and added Navbar. I still need to modify to make i responsive thought.
+	The next would be the login. Right now, it's all Front-end.
 * I kept having this issue in Nextjs - "next/font" requires SWC although Babel is being used due to a custom babel config being present.
 	Read more: https://nextjs.org/docs/messages/babel-font-loader-conflict. It may proved to be time consuming if I go deeper solving this but 
 	thankfully I can copy and paste previous working Nextjs folder and run 'npm install' and proceed from there.
