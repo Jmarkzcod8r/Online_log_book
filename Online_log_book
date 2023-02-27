@@ -1,23 +1,18 @@
-Feb. 28, 2023
+Feb. 27, 2023
 
+* I kept having this issue in Nextjs - "next/font" requires SWC although Babel is being used due to a custom babel config being present.
+	Read more: https://nextjs.org/docs/messages/babel-font-loader-conflict. It may proved to be time consuming if I go deeper solving this but 
+	thankfully I can copy and paste previous working Nextjs folder and run 'npm install' and proceed from there.
 * 
-Fix 'no module named next/babel with this.
-Create file called .babelrc in your root directory and add this code:
-
+Fix 'no module named next/babel with this.Create file called .babelrc in your root directory and add this code:
 {
   "presets": ["next/babel"],
   "plugins": []
 }
-
 And in .eslintrc, replace the existing code with:
-
 {
   "extends": ["next/babel","next/core-web-vitals"]
 }
-
-
-
-Feb. 27, 2023
 
 * Just finished an order about data analysis on sales based on the last six months of the year. I'm feeling amazing right now. Thank You Lord! I was able
 	to attend church. Okay! Getting back to coding. I have an interview tomorrow on FONEAPI. Well, let's just hope for the best.
