@@ -35,7 +35,8 @@ Error: no such table: crud_detailsmodel fix                        Solution: 'py
 Error: Export package . is not imported from firebase...           Solution: 'import * as firebase from "firebase/app"'                                                                    
 Error: Cannot find module 'next/babel' on next.js                  Solution: Create file called .babelrc in your root directory and add this code:
                                                                               { "presets": ["next/babel"],"plugins": [] } And in .eslintrc, replace the                                                                                     existing code with: {"extends": ["next/babel","next/core-web-vitals"] }
-                                                                              { "extends": ["next/babel","next/core-web-vitals"] }
+                                                                              { "extends": ["next/babel","next/core-web-vitals"] } or simply
+                                                                              delete ".babelrc"                                                                              
 Error: OverwriteModelError: Cannot overwrite `client` model        Solution: Check spelling for client.
         once compiled
 Error: No module named 'django_browser_reload'                     Solution: python -m pip install django-browser-reload
