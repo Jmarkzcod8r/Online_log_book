@@ -12,6 +12,8 @@ Feb. 28, 2023
 * I also need to learn AWS as from one of the videos I watched, it can help me reduce the cost of my site in the long run in production mode.
 * Made two additional API credentials for Google Console namely: (1) GMap Sample Project and (2) GDrive JM API (I'll use this one to make a code to
 	automatically back up my files from a certain folder here in my laptop.
+* I finally managed to display a google map in a website at localhost:3000. I'm happy right now! The goog thing is that I can simply make another google
+	account at google, go to its cloud and set up the billing. Then, I can play with the Api more in a better state.
 
 Feb. 27, 2023
 
