@@ -10,6 +10,8 @@ Feb. 28, 2023
 	reference for it and to be able to be more dynamic. I think I also need to wrap my form in <form></form> or something similar.
 * ChatGPT vs Bing Chat vs Perplexity. I haven't fully explored Bing Chat yet but I am on the wait list. Perplexity holds great potential the way I see it.
 * I also need to learn AWS as from one of the videos I watched, it can help me reduce the cost of my site in the long run in production mode.
+* Made two additional API credentials for Google Console namely: (1) GMap Sample Project and (2) GDrive JM API (I'll use this one to make a code to
+	automatically back up my files from a certain folder here in my laptop.
 
 Feb. 27, 2023
 
