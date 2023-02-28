@@ -2,6 +2,9 @@ Feb. 28, 2023
 
 * I agreed with Delsa's thesis and here is my thought process for it. Firstly, the database I'll be usng will be Mongodb. The framework will be Nextjs.
 	I'll use reference folders.
+* I started learning about c++ and c as well. c++ seems to be more genuine about the type and size of your variables. There are such things as double,
+	long double, char and much more. Also, you need std to write something like 'Hello World'. When I look at the available orders at uvocorp,
+	there are a lot of C programming language involved prompting me to learn more about it.
 
 Feb. 27, 2023
 
