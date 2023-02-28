@@ -13,7 +13,10 @@ Feb. 28, 2023
 * Made two additional API credentials for Google Console namely: (1) GMap Sample Project and (2) GDrive JM API (I'll use this one to make a code to
 	automatically back up my files from a certain folder here in my laptop.
 * I finally managed to display a google map in a website at localhost:3000. I'm happy right now! The goog thing is that I can simply make another google
-	account at google, go to its cloud and set up the billing. Then, I can play with the Api more in a better state.
+	account at google, go to its cloud and set up the billing. Then, I can play with the Api more in a better state. I may very well experiment with
+	google map on how to make the user experience better. To point up a location, you simply need a longitude and latitude. I can set up nodes on the 
+	map as well as the routes to take from one to another. I can make an app just like in one of the orders at uvocorp that involves transportation.
+	When the time comes up for the transfo app to go public, how can I market it?
 
 Feb. 27, 2023
 
