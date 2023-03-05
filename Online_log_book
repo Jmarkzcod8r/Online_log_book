@@ -5,6 +5,11 @@ March 5, 2023
 	The time needed to complete the code proves to be more than what I thought. I managed to make a GUI for the game but it is in its
 	premature state. In order for me to male the Minmax algorith, I think I need to first go through all list of button objects. I cantake their
 	coordinates and put them in a dictionary.
+* Update on my Dara-game order. I made a randomize button to put the tiles in place. Now, I need a way to evaluate the board iof how good it is for 
+	the current player. First, I need to find the squares that are empty. Second, I need to find the 'X' or 'O' tiles that are near it or can go
+	to it. Third, I need to determine how many of those would make up a row or column of three. If it would be a four, then it would be invalid.
+	This is the maximizing phase. Fourth I would go to minimzing by taking out one of the opponent's tiles. To do this, I need to get all the 
+	location of the enemy tiles. Then, I need to evalute their next possible best moves if I take out that particular tile.
 
 March 3, 2023
 
