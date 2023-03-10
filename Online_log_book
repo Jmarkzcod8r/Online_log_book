@@ -5,7 +5,8 @@ March 10, 2023
 	the AI to prioritize adjacent-3 but in order for me to implement the alpha-pruning, I need to set something like this: 
 	# making an adjacent 3 - 10pts. #blocking an adjacent 8 - 7pts. # deleting any of the loneliest in an adjacent 3 - 6pts. 
 	#deleting a non-adjacent 3 - 4pts. # Moving at first following to an adjacent-3 - 2pts. 
-	Also, I still have a project with Delsa on her thesis. Okay. 
+	Also, I still have a project with Delsa on her thesis. Okay.
+* I need to take note of the proper instructions of the order.
 * At this point, I need to have a more deeper understanding with Minmax. I think I can do that by going with the basic tik tak toe game.
 * four parameters for the Minimax: seq -> an action sequence, initially empty	; 	state -> some description of the current world state	;
 	goal - > a goal initially null	; problem -> Formulate-Problem (state, goal)
