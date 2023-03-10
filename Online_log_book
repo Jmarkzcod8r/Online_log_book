@@ -45,7 +45,13 @@ March 10, 2023
 		-inifinity which will mutate once the minimax function call itself with 'depth + 1' and true as isMaximizing. It goes the other way
 		around with minimizing. bestScore is initially set to infinity to be mutates one a score is returned by calling the minimax function
 		and setting it up respectively. Minimax has permanent and temporary mutable bestScores. In maximizing, score is the max between bestScore
-		and score produce by the minimax function.
+		and score produce by the minimax function. I think I need to make a function named 'bestDelete' to take out the best tile to delete by
+		first scanning the tiles to be delete. I already have a function named getScores for each of the available moves. I can pair it up with
+		(isValidMove settlerCoor (remove moverCoor X_coordinates)) with the settleCoor as the taken out piece and the moverCoor as the adjacent
+		one. I first need a movelist for this consisting of a list of elements in a pair as mover and settler. This means I need to list all the
+		adjacent pairs.
+	Note: The depth wasn't fully utilized which means the dynamic property of the board wasn't used. I think I'm already implementing the alpha beta
+		pruning by prioritizing the adjacent-3.
 	
 
 March 9, 2023
