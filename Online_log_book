@@ -7,7 +7,6 @@ March 10, 2023
 	#deleting a non-adjacent 3 - 4pts. # Moving at first following to an adjacent-3 - 2pts. 
 	Also, I still have a project with Delsa on her thesis. Okay.
 * I need to take note of the proper instructions of the order.
-* I think I need to 
 * At this point, I need to have a more deeper understanding with Minmax. I think I can do that by going with the basic tik tak toe game.
 * four parameters for the Minimax: seq -> an action sequence, initially empty	; 	state -> some description of the current world state	;
 	goal - > a goal initially null	; problem -> Formulate-Problem (state, goal) . The minimax function returns the score out of each possible move.
