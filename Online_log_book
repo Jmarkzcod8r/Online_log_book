@@ -15,7 +15,7 @@ March 10, 2023
 	properly? If the miniMax function doesn't uses a list to compare, then it uses a mutable variable that gets updated as it goes through all its
 	available and valid options. It takes into account also the move it uses and stick to it. I think the way it works it through simultaneous 
 	updating and disregarding of options which means my recently made functioin prioritizing adjacent-3 has some similarities and I only need to
-	adjust it to include the depth somehow.
+	adjust it to include the depth somehow. I shuld do this more often, writing my thoughts along the way.
 * The function that checks for if there is already a winner of the game goes like this. First player to reach only two tiles, loses. If there is no more
 	valid moves, the game stops and check which one has the higher number of tiles. By the way I see it, this I will have to create an 'or' 
 	conditional. I'll have to define two booleans: '(define gameOver? #f)' and '(define NoMorevalidmoves #f)'. If either one of the two is true, the 
