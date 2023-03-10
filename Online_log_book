@@ -21,7 +21,10 @@ March 10, 2023
 * The function that checks for if there is already a winner of the game goes like this. First player to reach only two tiles, loses. If there is no more
 	valid moves, the game stops and check which one has the higher number of tiles. By the way I see it, this I will have to create an 'or' 
 	conditional. I'll have to define two booleans: '(define gameOver? #f)' and '(define NoMorevalidmoves #f)'. If either one of the two is true, the 
-	game is over. I need to test this out.
+	game is over. I need to test this out and thankfully, it's working now on the most part. I still need to simulate the valid moves.
+* I think I'm getting a good idea with how the minimax algorith works. The depth goes down while the score goes up. What do I mean by this? The minimax
+	function first focuses on the depth. In a current board, you pick the maximizing options and then you go minimizing by taking the environment of 
+	the board after picking the most minimiig options and looping them up and then going to the afterboard and going to the best mazimizing option.
 * I'm currently looking at a tic tac toe game implemented with miniMax. It's a simple game but in obviousness, the Dara game is way more complex.
 	Up to the third depth, I think you can have up to 350 different outcomes.
 * I'm currently looking at 'Darachat.rkt'. This is the function for the minimax. '(define (minimax state player depth)' -> The state has three options
