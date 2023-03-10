@@ -7,6 +7,10 @@ March 10, 2023
 	#deleting a non-adjacent 3 - 4pts. # Moving at first following to an adjacent-3 - 2pts. 
 	Also, I still have a project with Delsa on her thesis. Okay. 
 * At this point, I need to have a more deeper understanding with Minmax. I think I can do that by going with the basic tik tak toe game.
+* four parameters for the Minimax: seq -> an action sequence, initially empty	; 	state -> some description of the current world state	;
+	goal - > a goal initially null	; problem -> Formulate-Problem (state, goal)
+* I'm currently looking at a tic tac toe game implemented with miniMax. It's a simple game but in obviousness, the Dara game is way more complex.
+	Up to the third depth, I think you can have up to 350 different outcomes.
 
 March 9, 2023
 
