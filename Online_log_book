@@ -7,14 +7,19 @@ March 10, 2023
 	#deleting a non-adjacent 3 - 4pts. # Moving at first following to an adjacent-3 - 2pts. 
 	Also, I still have a project with Delsa on her thesis. Okay.
 * I need to take note of the proper instructions of the order.
+* I think I need to 
 * At this point, I need to have a more deeper understanding with Minmax. I think I can do that by going with the basic tik tak toe game.
 * four parameters for the Minimax: seq -> an action sequence, initially empty	; 	state -> some description of the current world state	;
-	goal - > a goal initially null	; problem -> Formulate-Problem (state, goal)
+	goal - > a goal initially null	; problem -> Formulate-Problem (state, goal) . The minimax function returns the score out of each possible move.
+	When the function checks for the current move, it uses variable named 'moveScore' wich starts with a value of -infinity. Since we are maximiing,
+	this value will eventually mutate increasingly.
 * I'm currently looking at a tic tac toe game implemented with miniMax. It's a simple game but in obviousness, the Dara game is way more complex.
 	Up to the third depth, I think you can have up to 350 different outcomes.
 * I'm currently looking at 'Darachat.rkt'. This is the function for the minimax. '(define (minimax state player depth)' -> The state has three options
 	which are 1,-1 and 0 which is dependent based on the relationship of the tiles. The player has two options: either 'AI' or 'User'. 
-	The depth is still a bit alluring for me.
+	The depth is still a bit alluring for me. THe minimax function needs to use 'getTilesnow' to get the current environment of the game. Next, from
+	that data, it will loop throgh all possible moves giving back each their score prioritizing making of adjacent-3 since it results in favor of the AI.
+	Next, out of all those maximing options, 
 * How to implement minimax:
 	(1) Start with maximizing:	(1.1)	 List all possible moves. (1.2) 	
 
