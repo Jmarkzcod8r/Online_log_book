@@ -1,7 +1,11 @@
 March 10, 2023
 
 * I really feel overwhelmed right now. At this point, I'm questioning myself whether I should have taken the Dara game order or not. This is really
-	time consuming. Also, I still have a project with Delsa on her thesis. Okay.
+	time consuming. I think I need to define some sort of scoring mechanism in the game in regards to the way the pieces move. I was able to upgrade
+	the AI to prioritize adjacent-3 but in order for me to implement the alpha-pruning, I need to set something like this: 
+	# making an adjacent 3 - 10pts. #blocking an adjacent 8 - 7pts. # deleting any of the loneliest in an adjacent 3 - 6pts. 
+	#deleting a non-adjacent 3 - 4pts. # Moving at first following to an adjacent-3 - 2pts. 
+	Also, I still have a project with Delsa on her thesis. Okay. 
 
 March 9, 2023
 
