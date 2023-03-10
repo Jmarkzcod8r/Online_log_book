@@ -32,8 +32,21 @@ March 10, 2023
 	The depth is still a bit alluring for me. THe minimax function needs to use 'getTilesnow' to get the current environment of the game. Next, from
 	that data, it will loop throgh all possible moves giving back each their score prioritizing making of adjacent-3 since it results in favor of the AI.
 	Next, out of all those maximing options, 
-* How to implement minimax:
-	(1) Start with maximizing:	(1.1)	 List all possible moves. (1.2) 	
+* I am currently watching a tic tac toe minimax implementation: These are the steps he took.
+	(1) Define main function bestMove' -> I think this is 'chooseMove' for me.
+	(2) Define global variable 'bestScore' = -infinity
+	(3) define global variable 'bestMove' and define global variable 'isMaxizing' as a boolean.
+	(4) loop through available moves - This is filtered movelist for me
+	(5) define a reusable minimax function with parameters 'board','depth','isMaximizing. -> board is filtered-Movelist for me, depth is 0 at first
+		and 'isMaximizing' is a boolean with a default value of #t
+	(6) define a function inside minimax that determines if a winner has been determined which returns score if no winner has been determined.
+		NOte: he set the isMaximizing to false at the first.
+	(7) define two conditions under minimax isMaximizing set to #t ir #f (this is minimizing). For (isMaxizing), an initial bestScore is set to
+		-inifinity which will mutate once the minimax function call itself with 'depth + 1' and true as isMaximizing. It goes the other way
+		around with minimizing. bestScore is initially set to infinity to be mutates one a score is returned by calling the minimax function
+		and setting it up respectively. Minimax has permanent and temporary mutable bestScores. In maximizing, score is the max between bestScore
+		and score produce by the minimax function.
+	
 
 March 9, 2023
 
