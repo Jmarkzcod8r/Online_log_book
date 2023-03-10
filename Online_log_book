@@ -11,7 +11,7 @@ March 10, 2023
 * four parameters for the Minimax: seq -> an action sequence, initially empty	; 	state -> some description of the current world state	;
 	goal - > a goal initially null	; problem -> Formulate-Problem (state, goal) . The minimax function returns the score out of each possible move.
 	When the function checks for the current move, it uses variable named 'moveScore' wich starts with a value of -infinity. Since we are maximiing,
-	this value will eventually mutate increasingly.
+	this value will eventually mutate increasingly. The minimax function needs to consider the changing board.
 * I'm currently looking at a tic tac toe game implemented with miniMax. It's a simple game but in obviousness, the Dara game is way more complex.
 	Up to the third depth, I think you can have up to 350 different outcomes.
 * I'm currently looking at 'Darachat.rkt'. This is the function for the minimax. '(define (minimax state player depth)' -> The state has three options
