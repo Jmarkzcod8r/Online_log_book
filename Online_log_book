@@ -51,7 +51,7 @@ March 10, 2023
 		one. I first need a movelist for this consisting of a list of elements in a pair as mover and settler. This means I need to list all the
 		adjacent pairs.
 	Note: The depth wasn't fully utilized which means the dynamic property of the board wasn't used. I think I'm already implementing the alpha beta
-		pruning by prioritizing the adjacent-3.
+		pruning by prioritizing the adjacent-3. I think I'm gonna be using my own scoring system after all by priority.
 	
 
 March 9, 2023
