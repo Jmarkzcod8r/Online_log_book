@@ -1,3 +1,19 @@
+March 12, 2023
+
+* This Dara game that I have been working on might turn out to be one of the craziest order I've taken so far. This is what I know so far, apparently
+	the code for the Minimax is self calling. I would need two things: stopper and breaker. When the function calls itself, it needs first to go
+	through a checking whether it is worthy of continuing or not. It would take all this knowledge from the Board and whether the code is maximizing
+	or minimizing. Also, I need to outline the parameters before calling out the eval = Minmax(Board,.etc. so that I have a good grasp of the whole
+	thing. In the first part of checking, the first condition is whether the depth is reached. If it has, it will negathe the conditional statements
+	of isMaximizing or isMinimizing as it would then take the output on the last part and go. The second condition is to check the number of tiles
+	the Board has, as one would expect, if one of the Tiles has reached to two, the game is Over and the boolean allow is set false. I need to 
+	use display for this to be aware if it has been turned false or not. 
+	Okay from the Board given and the other parameter of whether it is Maximizing or not, I also need to calculate the valid moves. I can go this
+	with getMoves as it will store those moves in a temporary list called 'Movelist'. I would then need to check the length of the Movelist if it
+	is greater than zero because if not, the output would then be given regarding the score of the game. 
+	If it weren't for the depth, the function will call itself indefinitely.
+	
+
 March 11, 2023
 
 * I found that by recording or writing my thought process with the task I am doing now is actually beneficial for me.
