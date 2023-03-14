@@ -1,7 +1,9 @@
 March 15, 2023
 
 * I finally have worked the part with the Mongodb API for Delsa's thesis. In the backend, I can use index.js to post data to the database but I can't with
-	with other waypoints. I need more eperience for this.
+	with other waypoints. I need more eperience for this. Right now, things are a bit blurry but this is a good start. 
+* Right now, I ain't getting any updates from FONEAPI and I guess I got to start sending out applications once again. I may have to update my online
+	portfolio to include the two game I made in Uvocorp. A video would be nice.
 
 March 12, 2023
 
