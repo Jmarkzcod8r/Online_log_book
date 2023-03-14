@@ -1,3 +1,8 @@
+March 15, 2023
+
+* I finally have worked the part with the Mongodb API for Delsa's thesis. In the backend, I can use index.js to post data to the database but I can't with
+	with other waypoints. I need more eperience for this.
+
 March 12, 2023
 
 * This Dara game that I have been working on might turn out to be one of the craziest order I've taken so far. This is what I know so far, apparently
