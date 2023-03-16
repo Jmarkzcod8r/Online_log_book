@@ -5,6 +5,7 @@ March 16, 2023
 	(1) I can't seem to see the status 200 on the console unlike when I am using gmail authentication.
 	Update for the issue above - I finally was able to resolve this by unclicking the above paremeters in the inspect section like ... 
 		Errors, warnings, Logs, Info, Debug,. etc... Now, I can work on the backend more accurately.
+* Traditionally, I know "POST" to be for creation of new objects to the database. It is only recently, I knew it can be use to send a query too.
 
 March 15, 2023
 
