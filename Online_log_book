@@ -6,6 +6,9 @@ March 16, 2023
 	Update for the issue above - I finally was able to resolve this by unclicking the above paremeters in the inspect section like ... 
 		Errors, warnings, Logs, Info, Debug,. etc... Now, I can work on the backend more accurately.
 * Traditionally, I know "POST" to be for creation of new objects to the database. It is only recently, I knew it can be use to send a query too.
+* There is some good improvements with Delsa's thesis order. First of all, Delsa's approach on the project is enthusiastic in the same way of the costumer
+	I had with concerning the Dara game and that is a good thing. I may need to deploy the project on vercel tonight as it is so that I may have 
+	something to show.
 
 March 15, 2023
 
