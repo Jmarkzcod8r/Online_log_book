@@ -4,7 +4,10 @@ March 19, 2023
 	mounted up to $430 which if it was in an active debit card of mine would have left me in despair. Fortunately, I only used the debit card I have
 	in rcbc. Dynamo didn't got any charges so that was nice.
 * First Try at google bucket upload: I followed one of the youtube tutorials on how to upload to google bucket and it was complicated. Unfortuanately, I 
-	haven't been able to got it working so there's that. When I ask chatgpt, it made it seem so easy though I still have to try it.
+	haven't been able to got it working so there's that. When I ask chatgpt, it made it seem so easy though I still have to try it
+* I'm having quite the trouble uploading to google bucket but here is what I know so far. From the google cloud, I need: 
+	(1) ProjectID (2) Bucket name and (3) 'key.json' which can be downloaded. From VS code, I need: (1) 'npm i @google-cloud/storage' (2) multer ,
+	though I'll try not to use this in some case. (3) FormData() -> I can append files to be uploaded to cloud here I think. 
 
 March 18, 2023
 
