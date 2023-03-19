@@ -1,3 +1,11 @@
+March 19, 2023
+
+* Crazy charges from AWS: When i went back to Amazon web services, I incurred some charges from Dynamo Accelerator (DAX), it was crazy cause the charges 
+	mounted up to $430 which if it was in an active debit card of mine would have left me in despair. Fortunately, I only used the debit card I have
+	in rcbc. Dynamo didn't got any charges so that was nice.
+* First Try at google bucket upload: I followed one of the youtube tutorials on how to upload to google bucket and it was complicated. Unfortuanately, I 
+	haven't been able to got it working so there's that. When I ask chatgpt, it made it seem so easy though I still have to try it.
+
 March 18, 2023
 
 * Tried to install Ruby Rails but too complicated.
