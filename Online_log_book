@@ -1,3 +1,12 @@
+March 21, 2023
+
+* I think I'm gonna modify my online journal web app to make it look like this.
+* So, update with Delsa's web app profiling. I'll be modifying the registration form to include some of the stuff I haven't included from the form
+	she sent me. I will also be coding the 'explore' page to give a list of all those that are with the common parameters as: lastname, barangay,
+	school, etc. The full details is on one of the entries of my online journal web app. I'm also gonna add the type to be included for the 
+	superadmin.
+
+
 March 19, 2023
 
 * Crazy charges from AWS: When i went back to Amazon web services, I incurred some charges from Dynamo Accelerator (DAX), it was crazy cause the charges 
