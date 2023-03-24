@@ -1,3 +1,9 @@
+March 25, 2023
+
+* Though I was able to upload to firebase, I still need to configure the sample code to receive the images and show them up. One thing that struck
+	me today was the significance of the type component in an input. When it is set to 'file', it would open a fileDialog to choose the file
+	you want to associate with.
+
 March 24, 2023
 
 * I was finally able to upload images to google bucket but this time, I used firebase.
