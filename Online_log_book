@@ -5,7 +5,8 @@ March 24, 2023
 * At this point, I'm still having a hard time with my code uploading to google cloud storage. At the very basic, I need two things from the bucket to 
 	integrate to my code: (1)  projectId , and (2) keyFilename which is the JSON api file one needs to download. Now, this is usually stored in a
 	variable named 'storage' 
-* I am considering maybe using firebase to indirectly store images to the bucket.
+* I am considering maybe using firebase to indirectly store images to the bucket. The free-tier allows atmost 5gb of files stored before any cost would
+	start which is nice.
 
 March 23, 2023
 
