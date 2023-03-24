@@ -1,3 +1,8 @@
+March 24, 2023
+
+* I forgot that you can activate the back-end in two ways: (1) Send a request to it either GET, POST, PUT, DELETE etc. and (2) type the location of the 
+	back-end on the browser.
+
 March 23, 2023
 
 * Continued working on Delsa's profiling web app.
@@ -9,7 +14,6 @@ March 21, 2023
 	she sent me. I will also be coding the 'explore' page to give a list of all those that are with the common parameters as: lastname, barangay,
 	school, etc. The full details is on one of the entries of my online journal web app. I'm also gonna add the type to be included for the 
 	superadmin.
-
 
 March 19, 2023
 
