@@ -1,5 +1,8 @@
 March 24, 2023
 
+* I was finally able to upload images to google bucket but this time, I used firebase.
+* I followed a firebase tutorial at youtube with regards to google firebase bucket and the code wasn't as detailed as I thought. Thankfully, I was able
+	to rely on PedroTech to show the way.
 * I forgot that you can activate the back-end in two ways: (1) Send a request to it either GET, POST, PUT, DELETE etc. and (2) type the location of the 
 	back-end on the browser. At the basic, I can use the second option to immediately test the back-end along with some sample mock files.
 * At this point, I'm still having a hard time with my code uploading to google cloud storage. At the very basic, I need two things from the bucket to 
