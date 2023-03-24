@@ -1,7 +1,7 @@
 March 24, 2023
 
 * I forgot that you can activate the back-end in two ways: (1) Send a request to it either GET, POST, PUT, DELETE etc. and (2) type the location of the 
-	back-end on the browser.
+	back-end on the browser. At the basic, I can use the second option to immediately test the back-end along with some sample mock files.
 
 March 23, 2023
 
