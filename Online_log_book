@@ -3,6 +3,7 @@ March 25, 2023
 * Though I was able to upload to firebase, I still need to configure the sample code to receive the images and show them up. One thing that struck
 	me today was the significance of the type component in an input. When it is set to 'file', it would open a fileDialog to choose the file
 	you want to associate with.
+* Made a trial account with Mathematica. They have an online notebook but I may want to seek a downloadable version.
 
 March 24, 2023
 
