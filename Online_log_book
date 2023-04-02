@@ -5,6 +5,8 @@ April 2, 2023
 * I am today years old when I knew that you can simply click the button under the directory of your virtual environment to make a virtual environment 
 	console.
 * pip install -r requirements.txt --> I should use this as necessary.
+* Error running WSGI application ...ModuleNotFoundError: No module named 'django_browser_reload' --> This error is a bit annoying. I might try with a 
+	simple Django app instead.
 
 March 31, 2023
 
