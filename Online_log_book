@@ -1,3 +1,8 @@
+April 2, 2023
+
+* Revisited pythonanywhere as I am about to host my red bubble auto uploader for everyone to be able to use. When hosting Django to pythonanywhere,
+	you can use git clone ... and going to the files section. This is in assumption that you also have a virtual environment folder in there.
+
 March 31, 2023
 
 * I think I need to give more focus on upwork.
