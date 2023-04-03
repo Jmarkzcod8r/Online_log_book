@@ -1,3 +1,8 @@
+April 3, 2023
+
+* Tried to integrate my django red bubble uploader app to pythonanywhere.
+* I forgot that this is how to put modules: pip freeze > requirements.txt
+
 April 2, 2023
 
 * Revisited pythonanywhere as I am about to host my red bubble auto uploader for everyone to be able to use. When hosting Django to pythonanywhere,
