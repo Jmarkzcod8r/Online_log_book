@@ -2,6 +2,7 @@ April 3, 2023
 
 * Tried to integrate my django red bubble uploader app to pythonanywhere.
 * I forgot that this is how to put modules: pip freeze > requirements.txt
+* I should remember to push my repos only in vscode as github doesn't require sign-in on there.
 
 April 2, 2023
 
