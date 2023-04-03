@@ -1,3 +1,8 @@
+April 4, 2023
+
+* Working with linked list proves to be a challenge as I am building my django red bubble app. Making the client side buttons of prev and next is now working but]
+	I need also to send the data to the database. From there, I can utilize the backend to get those database data to send to red bubble.
+
 April 3, 2023
 
 * Tried to integrate my django red bubble uploader app to pythonanywhere.
