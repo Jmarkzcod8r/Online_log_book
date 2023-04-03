@@ -3,6 +3,8 @@ April 3, 2023
 * Tried to integrate my django red bubble uploader app to pythonanywhere.
 * I forgot that this is how to put modules: pip freeze > requirements.txt
 * I should remember to push my repos only in vscode as github doesn't require sign-in on there.
+* It seems that pythonanywhere doesn't host Tkiner apps so I think I have two options at this point: (1) Use pyinstaller to somehow make a desktop version of the app
+	or (2) use basic html and css to get data from the user to be able to uploade to red bubble.
 
 April 2, 2023
 
