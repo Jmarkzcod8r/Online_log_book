@@ -3,6 +3,7 @@ April 4, 2023
 * Working with linked list proves to be a challenge as I am building my django red bubble app. Making the client side buttons of prev and next is now working but]
 	I need also to send the data to the database. From there, I can utilize the backend to get those database data to send to red bubble. I am using a 
 	doubly-linked list which the JSON.stringify method does not agree well as it produces an error... `cyclic objet value` error.
+* Okay, the good news is that the django app is now serving static files by some shenanigans I made which I have little clue about.
 	
 April 3, 2023
 
