@@ -10,6 +10,7 @@ April 3, 2023
 	using Django. One of the benefits of being a subscriber in pythonanywhere is that they automatically have a traffic monitoring feature.
 * I'm trying to keep the data even after reload and I guess I can do that by either the browser local storage or the database of the django app using also the \
 	static files directory.
+* I amanged to save myself some trouble with the refresh part by asking a confirmatiohn button for the photo node viewer.
 
 April 2, 2023
 
