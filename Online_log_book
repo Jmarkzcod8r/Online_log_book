@@ -6,7 +6,8 @@ April 3, 2023
 * It seems that pythonanywhere doesn't host Tkiner apps so I think I have two options at this point: (1) Use pyinstaller to somehow make a desktop version of the app
 	or (2) use basic html and css to get data from the user to be able to upload to red bubble.
 * Okay, the good news is that I was able to make a basic html and css with javascript web page that resembles a photoviewer. I used node for the photos. This is a 
-	basic step to uploading the files to red bubble. I may need to use firebase photo storage or google drive to store the photos temporarily.
+	basic step to uploading the files to red bubble. I may need to use firebase photo storage or google drive to store the photos temporarily. This is still 
+	using Django. One of the benefits of being a subscriber in pythonanywhere is that they automatically have a traffic monitoring feature.
 
 April 2, 2023
 
