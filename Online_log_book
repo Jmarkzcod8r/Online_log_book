@@ -8,7 +8,7 @@ April 4, 2023
 * I recently solve a problem including migrations with Django and the solution was going to the virtual environment.	
 * Finally was able to delete all data in the database 'Photo'. It's hard managing with data without a primary key.
 * I need to remember this for Django.. button -> urls.py -> views.py -> database -> method -> return . You can use href for this purpose abnd form for this. 
-	Apparently, when using form, there are only two methods, GET and POST to choose from.
+	Apparently, when using form, there are only two methods, GET and POST to choose from. I think using a link href is more flexible than form-input-submit.
 	
 April 3, 2023
 
