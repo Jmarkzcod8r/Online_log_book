@@ -5,6 +5,7 @@ April 4, 2023
 	doubly-linked list which the JSON.stringify method does not agree well as it produces an error... `cyclic objet value` error.
 * Okay, the good news is that the django app is now serving static files by some shenanigans I made which I have little clue about.
 * I may simply have to use a dictionary instead of a linked list.
+* I recently solve a problem including migrations with Django and the solution was going to the virtual environment.	
 	
 April 3, 2023
 
