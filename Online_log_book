@@ -12,7 +12,9 @@ April 4, 2023
 * I think I'm going to go with the timestamp as the primary key for my data entries.
 * I should try git pull for the changes I made in the code in github for pythonanywhere. As the documentations sugessts, I need to cd inside the directory git clone
 	was commenced. git pull is like the little brother of git clone.
-	
+* The good news is that my hobby website Faithworkz is a bit closer to production due to the mini successes I have with the Django red bubble uploader app I am making
+	right now.
+
 April 3, 2023
 
 * Tried to integrate my django red bubble uploader app to pythonanywhere.
