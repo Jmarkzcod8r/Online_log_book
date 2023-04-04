@@ -10,6 +10,8 @@ April 4, 2023
 * I need to remember this for Django.. button -> urls.py -> views.py -> database -> method -> return . You can use href for this purpose abnd form for this. 
 	Apparently, when using form, there are only two methods, GET and POST to choose from. I think using a link href is more flexible than form-input-submit.
 * I think I'm going to go with the timestamp as the primary key for my data entries.
+* I should try git pull for the changes I made in the code in github for pythonanywhere. As the documentations sugessts, I need to cd inside the directory git clone
+	was commenced. git pull is like the little brother of git clone.
 	
 April 3, 2023
 
