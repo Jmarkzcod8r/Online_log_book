@@ -1,6 +1,7 @@
 April 6, 2023
 
-* Continue working on Delsa web app. I'm currntly having trouble with the async await on getting the data for the explorelist.
+* Continue working on Delsa web app. I'm currntly having trouble with the async await on getting the data for the explorelist. I'll try putting two await method 
+	in the a single await function.
 
 April 4, 2023
 
