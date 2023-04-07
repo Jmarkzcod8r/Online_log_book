@@ -1,3 +1,7 @@
+April 7, 2023
+
+* The good news is that I finally was able to solve the problem I have with Delsa's recommendation. localStorage saves the day apparently.
+
 April 6, 2023
 
 * Continue working on Delsa web app. I'm currntly having trouble with the async await on getting the data for the explorelist. I'll try putting two await method 
