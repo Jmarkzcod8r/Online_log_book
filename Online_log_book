@@ -4,9 +4,11 @@ April 9, 2023
 	try to overwrite the data sent if it is possible since working with array seems to have some disadvantages.
 * Changes imageslistRef to FolderRef in Delsa's web app which is more convenient.
 * Ctrl + Shift + I -> This is how I can format my javascript code easier.
+* I think I need to know how to do the unit test.
 * L(02) -> `Does Php Suck? Prime React` by `ThePrimeTime`
 * L(03) -> `Clean Code: Horrible Performance Full Interview` by `ThePrimeTime`
 * L(04) -> `The biggest lie about programming? Reacting to tech twitter` by `ThePrimeTime`
+
 
 April 8, 2023
 
