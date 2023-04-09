@@ -3,6 +3,7 @@ April 9, 2023
 * Okay the good news is that the firebase storage sample page is working now. Thank you Pedro! I still need to adjust the page the Profile page user pic. I could
 	try to overwrite the data sent if it is possible since working with array seems to have some disadvantages.
 * Changes imageslistRef to FolderRef in Delsa's web app which is more convenient.
+* Ctrl + Shift + I -> This is how I can format my javascript code easier.
 * L(02) -> `Does Php Suck? Prime React` by `ThePrimeTime`
 * L(03) -> `Clean Code: Horrible Performance Full Interview` by `ThePrimeTime`
 
