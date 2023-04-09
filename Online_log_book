@@ -4,7 +4,10 @@ April 9, 2023
 	try to overwrite the data sent if it is possible since working with array seems to have some disadvantages.
 * Changes imageslistRef to FolderRef in Delsa's web app which is more convenient.
 * Ctrl + Shift + I -> This is how I can format my javascript code easier.
+* I am now seeing how the Profile page isn't showing all the data of the user but I don'tv want it to be scrollable so I'll just instead make a toggle button to show
 * I think I need to know how to do the unit test.
+* Okay, I finally adjusted the photo upload function to first delete all the files in the storage bucket and then put the new photo in it. Also, I need a new state
+	for photo so that it can verify the photo to be used. The hierarchy therefore goes with the database as top, the cloud storage second and the rest.
 * L(02) -> `Does Php Suck? Prime React` by `ThePrimeTime`
 * L(03) -> `Clean Code: Horrible Performance Full Interview` by `ThePrimeTime`
 * L(04) -> `The biggest lie about programming? Reacting to tech twitter` by `ThePrimeTime`
