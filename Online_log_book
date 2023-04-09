@@ -6,6 +6,7 @@ April 9, 2023
 * Ctrl + Shift + I -> This is how I can format my javascript code easier.
 * I am now seeing how the Profile page isn't showing all the data of the user but I don'tv want it to be scrollable so I'll just instead make a toggle button to show
 * I think I need to know how to do the unit test.
+* const file = ref(storage, filedestination) -> the `ref` is how we get data in firebase storage.
 * Okay, I finally adjusted the photo upload function to first delete all the files in the storage bucket and then put the new photo in it. Also, I need a new state
 	for photo so that it can verify the photo to be used. The hierarchy therefore goes with the database as top, the cloud storage second and the rest.
 * L(02) -> `Does Php Suck? Prime React` by `ThePrimeTime`
