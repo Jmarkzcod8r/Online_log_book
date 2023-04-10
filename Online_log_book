@@ -3,6 +3,7 @@ April 10, 2023
 * I encountered some errors on pushing Delsa's nextjs web app but it's been dealt with now. `npm run build` -> I should use this from time to time to see if my app
 	is production ready.
 * When dealing with firebase API, it is best to put it outside the pages folder.
+* I think I am 80% done with Delsa's web app.
 
 
 April 9, 2023
