@@ -1,3 +1,7 @@
+April 15, 2023
+
+* Solved a minor issue involving git requiring username and password to push code and that is by restarting vscode.
+
 April 10, 2023
 
 * I encountered some errors on pushing Delsa's nextjs web app but it's been dealt with now. `npm run build` -> I should use this from time to time to see if my app
