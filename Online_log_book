@@ -8,6 +8,8 @@ June 16, 2023
 * This'll have to do for now. I managed to put a backgrpund pic and some initial navigation bar and a stickybutton to the 
 	current site I'm building right now. Good job to me!
 * https://html5up.net/ -> I forgot that this is a go-to site for website templates.
+* Syntax error: "next/font" requires SWC although Babel is being used -> It seems that this error occurs after some time 
+	using nextjs but I was able to bypass this by going to layout.js and commenting out some things.
 
 June 13, 2023
 
