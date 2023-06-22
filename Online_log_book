@@ -6,6 +6,22 @@ June 22, 2023
 	the better off you are.
 * Continue working on the front-end of my ongoing website platform meant for anyone who wants to have a store onlie just like redbubble.com or something
 	along those lines similar.
+* Well, this is crazy! These was a lifesaver for me.
+
+jmarkz08@jmarkz08PC:~$ sudo apt remove tracker-miner-fs
+[sudo] password for jmarkz08: 
+E: dpkg was interrupted, you must manually run 'sudo dpkg --configure -a' to correct the problem. 
+jmarkz08@jmarkz08PC:~$ ^C
+jmarkz08@jmarkz08PC:~$ sudo dpkg --configure -a
+
+...along with 
+
+sudo apt update
+sudo apt upgrade
+
+* My laptop is running in ubuntu but for the first time, when I open the folders up, it was very slow. At 5 minutes, the mouse cursor is still loading,
+	thankfully, the above lines did the trick as well as emptying my trash I suppose.
+
 
 June 16, 2023
 
