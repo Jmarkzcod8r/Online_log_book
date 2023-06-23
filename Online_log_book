@@ -5,6 +5,8 @@ June 24, 2023
 'use client'; --> This was the one that helped me in this predicament
 import Image from 'next/image';
 import Pic from '../Pics/pic.jpg';
+There is also the 'use server' which I have yet to fully master.
+* pages.js replaces index.js when it comes to routing.
 
 June 23, 2023
 
