@@ -12,7 +12,13 @@ There is also the 'use server' which I have yet to fully master.
 * 13.5..
 * Going deeper into Typescript. At this point, I'm still kinda stuck.
 * 13.7
-* 
+* In Tailwind CSS, the default breakpoints and corresponding pixel sizes are as follows: -> This is good to note of for a responsive website in tailwind.
+
+    sm: Small screens and up (≥ 640px)
+    md: Medium screens and up (≥ 768px)
+    lg: Large screens and up (≥ 1024px)
+    xl: Extra-large screens and up (≥ 1280px)
+    2xl: 2 Extra-large screens and up (≥ 1536px)
 
 June 23, 2023
 
