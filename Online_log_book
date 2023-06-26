@@ -3,6 +3,8 @@ June 27, 2023
 * I now have a similar contribution graph but there is no data yet in there.
 * I just finished uploading the repo here in github on the website I'm building title 'Yheay'
 * I need to setup the schema for the website database.
+* I successfully create a free tier accout with AWS using my other google account and the standard password
+	template I use with aws to be extended. Now, how do I integrate it with my Nextjs web app?
 
 June 26, 2023
 
