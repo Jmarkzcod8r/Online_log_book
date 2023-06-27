@@ -6,6 +6,8 @@ June 27, 2023
 * I successfully create a free tier accout with AWS using my other google account and the standard password
 	template I use with aws to be extended. Now, how do I integrate it with my Nextjs web app? It says that I 
 	have access to the different free tier services for 12 months.
+* Started incorporating data to my GitHub clone attendance graph. I need to have some good understanding with manipulating the data
+	as I'm having some challenge about it.
 
 June 26, 2023
 
