@@ -12,6 +12,9 @@ June 28, 2023
 * by using let instead of const, I was able to setup a global variable which I would then replace with the value I would 
 	have after the array manipulation done outside of useEffect. I then passed this on as props to the graph
 	component part.
+* I encountered two minor issues when deploying or updating my onling logbook web app. First was with the node which I solved by
+	using 'nvm use 18.6.0' and the second was a typeerror and the attendance graph component. The web app must have confused
+	my props from being an object or an array. Solved this by putting `[..]` to the props.
 
 June 27, 2023
 
