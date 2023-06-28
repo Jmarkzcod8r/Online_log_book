@@ -15,6 +15,7 @@ June 28, 2023
 * I encountered two minor issues when deploying or updating my onling logbook web app. First was with the node which I solved by
 	using 'nvm use 18.6.0' and the second was a typeerror and the attendance graph component. The web app must have confused
 	my props from being an object or an array. Solved this by putting `[..]` to the props.
+* False alarm. I haven't solved the second issue yet. TypeError: Cannot read properties of undefined (reading 'includes')
 
 June 27, 2023
 
