@@ -16,6 +16,9 @@ June 28, 2023
 	using 'nvm use 18.6.0' and the second was a typeerror and the attendance graph component. The web app must have confused
 	my props from being an object or an array. Solved this by putting `[..]` to the props.
 * False alarm. I haven't solved the second issue yet. TypeError: Cannot read properties of undefined (reading 'includes')
+* Still, I haven't solve the issue yet. There is a suggestion in stackoverflow to adjust the reactStrictMode: true to false as a
+	temporary solution though it isn't long-term but when I tried it, it didn't do any good.
+* I put the typeerror part of the code in a try-cath for now. That seems to have temporarily put a band aid to this problem.
 
 June 27, 2023
 
