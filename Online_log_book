@@ -1,3 +1,18 @@
+June 28, 2023
+
+* I finally was able to solve the problem I was facing.
+
+  let Junedays = []
+  if (mainlist) {
+    console.log('mainlist true', mainlist);
+    const arrayOfDates = mainlist.map(obj => new Date(obj.date));
+    Junedays = arrayOfDates.filter(date => date.getMonth() === 5).map(date => date.getDate());
+  } ;
+
+* by using let instead of const, I was able to setup a global variable which I would then replace with the value I would 
+	have after the array manipulation done outside of useEffect. I then passed this on as props to the graph
+	component part.
+
 June 27, 2023
 
 * I now have a similar contribution graph but there is no data yet in there.
