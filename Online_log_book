@@ -2,6 +2,8 @@ July 2, 2023
 
 * Revisited the web app I made for Delsa. I encountered a minor issue with firebase authorization but it turned out, I just needed to adjust
 	the rules for it and extended the month from 4 to 9.
+* `ThePrimeTime` has been recommending Rust for quite a time now so I might be learning it pretty soon. Also, Svelte seems to be faster than
+	Nextjs so it is in my To-learn list as of the moment.
 
 July 1, 2023
 
