@@ -3,6 +3,7 @@ July 4, 2023
 * `https://tailwindcomponents.com/gradient-generator/` -> This is a good site for gernerating tailwind css background.
 * Encountered a minor error when using Nextjs router with error: nextjr router not mounted. Fixed the issue by setting 'next/navigation'
 	instead of 'next/router'
+* Added a signup page and a login page to my other ongoing website.
 
 July 3, 2023
 
