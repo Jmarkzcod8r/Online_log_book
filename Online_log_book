@@ -1,6 +1,8 @@
 July 4, 2023
 
 * `https://tailwindcomponents.com/gradient-generator/` -> This is a good site for gernerating tailwind css background.
+* Encountered a minor error when using Nextjs router with error: nextjr router not mounted. Fixed the issue by setting 'next/navigation'
+	instead of 'next/router'
 
 July 3, 2023
 
@@ -11,6 +13,7 @@ July 3, 2023
 * Purchased `www.devjourn.com` @ namecheap and configured it with vercel using nameservers but I think I'll have to wait at most 48 hours
 	for it to take effect.
 * Time is currently 1800H so I'll be able to know how many hours before devjourn.com is all ready.
+* It only took like I think half an hour for the website to be active.
 * Added `www.devjourn.com` to authorized domains unders settings in firebase.
 
 July 2, 2023
