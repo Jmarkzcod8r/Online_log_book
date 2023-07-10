@@ -1,0 +1,47 @@
+Paint -11
+
+Conceptual Interview Questions:
+
+What is a Data Structure?
+What is an Array?
+What is a Linked List?
+What is LIFO?
+What is a Stack?
+What is FIFO?
+What is a Queue?
+What are Binary Trees?
+What is Recursion?
+What is the OOPs concept?
+What are the concepts introduced in OOPs?
+Explain what a Binary Search Tree is.
+Explain Doubly Linked Lists?
+What is a Graph?
+Differentiate between linear and non-linear data structure.
+What is a Deque?
+What's the difference between Stack and Array?
+Which sorting algorithm is the best?
+How does variable declaration affect memory?
+What are dynamic data structures?
+
+Programming Interview Questions:
+
+How do you reverse a string in Java?
+How do you determine if a string is a palindrome?
+Find the number of occurrences of a character in a String.
+How to find out if the given two strings are anagrams or not?
+How do you calculate the number of vowels and consonants in a String?
+How do you get the matching elements in an integer array?
+How would you implement the bubble sort algorithm?
+How would you implement the insertion sort algorithm?
+How do you reverse an array?
+How would you swap two numbers without using a third variable?
+Print a Fibonacci series using recursion.
+How do you find the factorial of an integer?
+How do you reverse a Linked List?
+How would you implement Binary Search?
+How would you find the second largest number in an array?
+How do you remove all occurrences of a given character from the input string?
+Showcase Inheritance with the help of a program.
+Explain overloading and overriding with the help of a program.
+How do you check if the given number is prime?
+How do you sum all the elements in an array?
