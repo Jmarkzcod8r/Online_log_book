@@ -18,4 +18,4 @@ arr.index('#')                  ---> Returns the position index of the value bei
 (4) Sort mutates the list and not returns a new one.
 (5) "%.6f" % floatNumber This is for rounding off float numbers
 (6) Arr.index('#') returns the position index where the value being search is located
-(7) #.upper() mutates a string into its uppercase form
+(7) #.upper() mutates a string into its uppercase form.
