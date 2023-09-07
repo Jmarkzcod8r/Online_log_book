@@ -9,6 +9,8 @@ Sept. 07, 2023
 * I should be more familiar with the Android Studio development kit and not just VSCode when it comes to app development.
 * Yes! Thank You Lord! I managed to find my connected phone via USB thru `flutter devices` after running `flutter doctor` and installing android SDK.
 * i'm actually quite happy right now! Yey! I installed the `cmdline-tools...` thru the android sdk IDE and solve the linceses with `flutter doctor --android-licenses`
+* I have yet to fully grasp the use of 'flutter clean'
+* At least my frustration level has gone down to I think an estimate of 3 out of 10.
 
 Sept. 06, 2023
 
