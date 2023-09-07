@@ -15,6 +15,7 @@ Sept. 07, 2023
 * i'm actually quite happy right now! Yey! I installed the `cmdline-tools...` thru the android sdk IDE and solve the linceses with `flutter doctor --android-licenses`
 * I have yet to fully grasp the use of 'flutter clean'
 * At least my frustration level has gone down to I think an estimate of 3 out of 10.
+* Encountered an error when installing flutter in my linux desktop laptop involving licenses. I solved by installing 8.0 and renaming it to latest at the SDK folder.
 
 Sept. 06, 2023
 
