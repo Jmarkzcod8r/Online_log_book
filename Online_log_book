@@ -1,3 +1,7 @@
+Sept. 11, 2023
+
+* I'll try adjusting the telephony code to filter out the receive contents by sms. This means I have to make an inbox for spams, an inbox for archives and inbox for regulars.;
+
 Sept. 10, 2023
 
 * Seems to be having trouble with sms_advance as there almost no tutorial for it in youtube. Did a few changes to
