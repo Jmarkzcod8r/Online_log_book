@@ -3,6 +3,10 @@ Sept. 10, 2023
 * Seems to be having trouble with sms_advance as there almost no tutorial for it in youtube. Did a few changes to
 	the code like adjusting the AndroidManifest.xml, setting a path to sms_advance dependency, etc. One thing
 	I can try as another option is by using Android Studio and following a tutorial on youtube using java.
+* I keep getting this [ERROR:flutter/runtime/dart_vm_initializer.cc(41)] Unhandled Exception: 
+	MissingPluginException(No implementation found for method getSent on channel plugins.elyudde.com/querySMS)
+	which is something I yet to figure out much. Looking at the app on my phone, there seems to be some trouble
+	concerning permission.
 
 Sept. 09, 2023
 
