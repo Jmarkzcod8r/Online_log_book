@@ -1,3 +1,9 @@
+Sept. 10, 2023
+
+* Seems to be having trouble with sms_advance as there almost no tutorial for it in youtube. Did a few changes to
+	the code like adjusting the AndroidManifest.xml, setting a path to sms_advance dependency, etc. One thing
+	I can try as another option is by using Android Studio and following a tutorial on youtube using java.
+
 Sept. 09, 2023
 
 * `The Android Gradle plugin supports only Kotlin Gradle plugin version 1.5.20 and higher.
