@@ -7,6 +7,7 @@ Sept. 10, 2023
 	MissingPluginException(No implementation found for method getSent on channel plugins.elyudde.com/querySMS)
 	which is something I yet to figure out much. Looking at the app on my phone, there seems to be some trouble
 	concerning permission.
+* telephony 0.2.0  -> I tried this at pub.dev and it is awesome.
 
 Sept. 09, 2023
 
