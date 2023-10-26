@@ -2,6 +2,7 @@ Oct. 26, 2023
 
 * Sometimes the problem with nextjs is that the problem of babel comes out after your next rerun. WHen you closed and open your code editor.
 * I'll try disabling the eslint for this one. Today I found out that this actually works to remove the 'Parsing error: Cannot find module 'next/babel'
+* This is the right way: flex flex-col and not this one: flex-col
 
 Oct. 23, 2023
 
