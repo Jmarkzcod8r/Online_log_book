@@ -1,3 +1,30 @@
+* Nov. 1, 2023
+	- I encountered the same problem when I opened my ongoing clothing store. I needed to change the version yet again. This time I set the default to 16.16.0 by using `nvm alias default 16.16.0`
+	- I managed to get the routing system for the website working and now I think I need a dropdown for the options.
+	- I need a pop up to appear for when I have made a costumize button for the clothing.
+	- I need to search more about the search bar and it should bring back a list of items relating to the name or description given.
+	- I need to connect the app to Mongodb. I need to register the user so that they will have an inbox and all sort of stuff.
+	- I'll be using maybe vegetable pictures for their profile pics to avoid using a bucket for now.
+	- I need to enable the cookie policy to store their information in their computer.
+	- In the donate button , I need a page with the following means to donate: 	gcash, buymeacoffee, paypal, paymaya, etc.
+	- I need to make a dropdown on the about section with the mission and vision of the site which I will making sooner.
+	- I managed to configure the search bar so that whenever there is an input, it will automatically be stored in the local storage. Now, I just need to modify it yet again so that whenever an enter is pressed while being on the input search bar, it will respond with the search result. ...
+	- I'm slowly integrating a pop up to the products with the use of sweetalert2.
+
+	> Thank You Lord
+
+* Oct. 30, 2023
+
+- I need to get a certificate of registration in BIR about my TIN
+- I'm having a tough time with my website on linen nation. The carousel isn't working. 
+- My plan is to make a customize option where people can just input their measurements. 
+- Tried to reinstall react-slick by also upgrading node version to 16.16.0 but to no avail. The carousel still isn't working. 
+- Thank You Lord, it's working again!!
+- I manage to add a products list.
+- I probably should make a repository for this one on the next session.
+	
+	> Thank You Lord for this small win!!
+
 Oct. 26, 2023
 
 * Sometimes the problem with nextjs is that the problem of babel comes out after your next rerun. WHen you closed and open your code editor.
