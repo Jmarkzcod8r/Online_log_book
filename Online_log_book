@@ -1,3 +1,6 @@
+* Nov. 12, 2023
+	- Continued to work on my Nextjsside project.
+
 * Nov. 1, 2023
 	- I encountered the same problem when I opened my ongoing clothing store. I needed to change the version yet again. This time I set the default to 16.16.0 by using `nvm alias default 16.16.0`
 	- I managed to get the routing system for the website working and now I think I need a dropdown for the options.
