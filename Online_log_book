@@ -1,5 +1,8 @@
 * Nov. 17, 2023
 	- I need to get back to the consistent me of the past.
+	- I added a two folders (mongodb and clients) under the api folder. Under the mongodb folder, I added
+		`db.js` which supposively is the link to the mongodb account that I have. I already establish
+		the environment variable for it. 
 
 * Nov. 12, 2023
 	- Continued to work on my Nextjsside project.
