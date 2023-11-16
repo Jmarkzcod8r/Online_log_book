@@ -5,7 +5,7 @@
 		the environment variable for it. I guess this is the first step to incorporating the database
 		for `Gharmentz.com`
 	- In my backend, there is a switch method and under it is the "GET". I think this is the one responsible for
-		automatically getting the data from the database.
+		automatically getting the data from the database. -> This is right.
 
 * Nov. 12, 2023
 	- Continued to work on my Nextjsside project.
