@@ -4,6 +4,8 @@
 		`db.js` which supposively is the link to the mongodb account that I have. I already establish
 		the environment variable for it. I guess this is the first step to incorporating the database
 		for `Gharmentz.com`
+	- In my backend, there is a switch method and under it is the "GET". I think this is the one responsible for
+		automatically getting the data from the database.
 
 * Nov. 12, 2023
 	- Continued to work on my Nextjsside project.
