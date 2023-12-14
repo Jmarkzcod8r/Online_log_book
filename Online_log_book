@@ -1,3 +1,6 @@
+* Dc. 14, 2023
+	- Mongodb query operation is okay in localhost but not on prod as it is slow and often makes an error.
+
 * Dec. 02, 2023
 	- Worked on the search bar for 'devjourn.com'. Still has some work to do but at least were working on the right direction.
 	- If I were to make an inverted pyramind from the hardest to the easiest when it comes to priority in making a website then this would be it
