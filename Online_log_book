@@ -1,3 +1,6 @@
+* Jan. 26, 2024
+	* Revisited my local code for devjourn.com. The babel error occured and I simply went to .eslintrc.json -> and change "next/core-web-vitals" to "next/babel"
+
 * Dc. 14, 2023
 	- Mongodb query operation is okay in localhost but not on prod as it is slow and often makes an error.
 
