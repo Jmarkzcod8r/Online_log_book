@@ -1,3 +1,6 @@
+* Feb 24, 2024
+	* It's been a while.
+
 * Jan. 26, 2024
 	* Revisited my local code for devjourn.com. The babel error occured and I simply went to .eslintrc.json -> and change "next/core-web-vitals" to "next/babel"
 
