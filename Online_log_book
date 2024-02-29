@@ -1,5 +1,7 @@
 * Feb 29, 2024
 	* The terminal in vscode seems to have a discrepancy wheh I typed in 'nvm use'. Thankfully, using the local terminal outside solved the problem in my laptop.
+	* Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted -> It seems that you need to use the router and not just leave it 
+		hanging around. I fixed this one by temporarily commenting out the part.
 
 * Feb 27, 2024
 	* Installed homebrew for what its worth. Glad it went nicely.
