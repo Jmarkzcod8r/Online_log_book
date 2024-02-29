@@ -15,7 +15,8 @@
 		"strict":false -> Still due for more understanding 
 	* Module '"react"' has no exported member 'cache'-> I tried to solve this error with 'npm install' but did not work. What work was using 'pnpm install' instead.
 	* [auth][error] UnknownAction: Cannot parse action at /session . -> Another error to solve
-	* TypeError: next_dist_server_web_exports_next_request__WEBPACK_IMPORTED_MODULE_0__ is not a constructor -> What is this?
+	* TypeError: next_dist_server_web_exports_next_request__WEBPACK_IMPORTED_MODULE_0__ is not a constructor -> What is this? This is the error I get when I try to sign in in the form. 
+		It's different from the parse error.
 
 * Feb 27, 2024
 	* Installed homebrew for what its worth. Glad it went nicely.
