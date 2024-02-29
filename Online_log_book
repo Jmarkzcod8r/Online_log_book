@@ -13,6 +13,7 @@
 		directory.
 	* parameter 'xxx' implicity has an any type -> Make these changes in your compilerOptions section of tsconfig.json file this worked for me "noImplicitAny": false no need to set
 		"strict":false -> Still due for more understanding 
+	* Module '"react"' has no exported member 'cache'-> I tried to solve this error with 'npm install' but did not work. What work was using 'pnpm install' instead.
 
 * Feb 27, 2024
 	* Installed homebrew for what its worth. Glad it went nicely.
