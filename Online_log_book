@@ -4,6 +4,8 @@
 		hanging around. I fixed this one by temporarily commenting out the part.
 	* As in my previous project the `[..]` in the navigation means it is dynamic.
 	* Thankfully another way I solved the router not mounted in nectjs is by changing the '...from "next/router";' to '...from "next/navigation";'
+	* I seem to be having some trouble with the the hook 'useCartService' located at the lib/hooks directory. I'm currently learning it with zustand. I haven't been able 
+	able to make it work for now. Can't figure out the problem. I may need to find some additional examples of using zustand on the internet for this.
 
 * Feb 27, 2024
 	* Installed homebrew for what its worth. Glad it went nicely.
