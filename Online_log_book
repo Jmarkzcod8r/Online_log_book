@@ -11,6 +11,8 @@
 	* I thought I can hit the 2-hr mark with the current tutorial I am going through right now but I spent 5.5 hrs troubleshooting. But, I'm still grateful.
 	* Okay now I know why my dbconnect.ts file wasn't connecting to mongodb and it's because I've place my .env file outside the app instead of inside the next-amazona
 		directory.
+	* parameter 'xxx' implicity has an any type -> Make these changes in your compilerOptions section of tsconfig.json file this worked for me "noImplicitAny": false no need to set
+		"strict":false -> Still due for more understanding 
 
 * Feb 27, 2024
 	* Installed homebrew for what its worth. Glad it went nicely.
