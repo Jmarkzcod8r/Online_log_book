@@ -9,6 +9,8 @@
 	* Finally was able to solve this error: 'Uncaught Error: invariant expected app router to be mounted' -> The culprit was the layout.tsx at the directort 
 		`next-amazona/app',.My tags of body and html were scrambled. Now the UI seems to be working fine.
 	* I thought I can hit the 2-hr mark with the current tutorial I am going through right now but I spent 5.5 hrs troubleshooting. But, I'm still grateful.
+	* Okay now I know why my dbconnect.ts file wasn't connecting to mongodb and it's because I've place my .env file outside the app instead of inside the next-amazona
+		directory.
 
 * Feb 27, 2024
 	* Installed homebrew for what its worth. Glad it went nicely.
