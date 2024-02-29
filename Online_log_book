@@ -3,6 +3,7 @@
 	* Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted -> It seems that you need to use the router and not just leave it 
 		hanging around. I fixed this one by temporarily commenting out the part.
 	* As in my previous project the `[..]` in the navigation means it is dynamic.
+	* Thankfully another way I solved the router not mounted in nectjs is by changing the '...from "next/router";' to '...from "next/navigation";'
 
 * Feb 27, 2024
 	* Installed homebrew for what its worth. Glad it went nicely.
