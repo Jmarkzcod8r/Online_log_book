@@ -1,5 +1,29 @@
 * Mar. 1, 2023
 	* I think the best way to estimate how much time you'll need in order to have a satisying grasp of a porject app tutorial is to multiply the duration to three (x3).
+	* I had a problem with next-auth since the user object is returning empty. Thankfully, it got solved though thses:
+		The issue is out of some updates on next and nextauth package.
+			How to fix it:
+			1. There is an bug in next.js:
+			https://github.com/vercel/next.js/pull/61721
+			Install next canary or wait for next@14.1.1
+			$ npm i next@14.1.1-canary.37
+			2. reinstall next-auth@beta
+			$ npm uninstall next-auth@beta
+			$ npm install next-auth@beta
+			
+			3. remoe AUTH_URL in .env:
+			# AUTH_URL=http://localhost:3000
+			4. add ._doc in jwt function in auth.ts
+			  callbacks: {
+			    async jwt({ user, trigger, session, token }: any) {
+			      if (user) {
+			        token.user = {
+			          _id: user._doc._id,
+			          email: user._doc.email,
+			          name: user._doc.name,
+			          isAdmin: user._doc.isAdmin,
+			        }
+			      }
 
 * Feb 29, 2024
 	* The terminal in vscode seems to have a discrepancy wheh I typed in 'nvm use'. Thankfully, using the local terminal outside solved the problem in my laptop.
