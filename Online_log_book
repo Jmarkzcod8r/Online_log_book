@@ -1,3 +1,6 @@
+* Mar. 1, 2023
+	* I think the best way to estimate how much time you'll need in order to have a satisying grasp of a porject app tutorial is to multiply the duration to three (x3).
+
 * Feb 29, 2024
 	* The terminal in vscode seems to have a discrepancy wheh I typed in 'nvm use'. Thankfully, using the local terminal outside solved the problem in my laptop.
 	* Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted -> It seems that you need to use the router and not just leave it 
