@@ -1,3 +1,7 @@
+* Mar. 2, 2023
+	* Uncaught Error: Expected an order id to be passed at https://www.sandbox.paypal.com/smart/buttons? ->finally was able to resolve this. It turened out that the
+		PAYPAL_API_URL value in the .env variable has a misspelling. Instead of `...sandbox`, I unintentionally wrote `...sadbox`. Now, it's okay.
+
 * Mar. 1, 2023
 	* I think the best way to estimate how much time you'll need in order to have a satisying grasp of a porject app tutorial is to multiply the duration to three (x3).
 	* I had a problem with next-auth since the user object is returning empty. Thankfully, it got solved though thses:
