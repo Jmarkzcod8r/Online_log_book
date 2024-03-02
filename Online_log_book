@@ -7,6 +7,7 @@
                 I'll try to put in the environment variables.
 	* Error occurred prerendering page "/api/orders/mine". Read more: https://nextjs.org/docs/messages/prerender-error -> "Added `export const dynamic = "force-dynamic"` 
 		to api/orders/mine to try to solve the error of prerenderring" which seems to have solved the problem.
+	* It seems that one of the ways to know if your session is working is to console.log and if there is a property: expires -> that's it.
 
 * Mar. 1, 2023
 	* I think the best way to estimate how much time you'll need in order to have a satisying grasp of a porject app tutorial is to multiply the duration to three (x3).
