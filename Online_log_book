@@ -2301,6 +2301,7 @@ August 19, 2022 (Thursday)
           Go to src directory and not outside and then push to github to avoid errors.
 	  
                       git init
+		      git remote show origin   			---> This shows where you are pointing your local app to at github
                       git remote add origin https://github.com/Jmarkzcod8r/Whiteseed.com.git
 		      git remote set-url origin https://git-repo/new-repository.git		---> This changes the target repo
                       git commit -m "first commit"
