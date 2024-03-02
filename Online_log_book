@@ -1,3 +1,7 @@
+* Mar. 3, 2023
+	* Currently trying to make my simple redis web app works. I might try to simulate a simple data fetching with a mock data JSON file in the backend.
+	* Installed redis insight.
+
 * Mar. 2, 2023
 	* Uncaught Error: Expected an order id to be passed at https://www.sandbox.paypal.com/smart/buttons? ->finally was able to resolve this. It turened out that the
 		PAYPAL_API_URL value in the .env variable has a misspelling. Instead of `...sandbox`, I unintentionally wrote `...sadbox`. Now, it's okay.
