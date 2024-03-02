@@ -5,6 +5,8 @@
 		the contents of the prject download in the middleware which is quite long and commented out the previous.
         * Although, the web app is now live, I got some new obstacles to tackle. I get an error GET when I sign in. Also, the profile and order-history pages aren't working.
                 I'll try to put in the environment variables.
+	* Error occurred prerendering page "/api/orders/mine". Read more: https://nextjs.org/docs/messages/prerender-error -> "Added `export const dynamic = "force-dynamic"` 
+		to api/orders/mine to try to solve the error of prerenderring" which seems to have solved the problem.
 
 * Mar. 1, 2023
 	* I think the best way to estimate how much time you'll need in order to have a satisying grasp of a porject app tutorial is to multiply the duration to three (x3).
