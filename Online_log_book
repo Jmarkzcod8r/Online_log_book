@@ -1,3 +1,8 @@
+* Mar. 5, 2023
+	* The good thing is that I managed to be able to now add data to redis by cloning fireship's redis simple app. Now, I just need to work on the search which
+		currently right now isn't working.
+	* Encountered the error sh:1 not found after cloning the github repo and was able to solve it using 'npm install'
+
 * Mar. 3, 2023
 	* Currently trying to make my simple redis web app works. I might try to simulate a simple data fetching with a mock data JSON file in the backend.
 	* Installed redis insight.
