@@ -1,3 +1,9 @@
+* Mar. 6, 2023
+	* After a few days, I finally was able to recreate this repo from fireship. I cloned the repo on github, put in my .env variables for redis and type 'npm install' 
+		to get rid of the error sh:1 not found or something likes that. I had a bit of a problem with the redis search and the problem actually lies in the 
+		'../lin/redis.js' file. Then, on the async function searchCars(q) add in this code: cons repository = client.fetchRepository(schema) ; 
+		try {await Repository.createIndex() } catch { console.log ('Index already exists)} and then the search and filter function..
+
 * Mar. 5, 2023
 	* The good thing is that I managed to be able to now add data to redis by cloning fireship's redis simple app. Now, I just need to work on the search which
 		currently right now isn't working.
