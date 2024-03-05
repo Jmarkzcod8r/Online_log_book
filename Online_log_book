@@ -5,6 +5,7 @@
 		try {await Repository.createIndex() } catch { console.log ('Index already exists)} and then the search and filter function..
 	* I could try to make the name for the JSON file to be a textarea instead of a simple output so that I may be able to use the .match function which seems to be more
 		potent in searching stuffs.
+	* I think another next goal for me would be incorporating mongodb with redis.
 
 
 * Mar. 5, 2023
