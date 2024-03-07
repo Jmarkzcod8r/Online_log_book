@@ -1,5 +1,6 @@
 * Mar 8, 2023
 	* I need to modify my devjourn web app in able to use it with redis especiallly on the search fuction.
+	* I need to save the data I GET from mongodb into redis so that the query would be more efficient.
 
 * Mar. 6, 2023
 	* After a few days, I finally was able to recreate this repo from fireship. I cloned the repo on github, put in my .env variables for redis and type 'npm install' 
