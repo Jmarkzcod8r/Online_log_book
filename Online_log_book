@@ -38,6 +38,7 @@
 	* I need to know how to compress the uploaded image of the user just like how it is with gensansale.com
 	* I think I might need to learn  nextjs-cors or any similar library down the road.
 	* I should try these properties in Image in Nextjs: loading='lazy' layout='rsponsive' objectFit='cover' objectPosition='center' width={960} height={340}
+	* Sketch2app.io -> Useful tool indeed. Gotta try this out more.
 
 * Mar 7, 2023
 	* I need to modify my devjourn web app in able to use it with redis especiallly on the search fuction.
