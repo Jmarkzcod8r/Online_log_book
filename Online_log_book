@@ -29,6 +29,7 @@
 		set it apart outside your pages (front-end) folder. This solved the problem thankfully.
 	* Seems to be having some problem deploying to vercel for now. 
 	* The TTL option in upstash seems to be pretty handy.
+	* The idea of using a middleware to solve the referrer policy issue I'm having right now comes to mind as suggested by  chatgpt.
 
 * Mar 7, 2023
 	* I need to modify my devjourn web app in able to use it with redis especiallly on the search fuction.
