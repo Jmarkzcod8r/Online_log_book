@@ -10,8 +10,8 @@
 		3. Run prisma db pull to turn your database schema into a Prisma schema.
 		4. Run prisma generate to generate the Prisma Client. You can then start querying your database.
 
-More information in our documentation:
-https://pris.ly/d/getting-started
+	More information in our documentation:
+	https://pris.ly/d/getting-started
 
 * Mar 7, 2023
 	* I need to modify my devjourn web app in able to use it with redis especiallly on the search fuction.
