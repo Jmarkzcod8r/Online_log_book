@@ -1,5 +1,6 @@
 * Mar 9, 2023
 	* I guess zustand is good for global state management. That's why it's good at managing carts. It is similar to redux but smaller and faster and better at developer experience.
+	* Zustand scales well because it is not confined to a single component.
 	* Manage to beautify the e-commerce web app I made. Apparently< I need to fix the auhentication, make a dashboard for admin, add 'store pickup' at order takeout,
 		configure the photo upload management (might use Firestore for this with imagekit) etc. At this point, I think I am able to clone shoppee. I am 78% confident
 		about this.
