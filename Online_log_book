@@ -34,6 +34,7 @@
 	* Well, good for me! I finally have a search function that is fast. The way it works is that I save all the logs in redis as a JSON.stringify file and when I 
 		retrieve it, I convert this string to an object with JSON.parse. This isn't how the tutorial by firehsip does it which is something I may need to dig upon
 		later down the road.
+	* If I get to master making an ecommerce website, I may consider posting on fiverr.com
 
 * Mar 7, 2023
 	* I need to modify my devjourn web app in able to use it with redis especiallly on the search fuction.
