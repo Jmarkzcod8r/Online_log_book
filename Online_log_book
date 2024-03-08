@@ -45,6 +45,7 @@
 		url. Amazing! I just uploaded an image to imagekit.io and from 1.3MB as a png it transformed into 119.9kb as a webp image.
 	* My impession for the layout='responsive' is that this is best for banners and that when this is active the width and height properties are downgraded to simply be the ratio
 		of the sides.
+	* Imagekit is like an upgraded version of pixabay.
 
 * Mar 7, 2023
 	* I need to modify my devjourn web app in able to use it with redis especiallly on the search fuction.
