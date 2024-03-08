@@ -33,7 +33,7 @@
 	* I just resolve the cors issue cross-origin-resoure-policy issue and that is by adjust the var url @ thisbase.js to https:/www.devjourn.com/api
 	* Well, good for me! I finally have a search function that is fast. The way it works is that I save all the logs in redis as a JSON.stringify file and when I 
 		retrieve it, I convert this string to an object with JSON.parse. This isn't how the tutorial by firehsip does it which is something I may need to dig upon
-		later down the road.
+		later down the road. I have yet to compare which is faster to implement.
 	* If I get to master making an ecommerce website, I may consider posting on fiverr.com
 	* I need to know how to compress the uploaded image of the user just like how it is with gensansale.com
 	* I think I might need to learn  nextjs-cors or any similar library down the road.
