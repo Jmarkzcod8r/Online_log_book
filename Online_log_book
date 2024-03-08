@@ -28,6 +28,7 @@
 	* I had a recent error involving dns with ioredis and after reading from others, I found out that ioredis connection is best establish on the backend and
 		set it apart outside your pages (front-end) folder. This solved the problem thankfully.
 	* Seems to be having some problem deploying to vercel for now. 
+	* The TTL option in upstash seems to be pretty handy.
 
 * Mar 7, 2023
 	* I need to modify my devjourn web app in able to use it with redis especiallly on the search fuction.
