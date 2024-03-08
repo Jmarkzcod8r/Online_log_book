@@ -31,6 +31,9 @@
 	* The TTL option in upstash seems to be pretty handy.
 	* The idea of using a middleware to solve the referrer policy issue I'm having right now comes to mind as suggested by  chatgpt.
 	* I just resolve the cors issue cross-origin-resoure-policy issue and that is by adjust the var url @ thisbase.js to https:/www.devjourn.com/api
+	* Well, good for me! I finally have a search function that is fast. The way it works is that I save all the logs in redis as a JSON.stringify file and when I 
+		retrieve it, I convert this string to an object with JSON.parse. This isn't how the tutorial by firehsip does it which is something I may need to dig upon
+		later down the road.
 
 * Mar 7, 2023
 	* I need to modify my devjourn web app in able to use it with redis especiallly on the search fuction.
