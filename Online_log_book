@@ -12,6 +12,7 @@
 
 	More information in our documentation:
 	https://pris.ly/d/getting-started
+	* Prisma is like a package manager for your backend API/s
 
 * Mar 7, 2023
 	* I need to modify my devjourn web app in able to use it with redis especiallly on the search fuction.
