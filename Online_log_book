@@ -1,4 +1,7 @@
 * Mar 8, 2023
+	* CUrrently having some issues with ioredis right now in the tutorial I'm following with upstash included etc.
+
+* Mar 7, 2023
 	* I need to modify my devjourn web app in able to use it with redis especiallly on the search fuction.
 	* I need to save the data I GET from mongodb into redis so that the query would be more efficient.
 	* Just made an accunt with stable diffusion but seems to be pricy. I'm trying out dezgo which is free.
