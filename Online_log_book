@@ -42,7 +42,7 @@
 	* Just for the record 2.6MB as a size of a photo for the web is huge!
 	* These are good for compressing images: `tinypng.com`,`squoosh`,`imagekit.io`. imagekit seems to have the most potential so far since it can be integrated to cloud 
 		storages like aws,gcp,firebase etc. Just made an account with imagekit with JMnext08. It seems thaat you can make a command to imagekit request just by editing the 
-		url.
+		url. Amazing! I just uploaded an image to imagekit.io and from 1.3MB as a png it transformed into 119.9kb as a webp image.
 
 * Mar 7, 2023
 	* I need to modify my devjourn web app in able to use it with redis especiallly on the search fuction.
