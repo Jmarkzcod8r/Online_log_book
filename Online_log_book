@@ -40,7 +40,7 @@
 	* I should try these properties in Image in Nextjs: loading='lazy' layout='rsponsive' objectFit='cover' objectPosition='center' width={960} height={340}
 	* Sketch2app.io -> Useful tool indeed. Gotta try this out more.
 	* These are good for compressing images: `tinypng.com`,`squoosh`,`imagekit.io`. imagekit seems to have the most potential so far since it can be integrated to cloud 
-		storages like aws,gcp,firebase etc.
+		storages like aws,gcp,firebase etc. Just made an account with imagekit with JMnext08.
 
 * Mar 7, 2023
 	* I need to modify my devjourn web app in able to use it with redis especiallly on the search fuction.
