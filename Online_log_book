@@ -4,6 +4,7 @@
 	* Manage to beautify the e-commerce web app I made. Apparently< I need to fix the auhentication, make a dashboard for admin, add 'store pickup' at order takeout,
 		configure the photo upload management (might use Firestore for this with imagekit) etc. At this point, I think I am able to clone shoppee. I am 78% confident
 		about this.
+	* Cloned a zustand repository as a good rockference.
 
 * Mar 8, 2023
 	* CUrrently having some issues with ioredis right now in the tutorial I'm following with upstash included etc.
