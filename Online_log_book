@@ -23,6 +23,7 @@
 		);
 	* I think I prefer upstash than redis insight for now.
 	* When I checked my mongodb collection regarding my logs on devjourn.com, I found out that it's only been 488kb.
+	* I'm starting to understand that the `lib` folder is usually where you establish your API connections like to MOngodb, redis, firebase etc.
 
 * Mar 7, 2023
 	* I need to modify my devjourn web app in able to use it with redis especiallly on the search fuction.
