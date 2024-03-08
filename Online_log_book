@@ -1,6 +1,7 @@
 * Mar 8, 2023
 	* CUrrently having some issues with ioredis right now in the tutorial I'm following with upstash included etc.
 	* It turned out 'npm i ioredis' was the answer and the reason it didn't worked previously was because I wasn't installing it in the root directory.
+	* Started working with prisma. SO far, these are the commands to remember: 'npx prisma init' , 'npx prisma generate' , npm install prisma/client etc.
 
 * Mar 7, 2023
 	* I need to modify my devjourn web app in able to use it with redis especiallly on the search fuction.
