@@ -7,6 +7,8 @@ Mar. 10, 2023
 	* Still need to experiment with firebase rules to not allow uploads if storage size is greater than 4GB.
         * I think I'll use imagekit as a primary database for the web app I've done in the tutorial involving paypal etc though I still need to configure a way to set the rules like 
             it can be done in firebase.
+        * I think the Image in Nextjs has a built-in responsiveness to it especially if you put it inside a grid tag. Also, I need to be more familiar with the global layout to set
+            'responsive-text' in repalcement of the long code I use for such a purpose.
 
 * Mar 9, 2023
 	* I guess zustand is good for global state management. That's why it's good at managing carts. It is similar to redux but smaller and faster and better at developer experience.
