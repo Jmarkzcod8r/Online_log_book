@@ -1,3 +1,9 @@
+> Mar. 10, 2023
+	* https://console.firebase.google.com/u/0/project/delsa-profiling/storage/usage/current-billing/total_bytes -> I need to check my firebase console for changes since I've added 
+		some photos to my profiling web app with Delsa. It should have an object count of 32 (estimate) by this time tomorrow.
+	* Apparently when I check the 6MB file I sent to the firebase storage came back to just 660 bytes which is nice but the size on storage is still the same which means I may still 
+		need to use imagekit to reduce the size of storage files.
+
 * Mar 9, 2023
 	* I guess zustand is good for global state management. That's why it's good at managing carts. It is similar to redux but smaller and faster and better at developer experience.
 	* Zustand scales well because it is not confined to a single component.
