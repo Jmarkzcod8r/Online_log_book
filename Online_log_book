@@ -4,6 +4,7 @@
 	* Apparently when I check the 6MB file I sent to the firebase storage came back to just 660 bytes which is nice but the size on storage is still the same which means I may still 
 		need to use imagekit to reduce the size of storage files.
 	* I'm open to the possibility of using google drive with imagekit for what it's worth.
+	* Still need to experiment with firebase rules to not allow uploads if storage size is greater than 4GB.
 
 * Mar 9, 2023
 	* I guess zustand is good for global state management. That's why it's good at managing carts. It is similar to redux but smaller and faster and better at developer experience.
