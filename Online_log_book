@@ -1,4 +1,7 @@
-Mar. 10, 2023
+Mar. 13, 2024
+	* I ought to integrae partyjs to devjourn.com to make it even faster.
+
+Mar. 10, 2024
 	* https://console.firebase.google.com/u/0/project/delsa-profiling/storage/usage/current-billing/total_bytes -> I need to check my firebase console for changes since I've added 
 		some photos to my profiling web app with Delsa. It should have an object count of 32 (estimate) by this time tomorrow.
 	* Apparently when I check the 6MB file I sent to the firebase storage came back to just 660 bytes which is nice but the size on storage is still the same which means I may still 
@@ -10,7 +13,7 @@ Mar. 10, 2023
         * I think the Image in Nextjs has a built-in responsiveness to it especially if you put it inside a grid tag. Also, I need to be more familiar with the global layout to set
             'responsive-text' in repalcement of the long code I use for such a purpose.
 
-* Mar 9, 2023
+* Mar 9, 2024
 	* I guess zustand is good for global state management. That's why it's good at managing carts. It is similar to redux but smaller and faster and better at developer experience.
 	* Zustand scales well because it is not confined to a single component.
 	* Manage to beautify the e-commerce web app I made. Apparently< I need to fix the auhentication, make a dashboard for admin, add 'store pickup' at order takeout,
@@ -18,7 +21,7 @@ Mar. 10, 2023
 		about this.
 	* Cloned a zustand repository as a good rockference.
 
-* Mar 8, 2023
+* Mar 8, 2024
 	* CUrrently having some issues with ioredis right now in the tutorial I'm following with upstash included etc.
 	* It turned out 'npm i ioredis' was the answer and the reason it didn't worked previously was because I wasn't installing it in the root directory.
 	* Started working with prisma. SO far, these are the commands to remember: 'npx prisma init' , 'npx prisma generate' , npm install prisma/client etc.
@@ -69,13 +72,13 @@ Mar. 10, 2023
 	* DON'T Serve Unoptimized Images - Webp, Srcset, ImageKit, and more! -> This is a good rockference.
 	* Just made an aws account with jmgwhiteseed1220 since my last two ones aren't working no more. Apparently, it might take up to 24 hours before fully activated so I guess I have to wait.
 
-* Mar 7, 2023
+* Mar 7, 2024
 	* I need to modify my devjourn web app in able to use it with redis especiallly on the search fuction.
 	* I need to save the data I GET from mongodb into redis so that the query would be more efficient.
 	* Just made an accunt with stable diffusion but seems to be pricy. I'm trying out dezgo which is free.
 	* I think excalibdraw is kinda nice.
 
-* Mar. 6, 2023
+* Mar. 6, 2024
 	* After a few days, I finally was able to recreate this repo from fireship. I cloned the repo on github, put in my .env variables for redis and type 'npm install' 
 		to get rid of the error sh:1 not found or something likes that. I had a bit of a problem with the redis search and the problem actually lies in the 
 		'../lin/redis.js' file. Then, on the async function searchCars(q) add in this code: cons repository = client.fetchRepository(schema) ; 
@@ -86,19 +89,19 @@ Mar. 10, 2023
 	* Thankfully, i've deployed my rockference redis search example repo at vercel all too smoothly.
 
 
-* Mar. 5, 2023
+* Mar. 5, 2024
 	* The good thing is that I managed to be able to now add data to redis by cloning fireship's redis simple app. Now, I just need to work on the search which
 		currently right now isn't working.
 	* Encountered the error sh:1 not found after cloning the github repo and was able to solve it using 'npm install'
 
-* Mar. 3, 2023
+* Mar. 3, 2024
 	* Currently trying to make my simple redis web app works. I might try to simulate a simple data fetching with a mock data JSON file in the backend.
 	* Installed redis insight.
         * I might need to try to just use createClient() with redis and not redis-om
         * I need also to try deploy my nextjs web app to aws, netlify and others for comparison etc.
         * I need to be more familiar with caching.
 
-* Mar. 2, 2023
+* Mar. 2, 2024
 	* Uncaught Error: Expected an order id to be passed at https://www.sandbox.paypal.com/smart/buttons? ->finally was able to resolve this. It turened out that the
 		PAYPAL_API_URL value in the .env variable has a misspelling. Instead of `...sandbox`, I unintentionally wrote `...sadbox`. Now, it's okay.
 	* It's alive! I can't believe it. The web app is now working and is live at vercel. I first tried deleting middleware.ts but it led to another error aand then I copied
@@ -114,7 +117,7 @@ Mar. 10, 2023
 	* I think using axios or express to initialize the backend with Nextjs is better.
 	* I need to find a good web app with a good search functionality.
 
-* Mar. 1, 2023
+* Mar. 1, 2024
 	* I think the best way to estimate how much time you'll need in order to have a satisying grasp of a porject app tutorial is to multiply the duration to three (x3).
 	* I had a problem with next-auth since the user object is returning empty. Thankfully, it got solved though thses:
 		The issue is out of some updates on next and nextauth package.
