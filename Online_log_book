@@ -1,6 +1,7 @@
 Mar. 13, 2024
 	* I ought to integrate partyjs to devjourn.com to make it even faster.
 	* Having trouble with the profile page which is persisting a callback.
+	* My users collection seems to be malfunctioning. I deleted the two original entries but they came back after.
 
 Mar. 10, 2024
 	* https://console.firebase.google.com/u/0/project/delsa-profiling/storage/usage/current-billing/total_bytes -> I need to check my firebase console for changes since I've added 
