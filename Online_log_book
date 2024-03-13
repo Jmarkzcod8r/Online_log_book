@@ -1,3 +1,7 @@
+Mar. 14, 2023
+	* Apparently, you can trigger a back-end to run with curl http://localhost:3000/api/products/seed etc. but you need two terminals for this one with one running 
+		for the web app to be functional.
+
 Mar. 13, 2024
 	* I ought to integrate partyjs to devjourn.com to make it even faster.
 	* Having trouble with the profile page which is persisting a callback.
