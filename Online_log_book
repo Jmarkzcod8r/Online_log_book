@@ -5,7 +5,8 @@ Mar. 13, 2024
 	* I may try to use redis at my ecommerce website saving the user edit and then saving it to Mongodb.
 	* I'll make the argument that unless you're building a multi-user website, redis is the only database you need.
 	* There is a post that says that one way to solve the issue I have with the session is to use axios and not just fetch.
-	* Ever since I tried 'pnpm run build', my vercel production has been in shambles.
+	* Ever since I tried 'pnpm run build', my vercel production has been in shambles. After some modifications, bringing back the
+		authorize at auth.tsx did the trick.
 
 Mar. 10, 2024
 	* https://console.firebase.google.com/u/0/project/delsa-profiling/storage/usage/current-billing/total_bytes -> I need to check my firebase console for changes since I've added 
