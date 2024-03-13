@@ -10,6 +10,7 @@ Mar. 13, 2024
         * Tried editing auth.ts under the lib directory in an effort to make the profile page not be a protected path but it turns out the middleware.ts is the one in control of this.
 		I commented out the profile part and it worked. It seems redundant to put the callbacks protected paths in auth.ts when there it is in middleware.ts
 	* I finally found out why the Mongo database for next-amazona keeps on resetting and it's because of the code in api/poducts/seed/route.ts -> I edited it now to my liking.
+	* At this point, I could just ditch the protected paths in middleware and use localstorage to permit whether pages like shipping, payment etc. should be displayed.
 
 Mar. 10, 2024
 	* https://console.firebase.google.com/u/0/project/delsa-profiling/storage/usage/current-billing/total_bytes -> I need to check my firebase console for changes since I've added 
