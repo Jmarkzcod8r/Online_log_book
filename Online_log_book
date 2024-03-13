@@ -7,6 +7,8 @@ Mar. 13, 2024
 	* There is a post that says that one way to solve the issue I have with the session is to use axios and not just fetch.
 	* Ever since I tried 'pnpm run build', my vercel production has been in shambles. After some modifications, bringing back the
 		authorize at auth.tsx did the trick.
+        * Tried editing auth.ts under the lib directory in an effort to make the profile page not be a protected path but it turns out the middleware.ts is the one in control of this.
+		I commented out the profile part and it worked. It seems redundant to put the callbacks protected paths in auth.ts when there it is in middleware.ts
 
 Mar. 10, 2024
 	* https://console.firebase.google.com/u/0/project/delsa-profiling/storage/usage/current-billing/total_bytes -> I need to check my firebase console for changes since I've added 
