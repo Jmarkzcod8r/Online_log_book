@@ -4,6 +4,7 @@ Mar. 13, 2024
 	* My users collection seems to be malfunctioning. I deleted the two original entries but they came back after.
 	* I may try to use redis at my ecommerce website saving the user edit and then saving it to Mongodb.
 	* I'll make the argument that unless you're building a multi-user website, redis is the only database you need.
+	* There is a post that says that one way to solve the issue I have with the session is to use axios and not just fetch.
 
 Mar. 10, 2024
 	* https://console.firebase.google.com/u/0/project/delsa-profiling/storage/usage/current-billing/total_bytes -> I need to check my firebase console for changes since I've added 
