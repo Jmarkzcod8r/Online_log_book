@@ -10,7 +10,8 @@ Mar. 14, 2023
             his own store etc.
         * I also need to make a button for the user to make his own store and for him to select which things he will sell like food, gadgets, real estate,
             cars, etc.
-        * I need a safe guard code so that no alcohol etc. will be sold
+        * I need a safe guard code so that no alcohol etc. will be sold.
+	* I seem to having some problems with imagekit as of the moment. There aren't much detailed tutorials on youtube.
 
 Mar. 13, 2024
 	* I ought to integrate partyjs to devjourn.com to make it even faster.
