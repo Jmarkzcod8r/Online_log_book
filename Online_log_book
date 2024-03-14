@@ -17,6 +17,7 @@ Mar. 14, 2023
 	* imageUpload -> possibly null -> fix this issue by using an if conditional if (imageUpload) { ... }
 	* It's good to know I've establish connection to firebase storage with the next-amazona app now thanks also to listAll.
 	* I'm more closer to making a crud component on the images of my e-commerce next-amazona web app.
+	* Can't believe how easy it is to upload to firebase storage for pics only using the client side.
 
 Mar. 13, 2024
 	* I ought to integrate partyjs to devjourn.com to make it even faster.
