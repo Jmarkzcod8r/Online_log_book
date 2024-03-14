@@ -16,6 +16,7 @@ Mar. 14, 2023
 	* I am reminded the the <input/> returns at type object.
 	* imageUpload -> possibly null -> fix this issue by using an if conditional if (imageUpload) { ... }
 	* It's good to know I've establish connection to firebase storage with the next-amazona app now thanks also to listAll.
+	* I'm more closer to making a crud component on the images of my e-commerce next-amazona web app.
 
 Mar. 13, 2024
 	* I ought to integrate partyjs to devjourn.com to make it even faster.
