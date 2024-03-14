@@ -5,6 +5,12 @@ Mar. 14, 2023
 	* I may need to add a gcash option in the payment system.
 	* https://next-amazona-phi-murex.vercel.app/ -> I also need to add a clear button for the cart page.
         * I also need to add a sortable and draggable feature in the cards maybe after I configure the images.
+        * In the mongodb collection of users, I may need to add another property which is store which have a type of null or a string to 
+            to point out to the name of the store of the user if ever he has one. This correspons to the sign-in on which he will be redirected
+            his own store etc.
+        * I also need to make a button for the user to make his own store and for him to select which things he will sell like food, gadgets, real estate,
+            cars, etc.
+        * I need a safe guard code so that no alcohol etc. will be sold
 
 Mar. 13, 2024
 	* I ought to integrate partyjs to devjourn.com to make it even faster.
