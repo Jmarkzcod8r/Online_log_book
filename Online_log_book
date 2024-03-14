@@ -4,6 +4,7 @@ Mar. 14, 2023
 	* When editing the quantity of in the cart page, the `+` button is functional while the `-` is conflicting with the other items.
 	* I may need to add a gcash option in the payment system.
 	* https://next-amazona-phi-murex.vercel.app/ -> I also need to add a clear button for the cart page.
+        * I also need to add a sortable and draggable feature in the cards maybe after I configure the images.
 
 Mar. 13, 2024
 	* I ought to integrate partyjs to devjourn.com to make it even faster.
