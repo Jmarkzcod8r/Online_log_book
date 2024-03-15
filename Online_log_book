@@ -1,6 +1,7 @@
 Mar. 15, 2024
         * Got an error in my vercel deployment on next-amazona. Apparently, I should have performed git add, commit and push on a higher directory.
 	* Sometimes, I encounter an error with `pnpm install` and when I do I revert back to `npm install` which seems to work most of the time.
+	* ERR_PNPM_OUTDATED_LOCKFILE Cannot install with "frozen-lockfile" -> Encountered this error a while ago and tried npm install and npm run build
 
 Mar. 14, 2024
 	* Apparently, you can trigger a back-end to run with curl http://localhost:3000/api/products/seed etc. but you need two terminals for this one with one running 
