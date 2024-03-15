@@ -3,15 +3,18 @@ Mar. 15, 2024
 	* Sometimes, I encounter an error with `pnpm install` and when I do I revert back to `npm install` which seems to work most of the time.
 	* ERR_PNPM_OUTDATED_LOCKFILE Cannot install with "frozen-lockfile" -> Encountered this error a while ago and tried npm install and npm run build
 	* `pnpm run build` -> I wanted vercel to not use this command and it turned out that by deleting pnpm-lock.ysml file, you can prevent this.
-	* With  a directory of api/addPhoto/route.ts -> This is how to get the request properly:
-		import { NextResponse } from "next/server";
-		export async function POST(req) {
+	* With  a directory of api/addPPhoto/route.ts -> This is how to get the request properly:
+	* This simple backend enables us to validate if our data is reaching the backend.
+		import { NextResponse , NextRequest } from "next/server";
+		
+		export async function POST(req: NextRequest) {
+  			const data = await req.json()
 		  try {
-    			console.log('Received request:', req.body);
-    			return NextResponse.json({ success: true });
-  		} catch (err) {
+    			console.log('Received data', data);
+			return NextResponse.json({ success: true });
+  			} catch (err) {
     			console.log(err)
-  				}
+  			    }
 			}
 
 Mar. 14, 2024
