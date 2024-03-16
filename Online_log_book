@@ -1,3 +1,8 @@
+Mar. 16, 2024
+	* I guess one way to make unique properties of an object all the more unique is to add a timestamp aside from the uuid. I've only
+		use uuid for unique names of pictures to be stored in firebase but I guess I can and maybe should use if for the slug 
+		property of the pics.
+
 Mar. 15, 2024
         * Got an error in my vercel deployment on next-amazona. Apparently, I should have performed git add, commit and push on a higher directory.
 	* Sometimes, I encounter an error with `pnpm install` and when I do I revert back to `npm install` which seems to work most of the time.
