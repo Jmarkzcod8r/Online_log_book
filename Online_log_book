@@ -1,3 +1,8 @@
+Mar. 17, 2024
+	* Git bash -> This is like the terminal for windows.
+	* Made a simple repository since I finally have a code that converts png/jpg etc. files to webp images.
+		https://github.com/Jmarkzcod8r/Convert-Webp
+
 Mar. 16, 2024
 	* I guess one way to make unique properties of an object all the more unique is to add a timestamp aside from the uuid. I've only
 		use uuid for unique names of pictures to be stored in firebase but I guess I can and maybe should use if for the slug 
