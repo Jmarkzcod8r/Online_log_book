@@ -2,6 +2,7 @@ Mar. 17, 2024
 	* Git bash -> This is like the terminal for windows.
 	* Made a simple repository since I finally have a code that converts png/jpg etc. files to webp images.
 		https://github.com/Jmarkzcod8r/Convert-Webp
+	* Sometimes, I get an error in typescript that says 'possibly  null'. In such cases, I just made a contion if (...) {....}
 
 Mar. 16, 2024
 	* I guess one way to make unique properties of an object all the more unique is to add a timestamp aside from the uuid. I've only
