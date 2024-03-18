@@ -3,6 +3,7 @@ Mar. 19, 2024
 	* Vercel seems to be not so friendly when it comes to Auth. I think incorporating zustand to localStorage makes your global states faster.
 	* Made an account to developer.visa. I wondered how Shoppee was able to make a reiable payment system with visa and I think I got the answer when
 		I saw an article of how they partnered with Visa. I think I need a lot of rock-ferences for this though.
+	* I think it's gonna be more challenging  developing with visa API since there aren't a lot of videos related to it on youtube.
 
 Mar. 18, 2024
 	* Continued working on e-commerce web app. Still, not able to make a code to auto convert pics to webp before sending to firebase.	
