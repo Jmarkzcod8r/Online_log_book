@@ -7,6 +7,7 @@ mar. 18, 2023
 	* I finally was able to store a blob to firebase and it was really a lot of strings. Right now, I have yet to fully convert a JPG/PNG pic file
 		to webp and then pushing it to firebase storage.
 	* Still not into buying useSWR for now. It says that it acts like a small cache but I think you can simply use axios instead of it.
+	* Vercel seems to be not so friendly when it comes to Auth. I think incorporating zustand to localStorage makes your global states faster.
 
 Mar. 17, 2024
 	* Git bash -> This is like the terminal for windows.
