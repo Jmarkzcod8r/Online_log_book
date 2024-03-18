@@ -1,6 +1,11 @@
 mar. 18, 2023
 	* Continued working on e-commerce web app. Still, not able to make a code to auto convert pics to webp before sending to firebase.	
 	* I got to remember  that a GET in the back-end is a stand-alone and does not necessarily need a request from the front-end
+	* I should really have a nail cutter in my backpack. Okay, back to coding, One of the issues I get on vercel is that next next-auth seems
+		to be not working properly. One of the solutions I can very much well relate is using fetch and in one solution,  using axios instead
+		resolved this issue.
+	* I finally was able to store a blob to firebase and it was really a lot of strings. Right now, I have yet to fully convert a JPG/PNG pic file
+		to webp and then pushing it to firebase storage.
 
 Mar. 17, 2024
 	* Git bash -> This is like the terminal for windows.
