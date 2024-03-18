@@ -1,5 +1,6 @@
 mar. 18, 2023
-	* Continued working on e-commerce web app. Still, not able to make a code to auto convert pics to webp before sending to firebase.
+	* Continued working on e-commerce web app. Still, not able to make a code to auto convert pics to webp before sending to firebase.	
+	* I got to remember  that a GET in the back-end is a stand-alone and does not necessarily need a request from the front-end
 
 Mar. 17, 2024
 	* Git bash -> This is like the terminal for windows.
