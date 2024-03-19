@@ -1,6 +1,6 @@
 Mar. 20, 20204
 	* const [req, {params}] = request -> request contains the id to use in [id] for dynamic routing. The dynamic api route's directory
-		is determined by the specific property in the payload. 
+		is determined by the specific property in the payload. I think it's either GET or POST but in this case, it is a post method.
 
 Mar. 19, 2024
 	* Still not into buying useSWR for now. It says that it acts like a small cache but I think you can simply use axios instead of it.
