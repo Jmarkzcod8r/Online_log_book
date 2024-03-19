@@ -1,3 +1,7 @@
+Mar. 20, 20204
+	* const [req, {params}] = request -> request contains the id to use in [id] for dynamic routing. The dynamic api route's directory
+		is determined by the specific property in the payload. 
+
 Mar. 19, 2024
 	* Still not into buying useSWR for now. It says that it acts like a small cache but I think you can simply use axios instead of it.
 	* Vercel seems to be not so friendly when it comes to Auth. I think incorporating zustand to localStorage makes your global states faster.
