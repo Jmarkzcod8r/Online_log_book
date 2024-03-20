@@ -12,6 +12,7 @@ Mar. 21, 2024
 	* Both Image and img is useful in NextJs.
 	* Downloaded POSTMAN just like i the tutorial video of VISA but wasn''t able to follow through much. Still, it's a step forward. What sparked my interest is that apparently, one can
 		make a riding app with Visa as a payment system.
+	* If I am to be good with this VISA api, then I guess I need to first master the basic of running a  query.
 
 Mar. 20, 20204
 	* const [req, {params}] = request -> request contains the id to use in [id] for dynamic routing. The dynamic api route's directory
