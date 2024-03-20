@@ -2,6 +2,8 @@ Mar. 21, 2024
 	* Finally was able to fix the code to convert jpg/png pic files to webp before even uploading to firebase. I also made changes to the makeslug function by
 		adding a timestamp to the slug. 
 	* I reverted back to not using time stamp in slug.
+	* Brought back timestamp in slug since it turned out, the web app malfunctioned sincee the image source is not directed at firebase. That was why  the image:"blob:http:\\"
+		went something like that.
 
 Mar. 20, 20204
 	* const [req, {params}] = request -> request contains the id to use in [id] for dynamic routing. The dynamic api route's directory
