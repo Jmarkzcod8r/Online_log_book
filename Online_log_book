@@ -10,7 +10,8 @@ Mar. 21, 2024
                 setPhotoref(url); ===> This is an example of how to upload pics to firebase storage. In `ref(storage,`images...etc`` the `images` if the folder to contain the pics.
 		In the event that such a folder does not exist, firebase will make one for us.
 	* Both Image and img is useful in NextJs.
-	* Downloaded POSTMAN just like i the tutorial video of VISA but wasn''t able to follow through much. Still, it's a step forward.
+	* Downloaded POSTMAN just like i the tutorial video of VISA but wasn''t able to follow through much. Still, it's a step forward. What sparked my interest is that apparently, one can
+		make a riding app with Visa as a payment system.
 
 Mar. 20, 20204
 	* const [req, {params}] = request -> request contains the id to use in [id] for dynamic routing. The dynamic api route's directory
