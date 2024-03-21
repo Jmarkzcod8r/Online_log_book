@@ -16,6 +16,8 @@ Mar. 21, 2024
         * One of the common use of useEffect is that it is a way to get data after the page has loaded but on working with next-amazona web app using useSWR is more recommended.
         * I should add a 'Make Store' options in the dropdown menu when someone has already signed in and then it'll redirect to a page that has a form to set the properties of the store. 
              This means I'll need a StoreModel with a schema and type annotations for typescript. Unique key would be the email. I am remined to add a firebase authentication with google.
+        * In a route like app/order/[id] -> dynamic means as long as there is an id whatsorver, the page will load and then the client is able to send req. to the backend by getting the [id]
+              using router.query() and params.id,. the id can then be use in the payload for the req. Dynamic routes often then has a backend utiling the [id] from the req. payload
 
 Mar. 20, 20204
 	* const [req, {params}] = request -> request contains the id to use in [id] for dynamic routing. The dynamic api route's directory
