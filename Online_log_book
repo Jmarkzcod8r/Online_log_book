@@ -1,6 +1,11 @@
 Mar. 24, 2024
 	* Also encountered posting new property of enrty @ Mongodb but resetting npm run dev did the trick.
 	* I'm quite delighted with the progress I made with my e-commerce site but this time I made a basic version.
+	* warning: adding embedded git repository: Pi-hole
+		hint: You've added another git repository inside your current repository.
+		hint: Clones of the outer repository will not contain the contents of
+		hint: the embedded repository and will not know how to obtain it. --> encountered this issue so I proceeded to make a new repo as basic
+				next-amazona
 
 Mar. 23, 2024
 	* My e-commerce website is looking bette than ever. But still, there are many things to settle. In the processing system, I should change
