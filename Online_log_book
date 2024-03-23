@@ -16,6 +16,8 @@ Mar. 23, 2024
 	* I could simply rename gansanshop to gensansweets.com -> sweet delicacies to try here in Gensan for your general convenience ->
 	* I think using my BDO visa debit account is not that all recommended.
 	* I think what I can do is make a basic version of the e-commerce I am working on right now.
+	* Encountered the error with emphasized item once again but this time resetting `npm run dev` didn't work. Resetting vscode did.
+	* The description provided by chatgpt offered some good beef for my site sample products 
 
 Mar. 21, 2024
 	* Finally was able to fix the code to convert jpg/png pic files to webp before even uploading to firebase. I also made changes to the makeslug function by
