@@ -1,3 +1,15 @@
+Mar. 23, 2024
+* My e-commerce website is looking bette than ever. But still, there are many things to settle. In the processing system, I should change
+	the process to make it ask for the payment system first like In-person,Gcash, paypal etc. I'm gonna need to make a superadmin for 
+	me to be able to utilize the sandbox for the paypal api. For now, I'm gonna allow the in-person and gcash transaction. This means,
+	I may need to set a default shipping address configuration at the back-end since the shipping address data is required as a catchbasin
+	since I may not be sending such to the back-end in most cases.
+* I think I'm gonna need to make the homepage as more of a summary. The seaerch function will be retained as I have yet to integrate it with
+	redis. Also, there will be featured products and featured photos. I think I need also to make a photo profile aside Next-Amazona
+* When it comes to my portfolio these are my side projects: e-commerce website integrated with paypal API, journal web app w/ firebase google
+	authentication, redis and Mongodb instegration, Data Gathering statistics, Firebase-react bible quiz web app, Django photo gallery,
+	simple 2D HTML game and Python auto-uploaded to Red bubble Uploaded, Google Sheets to chart, ==> (8) in total -> Not bad.
+
 Mar. 22, 2024
 	* Had an initial problem with posting a StorModel to Mongodb but got through it by resetting 'npm run dev'
 	* Also had an initial issue with `emphasized items` in the folders section but resolved with CTRL+SHIFT+P reload window.
