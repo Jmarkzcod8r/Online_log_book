@@ -14,6 +14,7 @@ Mar. 23, 2024
 		* Had an initial problem with posting a StorModel to Mongodb but got through it by resetting 'npm run dev'
 		* Also had an initial issue with `emphasized items` in the folders section but resolved with CTRL+SHIFT+P reload window.
 	* I could simply rename gansanshop to gensansweets.com -> sweet delicacies to try here in Gensan for your general convenience ->
+
 Mar. 21, 2024
 	* Finally was able to fix the code to convert jpg/png pic files to webp before even uploading to firebase. I also made changes to the makeslug function by
 		adding a timestamp to the slug. 
