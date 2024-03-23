@@ -1,3 +1,6 @@
+Mar. 24, 2024
+	* Also encountered posting new property of enrty @ Mongodb but resetting npm run dev did the trick.
+
 Mar. 23, 2024
 	* My e-commerce website is looking bette than ever. But still, there are many things to settle. In the processing system, I should change
 		the process to make it ask for the payment system first like In-person,Gcash, paypal etc. I'm gonna need to make a superadmin for 
