@@ -6,6 +6,9 @@ Mar. 24, 2024
 		hint: Clones of the outer repository will not contain the contents of
 		hint: the embedded repository and will not know how to obtain it. --> encountered this issue so I proceeded to make a new repo as basic
 				next-amazona
+	*   const [storeNames, setStoreNames] = useState<string[]>([]); // This resolve the issue of arument 
+                                      //type string not assignable to type never.
+	* I think I also should add the user email in the store json.
 
 Mar. 23, 2024
 	* My e-commerce website is looking bette than ever. But still, there are many things to settle. In the processing system, I should change
