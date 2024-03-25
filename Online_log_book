@@ -1,6 +1,16 @@
 Mar. 25, 2024
 	* Resorted to using div, Link w/ target="_blank" and tailwind in simulating a dropdown menu instead.
 	* Between using the url to get data or localStorage, I have yet to fully master
+	* Had a bit of an issue on my backend. This is how to console.log the payload.. using this format..
+		import { NextRequest } from 'next/server'
+
+		export async function POST(req: NextRequest) {
+			 	const payload = await req.json()
+			        console.log(`payload`, payload)
+			  return Response.json({ message: 'jasd' });
+			}
+	* Also, I finally have a good idea how to make the input field prettier when it comes to uplaoding files and that is 
+		by setting mainly the input to hidden.
 
 Mar. 24, 2024
 	* Also encountered posting new property of enrty @ Mongodb but resetting npm run dev did the trick.
