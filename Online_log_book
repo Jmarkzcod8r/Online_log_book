@@ -1,5 +1,6 @@
 Mar. 25, 2024
 	* Resorted to using div, Link w/ target="_blank" and tailwind in simulating a dropdown menu instead.
+	* Between using the url to get data or localStorage, I have yet to fully master
 
 Mar. 24, 2024
 	* Also encountered posting new property of enrty @ Mongodb but resetting npm run dev did the trick.
