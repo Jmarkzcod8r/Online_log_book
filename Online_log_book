@@ -1,5 +1,5 @@
 Mar. 25, 2024
-	* Resorted to using div, Link and tailwind in simulating a dropdown menu instead.
+	* Resorted to using div, Link w/ target="_blank" and tailwind in simulating a dropdown menu instead.
 
 Mar. 24, 2024
 	* Also encountered posting new property of enrty @ Mongodb but resetting npm run dev did the trick.
