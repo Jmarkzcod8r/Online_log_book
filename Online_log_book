@@ -1,3 +1,6 @@
+Mar. 25, 2024
+	* Resorted to using div, Link and tailwind in simulating a dropdown menu instead.
+
 Mar. 24, 2024
 	* Also encountered posting new property of enrty @ Mongodb but resetting npm run dev did the trick.
 	* I'm quite delighted with the progress I made with my e-commerce site but this time I made a basic version.
