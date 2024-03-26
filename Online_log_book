@@ -16,6 +16,10 @@ Mar. 25, 2024
 			const DeleteButton = async(slug) => {.... and is paired with 
 			     <Delete slug={params.slug}/> in the parent page --> Trying to iuse ProductService to delete by met with errors
 		so I guess I'll be using the back-end.
+	*  	const storesFromLocal = localStorage.getItem('stores');
+		const storesArray = storesFromLocal?.split(",") ?? [];
+		console.log(`storesArray`, storesArray);
+		setStores(storesArray);    ---> This code example resolves possibly null issue
 
 Mar. 24, 2024
 	* Also encountered posting new property of enrty @ Mongodb but resetting npm run dev did the trick.
