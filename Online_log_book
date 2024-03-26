@@ -8,6 +8,7 @@ Mar. 26, 2024
 		const storesArray = storesFromLocal?.split(",") ?? [];
 		console.log(`storesArray`, storesArray);
 		setStores(storesArray);    ---> This code example resolves possibly null issue
+	* I am today years old when I've notice that there is active branches uoder the production. I got to try it in the future.
 
 Mar. 25, 2024
 	* Resorted to using div, Link w/ target="_blank" and tailwind in simulating a dropdown menu instead.
