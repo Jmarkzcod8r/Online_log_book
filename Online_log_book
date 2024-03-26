@@ -1,3 +1,14 @@
+Mar. 26, 2024
+	* Had to make a component that uses 'use client' sincce putting it directly on the product/[id] page poduces an error.
+			const DeleteButton = async({slug}) => {... this is the way to go and not this
+			const DeleteButton = async(slug) => {.... and is paired with 
+			     <Delete slug={params.slug}/> in the parent page --> Trying to iuse ProductService to delete by met with errors
+		so I guess I'll be using the back-end.
+	*  	const storesFromLocal = localStorage.getItem('stores');
+		const storesArray = storesFromLocal?.split(",") ?? [];
+		console.log(`storesArray`, storesArray);
+		setStores(storesArray);    ---> This code example resolves possibly null issue
+
 Mar. 25, 2024
 	* Resorted to using div, Link w/ target="_blank" and tailwind in simulating a dropdown menu instead.
 	* Between using the url to get data or localStorage, I have yet to fully master
@@ -11,15 +22,7 @@ Mar. 25, 2024
 			}
 	* Also, I finally have a good idea how to make the input field prettier when it comes to uplaoding files and that is 
 		by setting mainly the input to hidden.
-	* Had to make a component that uses 'use client' sincce putting it directly on the product/[id] page poduces an error.
-			const DeleteButton = async({slug}) => {... this is the way to go and not this
-			const DeleteButton = async(slug) => {.... and is paired with 
-			     <Delete slug={params.slug}/> in the parent page --> Trying to iuse ProductService to delete by met with errors
-		so I guess I'll be using the back-end.
-	*  	const storesFromLocal = localStorage.getItem('stores');
-		const storesArray = storesFromLocal?.split(",") ?? [];
-		console.log(`storesArray`, storesArray);
-		setStores(storesArray);    ---> This code example resolves possibly null issue
+	
 
 Mar. 24, 2024
 	* Also encountered posting new property of enrty @ Mongodb but resetting npm run dev did the trick.
