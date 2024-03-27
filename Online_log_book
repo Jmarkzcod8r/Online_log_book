@@ -1,3 +1,6 @@
+Mar. 27, 2024
+	* I may want to go back practicing some code problemss in preparatino for any interview.
+
 Mar. 26, 2024
 	* Had to make a component that uses 'use client' sincce putting it directly on the product/[id] page poduces an error.
 			const DeleteButton = async({slug}) => {... this is the way to go and not this
