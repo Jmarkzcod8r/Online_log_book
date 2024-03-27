@@ -1,452 +1,452 @@
-* I'm starting from scratch with Django as my formet files were nonfunctional.
-* This is a good reference for learning Django.. https://realpython.com/django-todo-lists/
+# * I'm starting from scratch with Django as my formet files were nonfunctional.
+# * This is a good reference for learning Django.. https://realpython.com/django-todo-lists/
 
-(1) django-admin startproject todo_project 
-(2) django-admin startapp todo_app
-(3) # todo_list/todo_project/settings.py
-	INSTALLED_APPS = [
-    "django.contrib.admin",
-    "django.contrib.auth",
-    "django.contrib.contenttypes",
-    "django.contrib.sessions",
-    "django.contrib.messages",
-    "django.contrib.staticfiles",
-    "todo_app", ---> Add this one
-				]
-	...Add todo_app in INSTALLED_APPS
-(4) # todo_list/todo_project/urls.py
-	from django.contrib import admin
-	from django.urls import include, path  ---> Add this one
+# (1) django-admin startproject todo_project
+# (2) django-admin startapp todo_app
+# (3) # todo_list/todo_project/settings.py
+# 	INSTALLED_APPS = [
+#     "django.contrib.admin",
+#     "django.contrib.auth",
+#     "django.contrib.contenttypes",
+#     "django.contrib.sessions",
+#     "django.contrib.messages",
+#     "django.contrib.staticfiles",
+#     "todo_app", ---> Add this one
+# 				]
+# 	...Add todo_app in INSTALLED_APPS
+# (4) # todo_list/todo_project/urls.py
+# 	from django.contrib import admin
+# 	from django.urls import include, path  ---> Add this one
 
-	urlpatterns = [
-		    path("admin/", admin.site.urls),
-		    path("", include("todo_app.urls"))	---> Add this one
-					]
-	...Modify to be the same as above.
-(5) # todo_list/todo_app/urls.py
-		urlpatterns = [
-					]
-	... Add urls.py to directory above.
-(6) # todo_list/todo_app/models.py
+# 	urlpatterns = [
+# 		    path("admin/", admin.site.urls),
+# 		    path("", include("todo_app.urls"))	---> Add this one
+# 					]
+# 	...Modify to be the same as above.
+# (5) # todo_list/todo_app/urls.py
+# 		urlpatterns = [
+# 					]
+# 	... Add urls.py to directory above.
+# (6) # todo_list/todo_app/models.py
 
-	from django.utils import timezone
-	from django.db import models
-	from django.urls import reverse
+# 	from django.utils import timezone
+# 	from django.db import models
+# 	from django.urls import reverse
 
-	def one_week_hence():
-	    return timezone.now() + timezone.timedelta(days=7)
+# 	def one_week_hence():
+# 	    return timezone.now() + timezone.timedelta(days=7)
 
-	class ToDoList(models.Model):
-	    title = models.CharField(max_length=100, unique=True)
-	    
-	    def get_absolute_url(self):
-		return reverse("list", args=[self.id])
-		
-	    def __str__(self):
-		return self.title
+# 	class ToDoList(models.Model):
+# 	    title = models.CharField(max_length=100, unique=True)
 
-	class ToDoItem(models.Model):
+# 	    def get_absolute_url(self):
+# 		return reverse("list", args=[self.id])
 
-	    title = models.CharField(max_length=100)
-	    description = models.TextField(null=True, blank=True)
-	    created_date = models.DateTimeField(auto_now_add=True)
-	    due_date = models.DateTimeField(default=one_week_hence)
-	    todo_list = models.ForeignKey(ToDoList, on_delete=models.CASCADE)
+# 	    def __str__(self):
+# 		return self.title
 
-	    def get_absolute_url(self):
-		return reverse(
-		    "item-update", args=[str(self.todo_list.id), str(self.id)]
-		)
+# 	class ToDoItem(models.Model):
 
-	    def __str__(self):
-		return f"{self.title}: due {self.due_date}"
+# 	    title = models.CharField(max_length=100)
+# 	    description = models.TextField(null=True, blank=True)
+# 	    created_date = models.DateTimeField(auto_now_add=True)
+# 	    due_date = models.DateTimeField(default=one_week_hence)
+# 	    todo_list = models.ForeignKey(ToDoList, on_delete=models.CASCADE)
 
-	    class Meta:
-		ordering = ["due_date"]
-	...Modify same as above
-(7) Create the database:
-	(venv) C:\> python manage.py makemigrations todo_app
-	(venv) C:\> python manage.py migrate
-(8) Meet the Django Admin Interface
-	To use the admin interface, you should have a superuser. This will be someone with extraordinary powers who can be trusted with the 		
-	keys to the whole Django server. Does this sound like you? Create your new superuser now:
-	(venv) C:\> python manage.py createsuperuser ---> Jmarkz08
-(9) 	from django.contrib import admin
-	from todo_app.models import ToDoItem, ToDoList
+# 	    def get_absolute_url(self):
+# 		return reverse(
+# 		    "item-update", args=[str(self.todo_list.id), str(self.id)]
+# 		)
 
-	admin.site.register(ToDoItem)
-	admin.site.register(ToDoList)
-(10) # todo_list/todo_app/views.py
-	from django.views.generic import ListView
-	from .models import ToDoList
+# 	    def __str__(self):
+# 		return f"{self.title}: due {self.due_date}"
 
-	class ListListView(ListView):
-	    model = ToDoList
-	    template_name = "todo_app/index.html"
-(11) Create a Base Template
-	Create a new folder inside the todo_app/ directory named templates/. Now add a new file to this folder. You can call it base.html. 
-	Create your base template:
-	...Fix error with this format: onclick=location.href="{% url 'list' todolist.id %}">
-(12) # todo_list/todo_app/urls.py
-	from django.urls import path
-	from . import views
+# 	    class Meta:
+# 		ordering = ["due_date"]
+# 	...Modify same as above
+# (7) Create the database:
+# 	(venv) C:\> python manage.py makemigrations todo_app
+# 	(venv) C:\> python manage.py migrate
+# (8) Meet the Django Admin Interface
+# 	To use the admin interface, you should have a superuser. This will be someone with extraordinary powers who can be trusted with the
+# 	keys to the whole Django server. Does this sound like you? Create your new superuser now:
+# 	(venv) C:\> python manage.py createsuperuser ---> Jmarkz08
+# (9) 	from django.contrib import admin
+# 	from todo_app.models import ToDoItem, ToDoList
 
-	urlpatterns = [
-	    path("", views.ListListView.as_view(), name="index"), ]
-(13) # todo_list/todo_app/views.py
+# 	admin.site.register(ToDoItem)
+# 	admin.site.register(ToDoList)
+# (10) # todo_list/todo_app/views.py
+# 	from django.views.generic import ListView
+# 	from .models import ToDoList
 
-	from django.views.generic import ListView
-	from .models import ToDoList, ToDoItem
+# 	class ListListView(ListView):
+# 	    model = ToDoList
+# 	    template_name = "todo_app/index.html"
+# (11) Create a Base Template
+# 	Create a new folder inside the todo_app/ directory named templates/. Now add a new file to this folder. You can call it base.html.
+# 	Create your base template:
+# 	...Fix error with this format: onclick=location.href="{% url 'list' todolist.id %}">
+# (12) # todo_list/todo_app/urls.py
+# 	from django.urls import path
+# 	from . import views
 
-	class ListListView(ListView):
-	    model = ToDoList
-	    template_name = "todo_app/index.html"
+# 	urlpatterns = [
+# 	    path("", views.ListListView.as_view(), name="index"), ]
+# (13) # todo_list/todo_app/views.py
 
-	class ItemListView(ListView):
-	    model = ToDoItem
-	    template_name = "todo_app/todo_list.html"
+# 	from django.views.generic import ListView
+# 	from .models import ToDoList, ToDoItem
 
-	    def get_queryset(self):
-		return ToDoItem.objects.filter(todo_list_id=self.kwargs["list_id"])
+# 	class ListListView(ListView):
+# 	    model = ToDoList
+# 	    template_name = "todo_app/index.html"
 
-	    def get_context_data(self):
-		context = super().get_context_data()
-		context["todo_list"] = ToDoList.objects.get(id=self.kwargs["list_id"])
-		return context
-(14) <!-- todo_list/todo_app/templates/todo_app/todo_list.html -->
-	{% extends "base.html" %}
-	{% block content %}
+# 	class ItemListView(ListView):
+# 	    model = ToDoItem
+# 	    template_name = "todo_app/todo_list.html"
 
-	<div>
-	    <div>
-		<div>
-		    <h3>Edit list:</h3>
-		    <h5>{{ todo_list.title | upper }}</h5>
-		</div>
-		<ul>
-		    {% for todo in object_list %}
-		    <li>
-		        <div>
-		            <div
-		                role="button"
-		                onclick="location.href='#'">
-		                {{ todo.title }}
-		                (Due {{ todo.due_date | date:"l, F j" }})
-		            </div>
-		        </div>
-		    </li>
-		    {% empty %}
-		    <p>There are no to-do items in this list.</p>
-		    {% endfor %}
-		</ul>
-		<p>
-		    <input
-		        value="Add a new item"
-		        type="button"
-		        onclick="location.href='#'" />
-		</p>
-	    </div>
-	</div>
-	{% endblock %}
-(15) # todo_list/todo_app/urls.py
-	from django.urls import path
-	from . import views
+# 	    def get_queryset(self):
+# 		return ToDoItem.objects.filter(todo_list_id=self.kwargs["list_id"])
 
-	urlpatterns = [
-	    path("",views.ListListView.as_view(), name="index"),
-	    path("list/<int:list_id>/",views.ItemListView.as_view(), name="list"),
-				]
-(16) # todo_list/todo_app/views.py
-	from django.urls import reverse
-	from django.views.generic import (
-	    ListView,
-	    CreateView,
-	    UpdateView,
-	)
+# 	    def get_context_data(self):
+# 		context = super().get_context_data()
+# 		context["todo_list"] = ToDoList.objects.get(id=self.kwargs["list_id"])
+# 		return context
+# (14) <!-- todo_list/todo_app/templates/todo_app/todo_list.html -->
+# 	{% extends "base.html" %}
+# 	{% block content %}
 
-	from .models import ToDoItem, ToDoList
-	class ListListView(ListView):
-	    model = ToDoList
-	    template_name = "todo_app/index.html"
+# 	<div>
+# 	    <div>
+# 		<div>
+# 		    <h3>Edit list:</h3>
+# 		    <h5>{{ todo_list.title | upper }}</h5>
+# 		</div>
+# 		<ul>
+# 		    {% for todo in object_list %}
+# 		    <li>
+# 		        <div>
+# 		            <div
+# 		                role="button"
+# 		                onclick="location.href='#'">
+# 		                {{ todo.title }}
+# 		                (Due {{ todo.due_date | date:"l, F j" }})
+# 		            </div>
+# 		        </div>
+# 		    </li>
+# 		    {% empty %}
+# 		    <p>There are no to-do items in this list.</p>
+# 		    {% endfor %}
+# 		</ul>
+# 		<p>
+# 		    <input
+# 		        value="Add a new item"
+# 		        type="button"
+# 		        onclick="location.href='#'" />
+# 		</p>
+# 	    </div>
+# 	</div>
+# 	{% endblock %}
+# (15) # todo_list/todo_app/urls.py
+# 	from django.urls import path
+# 	from . import views
 
-	class ItemListView(ListView):
-	    model = ToDoItem
-	    template_name = "todo_app/todo_list.html"
+# 	urlpatterns = [
+# 	    path("",views.ListListView.as_view(), name="index"),
+# 	    path("list/<int:list_id>/",views.ItemListView.as_view(), name="list"),
+# 				]
+# (16) # todo_list/todo_app/views.py
+# 	from django.urls import reverse
+# 	from django.views.generic import (
+# 	    ListView,
+# 	    CreateView,
+# 	    UpdateView,
+# 	)
 
-	    def get_queryset(self):
-		return ToDoItem.objects.filter(todo_list_id=self.kwargs["list_id"])
+# 	from .models import ToDoItem, ToDoList
+# 	class ListListView(ListView):
+# 	    model = ToDoList
+# 	    template_name = "todo_app/index.html"
 
-	    def get_context_data(self):
-		context = super().get_context_data()
-		context["todo_list"] = ToDoList.objects.get(id=self.kwargs["list_id"])
-		return context
+# 	class ItemListView(ListView):
+# 	    model = ToDoItem
+# 	    template_name = "todo_app/todo_list.html"
 
-	class ListCreate(CreateView):
-	    model = ToDoList
-	    fields = ["title"]
-	    
-	    def get_context_data(self):
-		context = super(ListCreate, self).get_context_data()
-		context["title"] = "Add a new list"
-		return context
+# 	    def get_queryset(self):
+# 		return ToDoItem.objects.filter(todo_list_id=self.kwargs["list_id"])
 
-	class ItemCreate(CreateView):
-	    model = ToDoItem
-	    fields = [
-		"todo_list",
-		"title",
-		"description",
-		"due_date",
-	    ]
+# 	    def get_context_data(self):
+# 		context = super().get_context_data()
+# 		context["todo_list"] = ToDoList.objects.get(id=self.kwargs["list_id"])
+# 		return context
 
-	    def get_initial(self):
-		initial_data = super(ItemCreate, self).get_initial()
-		todo_list = ToDoList.objects.get(id=self.kwargs["list_id"])
-		initial_data["todo_list"] = todo_list
-		return initial_data
+# 	class ListCreate(CreateView):
+# 	    model = ToDoList
+# 	    fields = ["title"]
 
-	    def get_context_data(self):
-		context = super(ItemCreate, self).get_context_data()
-		todo_list = ToDoList.objects.get(id=self.kwargs["list_id"])
-		context["todo_list"] = todo_list
-		context["title"] = "Create a new item"
-		return context
+# 	    def get_context_data(self):
+# 		context = super(ListCreate, self).get_context_data()
+# 		context["title"] = "Add a new list"
+# 		return context
 
-	    def get_success_url(self):
-		return reverse("list", args=[self.object.todo_list_id])
+# 	class ItemCreate(CreateView):
+# 	    model = ToDoItem
+# 	    fields = [
+# 		"todo_list",
+# 		"title",
+# 		"description",
+# 		"due_date",
+# 	    ]
 
-	class ItemUpdate(UpdateView):
-	    model = ToDoItem
-	    fields = [
-		"todo_list",
-		"title",
-		"description",
-		"due_date",
-	    ]
+# 	    def get_initial(self):
+# 		initial_data = super(ItemCreate, self).get_initial()
+# 		todo_list = ToDoList.objects.get(id=self.kwargs["list_id"])
+# 		initial_data["todo_list"] = todo_list
+# 		return initial_data
 
-	    def get_context_data(self):
-		context = super(ItemUpdate, self).get_context_data()
-		context["todo_list"] = self.object.todo_list
-		context["title"] = "Edit item"
-		return context
+# 	    def get_context_data(self):
+# 		context = super(ItemCreate, self).get_context_data()
+# 		todo_list = ToDoList.objects.get(id=self.kwargs["list_id"])
+# 		context["todo_list"] = todo_list
+# 		context["title"] = "Create a new item"
+# 		return context
 
-	    def get_success_url(self):
-		return reverse("list", args=[self.object.todo_list_id])
-(17) # todo_list/todo_app/urls.py
-	from django.urls import path
-	from todo_app import views
+# 	    def get_success_url(self):
+# 		return reverse("list", args=[self.object.todo_list_id])
 
-	urlpatterns = [
-	    path("", views.ListListView.as_view(), name="index"),
-	    path("list/<int:list_id>/", views.ItemListView.as_view(), name="list"),
-	    # CRUD patterns for ToDoLists
-	    path("list/add/", views.ListCreate.as_view(), name="list-add"),
-	    # CRUD patterns for ToDoItems
-	    path(
-		"list/<int:list_id>/item/add/",
-		views.ItemCreate.as_view(),
-		name="item-add",
-	    ),
-	    path(
-		"list/<int:list_id>/item/<int:pk>/",
-		views.ItemUpdate.as_view(),
-		name="item-update",
-	    ),
-	]
-(18)	Next, you’ll need to provide some links in your templates to activate the new views. Just before the {% endblock %} 
-	tag in index.html, add a button: 
-	<p>
-	    <input
-		value="Add a new list"
-		type="button"
-		onclick=location.href='{% url "list-add" %}'/>
-	</p>
-(19) 	<!-- todo_list/todo_app/templates/todo_app/todo_list.html -->
+# 	class ItemUpdate(UpdateView):
+# 	    model = ToDoItem
+# 	    fields = [
+# 		"todo_list",
+# 		"title",
+# 		"description",
+# 		"due_date",
+# 	    ]
 
-	{% extends "base.html" %}
-	{% block content %}
-	<div>
-	    <div>
-		<div>
-		    <h3>Edit list:</h3>
-		    <h5>{{ todo_list.title | upper }}</h5>
-		</div>
-		<ul>
-		    {% for todo in object_list %}
-		    <li>
-		        <div>
-		            <div
-		                role="button"
-		                onclick="location.href=
-		                '{% url "item-update" todo_list.id todo.id %}'">
-		                {{ todo.title }}
-		                (Due {{ todo.due_date | date:"l, F j"}})
-		            </div>
-		        </div>
-		    </li>
-		    {% empty %}
-		    <p>There are no to-do items in this list.</p>
-		    {% endfor %}
-		</ul>
-		
-		    <input
-		        value="Add a new item"
-		        type="button"
-		        onclick="location.href='{% url "item-add" todo_list.id %}'"
-		    />
-		
-	    </div>
-	</div>
-	{% endblock %}
-(20) 	<!-- todo_list/todo_app/templates/todo_app/todolist_form.html -->
-	{% extends "base.html" %}
-	{% block content %}
+# 	    def get_context_data(self):
+# 		context = super(ItemUpdate, self).get_context_data()
+# 		context["todo_list"] = self.object.todo_list
+# 		context["title"] = "Edit item"
+# 		return context
 
-	<h3>{{ title }}</h3>
-	<div>
-	    <div>
-		<form method="post">
-		    {% csrf_token %}
-		    {{ form.as_p }}
-		    <input
-		        value="Save"
-		        type="submit">
-		    <input
-		        value="Cancel"
-		        type="button"
-		        onclick="location.href='{% url "index" %}';">
-		</form>
-	    </div>
-	</div>
+# 	    def get_success_url(self):
+# 		return reverse("list", args=[self.object.todo_list_id])
+# (17) # todo_list/todo_app/urls.py
+# 	from django.urls import path
+# 	from todo_app import views
 
-	{% endblock %}
-(21) 	<!-- todo_list/todo_app/templates/todo_app/todoitem_form.html -->
-	{% extends "base.html" %}
-	{% block content %}
-	<h3>{{ title }}</h3>
-	<form method="post">
-	    {% csrf_token %}
-	    <table>
-		{{ form.as_table }}
-	    </table>
-	    <input
-		value="Submit"
-		type="submit">
-	    <input
-		value="Cancel"
-		type="button"
-		onclick="location.href='{% url "list" todo_list.id %}'">
-	</form>
+# 	urlpatterns = [
+# 	    path("", views.ListListView.as_view(), name="index"),
+# 	    path("list/<int:list_id>/", views.ItemListView.as_view(), name="list"),
+# 	    # CRUD patterns for ToDoLists
+# 	    path("list/add/", views.ListCreate.as_view(), name="list-add"),
+# 	    # CRUD patterns for ToDoItems
+# 	    path(
+# 		"list/<int:list_id>/item/add/",
+# 		views.ItemCreate.as_view(),
+# 		name="item-add",
+# 	    ),
+# 	    path(
+# 		"list/<int:list_id>/item/<int:pk>/",
+# 		views.ItemUpdate.as_view(),
+# 		name="item-update",
+# 	    ),
+# 	]
+# (18)	Next, you’ll need to provide some links in your templates to activate the new views. Just before the {% endblock %}
+# 	tag in index.html, add a button:
+# 	<p>
+# 	    <input
+# 		value="Add a new list"
+# 		type="button"
+# 		onclick=location.href='{% url "list-add" %}'/>
+# 	</p>
+# (19) 	<!-- todo_list/todo_app/templates/todo_app/todo_list.html -->
 
-	{% endblock %}
-(22) # todo_list/todo_app/views.py
-	from django.urls import reverse, reverse_lazy
+# 	{% extends "base.html" %}
+# 	{% block content %}
+# 	<div>
+# 	    <div>
+# 		<div>
+# 		    <h3>Edit list:</h3>
+# 		    <h5>{{ todo_list.title | upper }}</h5>
+# 		</div>
+# 		<ul>
+# 		    {% for todo in object_list %}
+# 		    <li>
+# 		        <div>
+# 		            <div
+# 		                role="button"
+# 		                onclick="location.href=
+# 		                '{% url "item-update" todo_list.id todo.id %}'">
+# 		                {{ todo.title }}
+# 		                (Due {{ todo.due_date | date:"l, F j"}})
+# 		            </div>
+# 		        </div>
+# 		    </li>
+# 		    {% empty %}
+# 		    <p>There are no to-do items in this list.</p>
+# 		    {% endfor %}
+# 		</ul>
 
-	from django.views.generic import (
-	    ListView,
-	    CreateView,
-	    UpdateView,
-	    DeleteView,
-	)
+# 		    <input
+# 		        value="Add a new item"
+# 		        type="button"
+# 		        onclick="location.href='{% url "item-add" todo_list.id %}'"
+# 		    />
+
+# 	    </div>
+# 	</div>
+# 	{% endblock %}
+# (20) 	<!-- todo_list/todo_app/templates/todo_app/todolist_form.html -->
+# 	{% extends "base.html" %}
+# 	{% block content %}
+
+# 	<h3>{{ title }}</h3>
+# 	<div>
+# 	    <div>
+# 		<form method="post">
+# 		    {% csrf_token %}
+# 		    {{ form.as_p }}
+# 		    <input
+# 		        value="Save"
+# 		        type="submit">
+# 		    <input
+# 		        value="Cancel"
+# 		        type="button"
+# 		        onclick="location.href='{% url "index" %}';">
+# 		</form>
+# 	    </div>
+# 	</div>
+
+# 	{% endblock %}
+# (21) 	<!-- todo_list/todo_app/templates/todo_app/todoitem_form.html -->
+# 	{% extends "base.html" %}
+# 	{% block content %}
+# 	<h3>{{ title }}</h3>
+# 	<form method="post">
+# 	    {% csrf_token %}
+# 	    <table>
+# 		{{ form.as_table }}
+# 	    </table>
+# 	    <input
+# 		value="Submit"
+# 		type="submit">
+# 	    <input
+# 		value="Cancel"
+# 		type="button"
+# 		onclick="location.href='{% url "list" todo_list.id %}'">
+# 	</form>
+
+# 	{% endblock %}
+# (22) # todo_list/todo_app/views.py
+# 	from django.urls import reverse, reverse_lazy
+
+# 	from django.views.generic import (
+# 	    ListView,
+# 	    CreateView,
+# 	    UpdateView,
+# 	    DeleteView,
+# 	)
 
 
-	class ListDelete(DeleteView):
-	    model = ToDoList
-	    # You have to use reverse_lazy() instead of reverse(),
-	    # as the urls are not loaded when the file is imported.
-	    success_url = reverse_lazy("index")
+# 	class ListDelete(DeleteView):
+# 	    model = ToDoList
+# 	    # You have to use reverse_lazy() instead of reverse(),
+# 	    # as the urls are not loaded when the file is imported.
+# 	    success_url = reverse_lazy("index")
 
-	class ItemDelete(DeleteView):
-	    model = ToDoItem
+# 	class ItemDelete(DeleteView):
+# 	    model = ToDoItem
 
-	    def get_success_url(self):
-		return reverse_lazy("list", args=[self.kwargs["list_id"]])
+# 	    def get_success_url(self):
+# 		return reverse_lazy("list", args=[self.kwargs["list_id"]])
 
-	    def get_context_data(self, **kwargs):
-		context = super().get_context_data(**kwargs)
-		context["todo_list"] = self.object.todo_list
-		return context
+# 	    def get_context_data(self, **kwargs):
+# 		context = super().get_context_data(**kwargs)
+# 		context["todo_list"] = self.object.todo_list
+# 		return context
 
-	...Add specified above
-(23)	<!-- todo_list/todo_app/templates/todo_app/todolist_confirm_delete.html -->
-	{% extends "base.html" %}
+# 	...Add specified above
+# (23)	<!-- todo_list/todo_app/templates/todo_app/todolist_confirm_delete.html -->
+# 	{% extends "base.html" %}
 
-	{% block content %}
-	<!--todolist_confirm_delete.html-->
+# 	{% block content %}
+# 	<!--todolist_confirm_delete.html-->
 
-	<h3>Delete List</h3>
+# 	<h3>Delete List</h3>
 
-	<p>Are you sure you want to delete the list <i>{{ object.title }}</i>?</p>
+# 	<p>Are you sure you want to delete the list <i>{{ object.title }}</i>?</p>
 
-	<form method="POST">
-	    {% csrf_token %}
-	    <input
-		value="Yes, delete."
-		type="submit">
-	</form>
-	<input
-	    value="Cancel"
-	    type="button"
-	    onclick="location.href='{% url "index" %}';">
+# 	<form method="POST">
+# 	    {% csrf_token %}
+# 	    <input
+# 		value="Yes, delete."
+# 		type="submit">
+# 	</form>
+# 	<input
+# 	    value="Cancel"
+# 	    type="button"
+# 	    onclick="location.href='{% url "index" %}';">
 
-	{% endblock %}
-(24) 	<!-- todo_list/todo_app/templates/todo_app/todoitem_confirm_delete.html -->
-	{% extends "base.html" %}
-	{% block content %}
-	<h3>Delete To-do Item</h3>
-	<p>Are you sure you want to delete the item: <b>{{ object.title }}</b>
-	   from the list <i>{{ todo_list.title }}</i>?</p>
-	<form method="POST">
-	    {% csrf_token %}
-	    <input
-		value="Yes, delete."
-		type="submit">
-	    <input
-		value="Cancel"
-		type="button"
-		onclick=location.href='{% url "list" todo_list.id %}';>
-	</form>
-	{% endblock %}
-(25)	# todo_list/todo_app/urls.py
-	from django.urls import path
-	from todo_app import views
+# 	{% endblock %}
+# (24) 	<!-- todo_list/todo_app/templates/todo_app/todoitem_confirm_delete.html -->
+# 	{% extends "base.html" %}
+# 	{% block content %}
+# 	<h3>Delete To-do Item</h3>
+# 	<p>Are you sure you want to delete the item: <b>{{ object.title }}</b>
+# 	   from the list <i>{{ todo_list.title }}</i>?</p>
+# 	<form method="POST">
+# 	    {% csrf_token %}
+# 	    <input
+# 		value="Yes, delete."
+# 		type="submit">
+# 	    <input
+# 		value="Cancel"
+# 		type="button"
+# 		onclick=location.href='{% url "list" todo_list.id %}';>
+# 	</form>
+# 	{% endblock %}
+# (25)	# todo_list/todo_app/urls.py
+# 	from django.urls import path
+# 	from todo_app import views
 
-	urlpatterns = [
-	    path("", views.ListListView.as_view(), name="index"),
-	    path("list/<int:list_id>/", views.ItemListView.as_view(), name="list"),
-	    # CRUD patterns for ToDoLists
-	    path("list/add/", views.ListCreate.as_view(), name="list-add"),
-	    path(
-		"list/<int:pk>/delete/", views.ListDelete.as_view(), name="list-delete"
-	    ),
-	    # CRUD patterns for ToDoItems
-	    path(
-		"list/<int:list_id>/item/add/",
-		views.ItemCreate.as_view(),
-		name="item-add",
-	    ),
-	    path(
-		"list/<int:list_id>/item/<int:pk>/",
-		views.ItemUpdate.as_view(),
-		name="item-update",
-	    ),
-	    path(
-		"list/<int:list_id>/item/<int:pk>/delete/",
-		views.ItemDelete.as_view(),
-		name="item-delete",
-	    ),
-	]
-(26) 	Add this to 'todoitem_form.html' just above closing tag form
-	{% if object %}
-        <input
-            value="Delete this item"
-            type="button"
-            onclick="location.href=
-            '{% url "item-delete" todo_list.id object.id %}'">
-    	{% endif %}
-(27)	Add this to todo_list.html just above '</p>'
-	 <input
-                value="Delete this list"
-                type="button"
-                onclick="location.href=
-                '{% url "list-delete" todo_list.id %}'" />
+# 	urlpatterns = [
+# 	    path("", views.ListListView.as_view(), name="index"),
+# 	    path("list/<int:list_id>/", views.ItemListView.as_view(), name="list"),
+# 	    # CRUD patterns for ToDoLists
+# 	    path("list/add/", views.ListCreate.as_view(), name="list-add"),
+# 	    path(
+# 		"list/<int:pk>/delete/", views.ListDelete.as_view(), name="list-delete"
+# 	    ),
+# 	    # CRUD patterns for ToDoItems
+# 	    path(
+# 		"list/<int:list_id>/item/add/",
+# 		views.ItemCreate.as_view(),
+# 		name="item-add",
+# 	    ),
+# 	    path(
+# 		"list/<int:list_id>/item/<int:pk>/",
+# 		views.ItemUpdate.as_view(),
+# 		name="item-update",
+# 	    ),
+# 	    path(
+# 		"list/<int:list_id>/item/<int:pk>/delete/",
+# 		views.ItemDelete.as_view(),
+# 		name="item-delete",
+# 	    ),
+# 	]
+# (26) 	Add this to 'todoitem_form.html' just above closing tag form
+# 	{% if object %}
+#         <input
+#             value="Delete this item"
+#             type="button"
+#             onclick="location.href=
+#             '{% url "item-delete" todo_list.id object.id %}'">
+#     	{% endif %}
+# (27)	Add this to todo_list.html just above '</p>'
+# 	 <input
+#                 value="Delete this list"
+#                 type="button"
+#                 onclick="location.href=
+#                 '{% url "list-delete" todo_list.id %}'" />

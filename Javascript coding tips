@@ -1,6 +1,0 @@
-(1) Coming up with different solutions enables you to compare and choose the most efficient one for the job.
-(2) ' === ' is used mostly on if (conditions), avoid if variable is changing.
-(3) Use '.map' for dictionairies. 
-(4) Use 'forEach' for list with variables. 
-(5) Use 'for' for list with numbers.
-(6) Use '.split("") to convert string into array.
