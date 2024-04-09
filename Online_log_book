@@ -1,6 +1,8 @@
 April 10, 2023
         * Well, the files functionality in webhost sucks. I intend to upload files but I encountered an error with no definitive solution.
-
+        * Made an account with infinityfree to try to upload a website in there instead. I see that a php web hosting platform typically
+            looks for `index.php` as main file and secondary files can be scanned after.
+ 
 April 8, 2023
 	* First time a potential client has viewed my proposal which is nice. cheers!
 	* gradio.app -> this is the on featured by fireship.io into making free ai image generative set 
