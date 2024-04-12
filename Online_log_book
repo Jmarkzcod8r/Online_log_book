@@ -1,5 +1,9 @@
 April 12, 2023
 	* I think I need to keep track once again of my applications.
+	* At least, I'm getting quite acquainted with git. When two or more people are working on a specific repo and some changes are made
+		and you want these changes to sync into your local laptop then one should do these things:
+		- git fetch
+		- git merge origin/main or  git merge origin/<branch_name>
 
 April 11, 2023
 	* 
