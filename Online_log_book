@@ -4,6 +4,7 @@ April 12, 2023
 		and you want these changes to sync into your local laptop then one should do these things:
 		- git fetch
 		- git merge origin/main or  git merge origin/<branch_name>
+	* For what it's worth, watch `Basic skills for freelance web developers...etc.` by Sheena Santos.
 
 April 11, 2023
 	* 
