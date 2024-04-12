@@ -6,6 +6,7 @@ April 12, 2023
 		- git merge origin/main or  git merge origin/<branch_name>
 	* For what it's worth, watch `Basic skills for freelance web developers...etc.` by Sheena Santos.
 	* CMS - Content Management System -> like wordpress
+	* I guess it should be taken with caution and carefulness when it comes to `git fetch` and `git merge orign/...` etc.
 
 April 11, 2023
 	* 
