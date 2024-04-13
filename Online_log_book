@@ -6,7 +6,7 @@ April 13, 2023
 	* Watch a  video by `IAmTimCorey` on major mistakes developers make in their carreer` for what it's worth. He emphasize simplicity over scalability.
 	* Deployed jmlinen web app also to netlify which is nice.
 	* Update on me learnig about Visa Apis: I finally manage to get a good response starting with basic auth and the https://sandbox.api.visa.com/vdp/helloworld
-		endpoint. I'm glad.
+		endpoint. I'm glad. I need to remember to put open file->settings->certificates and put in there the downloaded certificate `cert.pem` and key `key_.....pem`
 
 April 12, 2023
 	* I think I need to keep track once again of my applications.
