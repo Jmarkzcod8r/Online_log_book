@@ -2,6 +2,7 @@ April 13, 2023
 	* Configured a web app that takes the dimensions of a T-shirt to be made so that it can be easily  shared for a tailor although I haven't
 		configured the search functionality right now. I need the search to take in an input ID to get the Tshirt data.
 	* Added a new entry to my project page of JMlinen.
+	* I think I need to take a good look at a Laravel tutorial.
 
 April 12, 2023
 	* I think I need to keep track once again of my applications.
