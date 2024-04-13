@@ -11,7 +11,7 @@ April 13, 2023
 		When I removed  it, I was able to get the hello world message response from 'https://sandbox.api.visa.com/vdp/helloworld'.
 	* Apparently, the Visa logo at the top left of the site does not point out to the dashboard. It's in the 'My  Account' dropdown apparently. As what I can observe so far, there are a 
 		lot of APIs one has to familiarize with. If your project is related to Foreign Exchange Rates, there are a whole set of  APIs for it and a different set as well which is more
-		than the latter for the VISA DIRECT APIs
+		than the latter for the VISA DIRECT APIs. One needs to click project->summary->API reference to get the details of the APIs allocated.
 
 April 12, 2023
 	* I think I need to keep track once again of my applications.
