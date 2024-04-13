@@ -7,6 +7,8 @@ April 13, 2023
 	* Deployed jmlinen web app also to netlify which is nice.
 	* Update on me learnig about Visa Apis: I finally manage to get a good response starting with basic auth and the https://sandbox.api.visa.com/vdp/helloworld
 		endpoint. I'm glad. I need to remember to put open file->settings->certificates and put in there the downloaded certificate `cert.pem` and key `key_.....pem`
+	* Had a bit of a pickle recentl when trying to run a hello-world task to visa using python I found the culprit to be `json = payload,` which is inside requests.get(url,....etc.)
+		When I removed  it, I was able to get the hello world message response from 'https://sandbox.api.visa.com/vdp/helloworld'
 
 April 12, 2023
 	* I think I need to keep track once again of my applications.
