@@ -9,7 +9,9 @@ April 13, 2023
 		endpoint. I'm glad. I need to remember to put open file->settings->certificates and put in there the downloaded certificate `cert.pem` and key `key_.....pem`
 	* Had a bit of a pickle recentl when trying to run a hello-world task to visa using python I found the culprit to be `json = payload,` which is inside requests.get(url,....etc.)
 		When I removed  it, I was able to get the hello world message response from 'https://sandbox.api.visa.com/vdp/helloworld'.
-	* Apparently, the Visa logo at the top left of the site does not point out to the dashboard. It's in the 'My  Account' dropdown apparently.
+	* Apparently, the Visa logo at the top left of the site does not point out to the dashboard. It's in the 'My  Account' dropdown apparently. As what I can observe so far, there are a 
+		lot of APIs one has to familiarize with. If your project is related to Foreign Exchange Rates, there are a whole set of  APIs for it and a different set as well which is more
+		than the latter for the VISA DIRECT APIs
 
 April 12, 2023
 	* I think I need to keep track once again of my applications.
