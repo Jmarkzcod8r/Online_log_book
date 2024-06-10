@@ -1,6 +1,8 @@
 June 10, 2024
 	* I supposedly have a tecnical exam tomorrow. It seems that i have encounter MVC or Model-View-Control concept once again. I think this is popular for government agencies.
 	* Tried to install Laravel using composer. So far, things are fine. My php version is updated which is nice.
+	* I am now able to access mysql thru the command line. This command seems to be the saving grace for me 'mysql -u root -p' and then I just entered my usual password. I was able
+		to create a newuser with password which is a good start.
 
 April 13, 2024
 	* Configured a web app that takes the dimensions of a T-shirt to be made so that it can be easily  shared for a tailor although I haven't
