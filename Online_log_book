@@ -12,6 +12,7 @@ July 01, 2024
         * I guess I won'tbe implementing a cart for now or I'll be making similar to shoppee. I'll add it maybe later. I guess I can make a temporary cart with an expiration of 24hours or if the browser has been closed.
         * I'll make the app so that when an order is to be executed, it shall go to the cache if data can be provided for the checkout to fill in the form beforehand. Don't forget about the reference code for the receipt
             which is searchable on the search bar by which a pop up will be shown asking for first name and the last one.
+        * Learned more about docker and apparently the container is where you can run images. I also needs to try out docker desktop which is something recommended.
 June 28, 2024
 	* ...Been a while
 	* My devjourn.online web domain is ending in 5 days and 
