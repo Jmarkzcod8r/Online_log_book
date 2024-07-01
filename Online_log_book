@@ -9,7 +9,7 @@ July 01, 2024
               reference project web app for this. At the submit button at the button, a pop up will appear asking if the user would like the make an account with us for easy transaction in the future, if he click yes, 
                then the system would ask for a password and then a verification pop up of details would appear for conformation..
         * "Write it down, Code it up." -> This is a good phrase or practice to be adopting of.
-        * I guess I won'tbe implementing a cart for now or I'll be making similar to shoppee. I'll add it maybe later.
+        * I guess I won'tbe implementing a cart for now or I'll be making similar to shoppee. I'll add it maybe later. I guess I can make a temporary cart with an expiration of 24hours or if the browser has been closed.
 June 28, 2024
 	* ...Been a while
 	* My devjourn.online web domain is ending in 5 days and 
