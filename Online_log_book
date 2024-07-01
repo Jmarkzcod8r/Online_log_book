@@ -3,6 +3,11 @@ July 01, 2024
            The front page will have a banner on the top and then a search bar. Following will be featured products and then categories (Geberal, carpentry, apparel, gadgets) for now and then the items.
            On the side will be your filters: All, cheapest(by price), (by flowers) - this is for ratings instead of stars, comments(most commented etc),. These will be enclosed in a container on which
             is connected also to the search bar and the output of the search will be displayed in here.
+        * I need to make a dynamic page which caters to the individual products. The checkout for the online payment would be done via gcash and bdo online for now. I also need to make a database for the receipts
+             and the details of the receipt will be shown once a purchase is confirmed after the initial duration of pending. When a user executes an order, a new page shall appear asking for his 
+             information: Name (First, Middle, Last), contact number (Implement an OTP in the near future for this), email, address, etc.. Also, a tick box would be at the bottom to set as 'remember me'.. Look at the 
+              reference project web app for this. At the submit button at the button, a pop up will appear asking if the user would like the make an account with us for easy transaction in the future, if he click yes, 
+               then the system would ask for a password and then a verification pop up of details would appear for conformation..
 June 28, 2024
 	* ...Been a while
 	* My devjourn.online web domain is ending in 5 days and 
