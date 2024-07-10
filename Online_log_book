@@ -3,6 +3,7 @@ July 10, 2024
 	* Thank You Lord, I manage to put up devjourn.com (now.. jmdevjourn.netlify.app). 
 	* I change the env variables to not include quotes ("...") and then use git to redeploy and that seems to do the trick.
 	* I think I'll try to make a detailed procedure in making a website.
+	* I've been hearing more about this Kubernetes which can help you scale your app. I think I'll go about learning this more
 
 July 08, 2024
         * devjourn.com has expired. I should probably deploy it in netlify.
