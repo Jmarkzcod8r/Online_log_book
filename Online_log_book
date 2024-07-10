@@ -1,5 +1,8 @@
 July 10, 2024
 	* Hopefully, I can get a lot of things done this night.
+	* Thank You Lord, I manage to put up devjourn.com (now.. jmdevjourn.netlify.app). 
+	* I change the env variables to not include quotes ("...") and then use git to redeploy and that seems to do the trick.
+
 July 08, 2024
         * devjourn.com has expired. I should probably deploy it in netlify.
 
