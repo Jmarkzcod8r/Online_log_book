@@ -2,6 +2,7 @@ July 12, 2024
 	* Make some updates and changes to drib-app on my new project which is an upgrade to an existing web app I
 		have. It's good to know I can still do some decent coding I think.
 	* Thankful for canva also. I also need to get my attributes laid out in a decent manner.
+	* Fix the uploading page for drib-insp app so that image will not be uploaded to firebase if it fails inn the Mongodb part.
 
 July 11, 2024
 	* Started a new project and made a folder with it named drib-insp which is short for dribble-inspired. This is an upgrade to my original
