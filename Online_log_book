@@ -3,6 +3,7 @@ July 13, 2024
 	* I'm trying to install unreal engine with cesium but it seems I need to install a launcher with epic games.
 	* I think it's best I use the windows pc for this since the requirement for unreal engine when it comes to ram for this os is only 8GB
 		while if I were to use linux like this laptop then it would be 32GB.
+	* Found a good video on youtube where they use unreal engine 5 and cesium to recreate google earth.
 
 July 12, 2024
 	* Make some updates and changes to drib-app on my new project which is an upgrade to an existing web app I
