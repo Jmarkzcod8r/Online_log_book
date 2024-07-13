@@ -1,6 +1,8 @@
 July 13, 2024
         * Finally have an account with docker. I can access it @ hub.docker.com
 	* I'm trying to install unreal engine with cesium but it seems I need to install a launcher with epic games.
+	* I think it's best I use the windows pc for this since the requirement for unreal engine when it comes to ram for this os is only 8GB
+		while if I were to use linux like this laptop then it would be 32GB.
 
 July 12, 2024
 	* Make some updates and changes to drib-app on my new project which is an upgrade to an existing web app I
