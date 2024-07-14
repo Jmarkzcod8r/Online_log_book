@@ -3,6 +3,10 @@ July 14, 2024
         * To be added: furniture shop, hardware shop,2nd hand Car shop, pc shop,carenderia shop
         * In the shop section showing all the bakeries on the left and the products on the right, I need to change it so that above the products
              is the big name of the store so that when you click it, you will be redirected to the stpre itself and all its information etc,.
+        * Pricing: Free -> Up to 10 and 50 for verified accounts items.. 
+                   Classic -> 200 per month ..up to 150 items / Sales Spreadsheet integration / 
+                   Premium 550 per month ..-> unlimited
+
 
 July 13, 2024
         * Finally have an account with docker. I can access it @ hub.docker.com
