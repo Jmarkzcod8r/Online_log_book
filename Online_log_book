@@ -3,6 +3,8 @@ July 14, 2024
         * To be added: furniture shop, hardware shop,2nd hand Car shop, pc shop,carenderia shop,I also need to add a pet shop
         * In the shop section showing all the bakeries on the left and the products on the right, I need to change it so that above the products
              is the big name of the store so that when you click it, you will be redirected to the stpre itself and all its information etc,.
+        * I need to add an 'Add my own shop' button to the buttons on the left which will require login and also a show all button next to stores 
+             label which will open a new page anf show all the stores. On that new page, a search store will be available.
         * Pricing: Free -> Up to 10 and 50 for verified accounts items.. 
                    Classic -> 200 per month ..up to 150 items / Sales Spreadsheet integration / 
                    I might hold this premium package for now until I get better with visa.
