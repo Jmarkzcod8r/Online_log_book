@@ -5,6 +5,8 @@ July 16, 2024
 	* Marc Lou, an inspiring developer mentioned something about mailgun which is something I need to look at which can help me with emails etc.
 	* I find it helpful that skipping lunch meals prepares your body for an overnight work.
 	* I think it would be better if I transfer my upper monitor near its counterpart.
+	* I have 5 models with drib-insp and that is Order, Product, Store, Url and User. Only 3 of these is necessary which are Product, Store, and User. It is also worth noting the
+		primary key for each model. I'm gonna have to modify and add some properties for these stuffs.
 
 July 15, 2024
 	* I need to my store page under the profile page. I can do this by putting an icon of a silhouetter of a person for profile and stores to show the
