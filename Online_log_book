@@ -8,6 +8,7 @@ July 16, 2024
 	* I have 5 models with drib-insp and that is Order, Product, Store, Url and User. Only 3 of these is necessary which are Product, Store, and User. It is also worth noting the
 		primary key for each model. I'm gonna have to modify and add some properties for these stuffs.
 	* I managed to make a commentModel. Now, I need to make a backend API endpoint to get dbconnect and the comment model to add a new entry to mongodb database.
+	* manage to add my first comment on the Commentschema on mongodb by some basic manipulation.
 
 July 15, 2024
 	* I need to my store page under the profile page. I can do this by putting an icon of a silhouetter of a person for profile and stores to show the
