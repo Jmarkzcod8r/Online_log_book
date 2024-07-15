@@ -10,6 +10,7 @@ July 16, 2024
 	* I managed to make a commentModel. Now, I need to make a backend API endpoint to get dbconnect and the comment model to add a new entry to mongodb database.
 	* manage to add my first comment on the Commentschema on mongodb by some basic manipulation.
 	* Downloaded 15GB of unreal engine but had an issue with driver or something for now.
+	* When sending a request to a database like Mongodb, you usually need 2 things. dbconnect and model.
 
 July 15, 2024
 	* I need to my store page under the profile page. I can do this by putting an icon of a silhouetter of a person for profile and stores to show the
