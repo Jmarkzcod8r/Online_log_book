@@ -17,6 +17,7 @@ July 16, 2024
 	* I changed my work setup so that I have two monitors on my left which is horizontal to one another and another two on my left which are also in the same alignment. I had this setup 
 		before and it seems to be a better one compared to a monitor on the upper part where I have to raise my head a little bit. I should have stayed with this kind of setup
 		even before.
+	* In the manage store, I need to configure the delete button so that it will also delete the pics in firebase.
 
 July 15, 2024
 	* I need to my store page under the profile page. I can do this by putting an icon of a silhouetter of a person for profile and stores to show the
