@@ -19,6 +19,9 @@ July 16, 2024
 		even before.
 	* In the manage store, I need to configure the delete button so that it will also delete the pics in firebase.
 	* My category pics is also in shambles which is something to fix maybe with a pic editor.
+	* I need to define the basic version of my webpage. (1) 5 categories -> Coffee shop, Bakery, Flowers, Pet SHop and Hardware. (2) Dynamic product page has no comments (3) Stores are limited to 2
+		(4) Notes section is pure text only with title and note. (5) Comments is disabled for now. (6) Contacts include gcash. contact no. email, messenger, address. (7) photo gallery is retained but
+		limited to 300 pictures. These are all on the info page and so contacts with the telephone image is disabled for now.
 
 July 15, 2024
 	* I need to my store page under the profile page. I can do this by putting an icon of a silhouetter of a person for profile and stores to show the
