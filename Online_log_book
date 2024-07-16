@@ -11,6 +11,9 @@ July 16, 2024
 	* manage to add my first comment on the Commentschema on mongodb by some basic manipulation.
 	* Downloaded 15GB of unreal engine but had an issue with driver or something for now.
 	* When sending a request to a database like Mongodb, you usually need 2 things. dbconnect and model.
+        * I need to make a new model named NotesModel whichnserves mostly for announcement purposes althouhh the first one would be pinned.
+             NotesModel -> Title, Note, isFeatured, color, isPinned, 
+        * I need to setup a pop up for my home page to magnify the 'enhance your onlince presence','Make updates/announcements a breeze', etc. . I may need to use canva for this.
 
 July 15, 2024
 	* I need to my store page under the profile page. I can do this by putting an icon of a silhouetter of a person for profile and stores to show the
