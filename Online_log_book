@@ -5,6 +5,8 @@ July 17, 2024
 	* I'm starting to like items-center more than justify-center in using tailwind.
 	* I need to configure the search bar to have options like a dropdown
 	* I also need to configure the dynamic product page to show the store.
+	* I need to add storeuid to the product model.
+	* I am reminded of a best practice to set one get per back endpoint.
 
 July 16, 2024
 	* " Write it down. Code it up." -> I'm really appreciating this concept.
