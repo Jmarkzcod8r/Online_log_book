@@ -1,5 +1,7 @@
 July 17, 2024
-	* Info: Name, Category. Address, City, zip code: 9500, Opens: (can be N/A) Closes: (N/A) Week hours: (N/A)
+	* Info: Name, Category. Address, City, zip code: 9500, Opens: (can be N/A) Closes: (N/A) Week hours: (N/A),  
+	* Contacts: phone number or qr code, email: ......@gmail.com , phone: .... , telephone: N/A, 
+	* I need to make a NotesModel which stands for the bulletin.
 
 July 16, 2024
 	* " Write it down. Code it up." -> I'm really appreciating this concept.
