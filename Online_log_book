@@ -7,6 +7,7 @@ July 17, 2024
 	* I also need to configure the dynamic product page to show the store.
 	* I need to add storeuid to the product model.
 	* I am reminded of a best practice to set one get per back endpoint.
+	* Added some new properties to productmodel to include the storeuid. Encountered a small hiccup but it turned out I only needed to restart the application. I simply stop and then run 'npm run dev' again.
 
 July 16, 2024
 	* " Write it down. Code it up." -> I'm really appreciating this concept.
