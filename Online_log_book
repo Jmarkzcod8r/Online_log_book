@@ -1,3 +1,7 @@
+July 18, 2024
+	* I think it's easier to use post to get items than get itself.
+	* Using setstate, you can lift up a data.
+
 July 17, 2024
 	* Info: Name, Category. Address, City, zip code: 9500, Opens: (can be N/A) Closes: (N/A) Week hours: (N/A),  
 	* Contacts: phone number or qr code, email: ......@gmail.com , phone: .... , telephone: N/A, facebook: , instagram: , messenger:
