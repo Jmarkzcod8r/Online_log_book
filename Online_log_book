@@ -2,6 +2,8 @@ July 18, 2024
 	* I think it's easier to use post to get items than get itself.
 	* Using setstate, you can lift up a data.
 	* I think I'll have to give credit to grid layout when it comes to even spacing rather than flex.
+	* Update the profile page so that a delete button is added and fix the update functionality.
+	* Chatgpt said that a payload is not necessary when deleting an account as the session info will have something to do with it. I still don't fully understand for now.
 
 July 17, 2024
 	* Info: Name, Category. Address, City, zip code: 9500, Opens: (can be N/A) Closes: (N/A) Week hours: (N/A),  
