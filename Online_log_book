@@ -1,3 +1,7 @@
+July 19, 2024
+	* Tried to deploy to netlify.app but met with an error something about preload and stuff. Same thing happened to deploying to vercel. I encountered an error with server components.
+		Still, not sure how to solve this.
+
 July 18, 2024
 	* I think it's easier to use post to get items than get itself.
 	* Using setstate, you can lift up a data.
