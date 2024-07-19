@@ -4,6 +4,7 @@ July 19, 2024
 	* Once again opened unreal engine with little to no idea how it works but it's a start. A gpu is definitely best for this
   	* By estimate, I can upload to firebase storage 262,000 and more pics.
         * One thing I can do with drib-insp app is to deploy a small version of it and grow it from there.
+        * Upon reading similar threads, I think the problem lies with the authentication.
 
 July 18, 2024
 	* I think it's easier to use post to get items than get itself.
