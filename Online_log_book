@@ -1,3 +1,6 @@
+July 20, 2024
+        * Stable diffusion -> free generative source for AI images which I am inclined to explore more.
+
 July 19, 2024
 	* Tried to deploy to netlify.app but met with an error something about preload and stuff. Same thing happened to deploying to vercel. I encountered an error with server components.
 		Still, not sure how to solve this.
