@@ -1,6 +1,8 @@
+July 22, 2024
+	* I think I'll depend on firebase for my authentication in the future.
+
 July 20, 2024
         * Stable diffusion -> free generative source for AI images which I am inclined to explore more.
-	* I should have just use firebase authentication.
 
 July 19, 2024
 	* Tried to deploy to netlify.app but met with an error something about preload and stuff. Same thing happened to deploying to vercel. I encountered an error with server components.
