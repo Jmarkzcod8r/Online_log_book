@@ -5,6 +5,7 @@ July 22, 2024
 	* One thing I can do is configure the authentication for firebase and deploy it to netlif in order for others to use it.
 	* Okay so, apparently git bash in windows is like the terminal for linux.
 	* I need to make a detailed tutorial for a crud with nextjs and redis.
+	* lsb_release -a -> This gives info on your ubuntu version.
 
 July 20, 2024
         * Stable diffusion -> free generative source for AI images which I am inclined to explore more.
