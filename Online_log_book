@@ -3,6 +3,7 @@ July 22, 2024
 	* I have next-amazona-basic deployed in both vercel and netlify but when it comes to authentication, I'll have to give it to
 		vercel since authenticaion can be done there and not on netlify which is something I may need to dig deeper.
 	* One thing I can do is configure the authentication for firebase and deploy it to netlif in order for others to use it.
+	* Okay so, apparently git bash in windows is like the terminal for linux.
 
 July 20, 2024
         * Stable diffusion -> free generative source for AI images which I am inclined to explore more.
