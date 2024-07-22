@@ -1,5 +1,6 @@
 July 23, 2024
 	* sudo reboot -> This is for quick restart.
+	* I managed to make a nextjs web app using local mongodb database and also using compass helped a lot. I think I need to make a detailed tutorial for this.
 	* Tried dockerizing my nextjs crub web app with local mongodb but seems to be having a problem with one of its dependency.
 
 July 22, 2024
