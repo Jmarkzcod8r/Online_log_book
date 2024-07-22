@@ -1,3 +1,7 @@
+July 23, 2024
+	* sudo reboot -> This is for quick restart.
+	* Tried dockerizing my nextjs crub web app with local mongodb but seems to be having a problem with one of its dependency.
+
 July 22, 2024
 	* I think I'll depend on firebase for my authentication in the future.
 	* I have next-amazona-basic deployed in both vercel and netlify but when it comes to authentication, I'll have to give it to
