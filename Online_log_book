@@ -13,6 +13,9 @@ July 23, 2024
 	* I'm fingding using next-auth to be more annoying than it used to be. I may go for a simple approach for now.
 	* Apparently, it seems that it is pretty much not recommended to adjust env variables when production is ongoing. I had to delete and build again the web apps for both vercel and netlify.
 	* Steps on making a basic nextjs-mongodb crud app:
+		(1) Make a nextjs web app with `npx create-next-app@latest your-app-name` -> No typescript, No Eslint, No alias, No 'src', Yes to tailwind.
+		(2) Npm install the following: 			mongoose (This is mostly use for your schema on your models), axios (This is for your connection from frontend to the backend), 
+								bcrypt (This is for your user's password for extra protection), npm i mongodb (This is for your storage)
 
 July 22, 2024
 	* I think I'll depend on firebase for my authentication in the future.
