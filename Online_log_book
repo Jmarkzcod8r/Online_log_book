@@ -6,6 +6,7 @@ July 23, 2024
 		remember this part of the web app.
 	* I'm glad I deployed a basic crud nextjs-mongodb however I am reminded of gitignore. I should've first modified this part of the code to ignore the `.env` file. I may have to delete everything
 		for now since I seem to be having trouble deleting the env file. OKay, nevermind. I just deleted the env file and I assume that once I bring it back locally, it would be ignored.
+	* I think vercel is more friendly when it comes to authentication.
 
 July 22, 2024
 	* I think I'll depend on firebase for my authentication in the future.
