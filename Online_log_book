@@ -5,7 +5,7 @@ July 23, 2024
 	* In the api of mongodb, you can pre-specify the database to be use. The 'd' in database is a pseunonym for dad and the 'c' in collection goes for child. This is a good way to easily ]
 		remember this part of the web app.
 	* I'm glad I deployed a basic crud nextjs-mongodb however I am reminded of gitignore. I should've first modified this part of the code to ignore the `.env` file. I may have to delete everything
-		for now since I seem to be having trouble deleting the env file.
+		for now since I seem to be having trouble deleting the env file. OKay, nevermind. I just deleted the env file and I assume that once I bring it back locally, it would be ignored.
 
 July 22, 2024
 	* I think I'll depend on firebase for my authentication in the future.
