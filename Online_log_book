@@ -11,6 +11,7 @@ July 23, 2024
 		is that you can easliy put in env variables faster as their is an option in there for the whole and not just the individual.
 	* Thankfully, both the env variables in vercel and nextjs is working now.
 	* I'm fingding using next-auth to be more annoying than it used to be. I may go for a simple approach for now.
+	* Apparently, it seems that it is pretty much not recommended to adjust env variables when production is ongoing. I had to delete and build again the web apps for both vercel and netlify.
 
 July 22, 2024
 	* I think I'll depend on firebase for my authentication in the future.
