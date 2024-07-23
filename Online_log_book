@@ -17,7 +17,8 @@ July 23, 2024
 		(2) Npm install the following: 			mongoose (This is mostly use for your schema on your models), axios (This is for your connection from frontend to the backend), 
 								bcrypt (This is for your user's password for extra protection), npm i mongodb (This is for your storage and connection to the database super backend)
 		(3) Make a `model` folder with a file named User.js to store your usermodel schema.		-> requires: mongoose for Schema
-		(4) Make an api folder to handle all your backends. Make home, signin and signup folders. 
+		(4) Make an api folder to handle all your backends. Make home, signin and signup folders. On each of your route.js, make a `const client = new MongoClient(uri, options)` and then connect() inside the function
+			which can either be GET or POST or DELETE -> export async function (`GET, POST or DELETE`)(req) { ... ... }
 		
 
 July 22, 2024
