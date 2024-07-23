@@ -16,8 +16,10 @@ July 23, 2024
 		(1) Make a nextjs web app with `npx create-next-app@latest your-app-name` -> No typescript, No Eslint, No alias, No 'src', Yes to tailwind.
 		(2) Npm install the following: 			mongoose (This is mostly use for your schema on your models), axios (This is for your connection from frontend to the backend), 
 								bcrypt (This is for your user's password for extra protection), npm i mongodb (This is for your storage and connection to the database super backend)
-		(3) Make a `model` folder with a file named User.js to store your usermodel schema.		-> requires: mongoose for Schema
-		(4) Make an api folder to handle all your backends. Make home, signin and signup folders. On each of your route.js, make a `const client = new MongoClient(uri, options)` and then connect() inside the function
+		(3) Start mongodb service locally: Use these commands:	Start:	 sudo systemctl start mongod			Stop:	sudo systemctl stop mongod	
+									Restart: sudo system ctl restart mongod			Status:	sudo system ctl status mongod
+		(4) Make a `model` folder with a file named User.js to store your usermodel schema.		-> requires: mongoose for Schema
+		(5) Make an api folder to handle all your backends. Make home, signin and signup folders. On each of your route.js, make a `const client = new MongoClient(uri, options)` and then connect() inside the function
 			which can either be GET or POST or DELETE -> export async function (`GET, POST or DELETE`)(req) { ... ... } . On your home, signin and singup folder, make subfolders of either get or post.
 		
 
