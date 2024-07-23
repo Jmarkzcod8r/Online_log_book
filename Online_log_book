@@ -2,6 +2,8 @@ July 23, 2024
 	* sudo reboot -> This is for quick restart.
 	* I managed to make a nextjs web app using local mongodb database and also using compass helped a lot. I think I need to make a detailed tutorial for this.
 	* Tried dockerizing my nextjs crub web app with local mongodb but seems to be having a problem with one of its dependency.
+	* In the api of mongodb, you can pre-specify the database to be use. The 'd' in database is a pseunonym for dad and the 'c' in collection goes for child. This is a good way to easily ]
+		remember this part of the web app.
 
 July 22, 2024
 	* I think I'll depend on firebase for my authentication in the future.
