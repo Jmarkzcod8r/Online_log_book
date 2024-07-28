@@ -1,3 +1,7 @@
+July 28, 2024
+	* Encountered this error: UnknownAction: Cannot parse action at /session .Read more at https://errors.authjs.dev#unknownaction -> Thankfully this got resolved by commenting out AUTH_URL in the .env file.
+
+
 July 25, 2024
 	* Just finished a retake exam yesterday. I was okay with the hands-on part but not with the first part.
 	* These are some of the questions on the first part: (1) Exlain each phase of the sdlc (2) Explain the difference between agile and waterflow
