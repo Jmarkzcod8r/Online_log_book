@@ -1,3 +1,7 @@
+July 29, 2024
+	* Can't believe I've been missing out on vercel and netlify templates.
+	* It turns out that I already have a working crud model web app in netlify which I can mutate to my liking. Netlify seems to be allergic to auth with server.
+
 July 28, 2024
 	* Encountered this error: UnknownAction: Cannot parse action at /session .Read more at https://errors.authjs.dev#unknownaction -> Thankfully this got resolved by commenting out AUTH_URL in the .env file.
 
