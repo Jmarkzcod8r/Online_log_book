@@ -1,5 +1,7 @@
 Aug.  02, 2024
 	* I really hoped I enabled the timestamp for my online logbook data being stored to Mongodb.
+	* Encountered a problem with committing my new changes online for my online logbook. Had to do a `git pull origin main` and there was a screen by which I just made a `full justify` and `execute` and s
+		somehow it worked I guess. Oh,.and timestamp added which I have yet to verify.
 
 July 29, 2024
 	* Can't believe I've been missing out on vercel and netlify templates.
