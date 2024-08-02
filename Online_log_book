@@ -1,5 +1,6 @@
 Aug.  02, 2024
 	* I really hoped I enabled the timestamp for my online logbook data being stored to Mongodb.
+	* Lesson, learned --> Put timestamps on your schema.
 	* Encountered a problem with committing my new changes online for my online logbook. Had to do a `git pull origin main` and there was a screen by which I just made a `full justify` and `execute` and s
 		somehow it worked I guess. Oh,.and timestamp added which I have yet to verify.
 	* If I am to put an authentication with netlify, I think it's best use firebase for it just like I did with devjourn.
