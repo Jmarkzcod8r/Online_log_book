@@ -1,3 +1,6 @@
+Aug. 03, 2023
+	* Just found out what was wrong with my online journal devjoourn that I cannot update right the front page. It seemed that I was sending two get requests to the backend but now it's okay.
+
 Aug.  02, 2024
 	* I really hoped I enabled the timestamp for my online logbook data being stored to Mongodb.
 	* Lesson, learned --> Put timestamps on your schema.
