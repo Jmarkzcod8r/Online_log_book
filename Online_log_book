@@ -1,5 +1,6 @@
 Aug. 11, 2024
 	* Codespace is actually pretty awesome. Can't believe I only utilized it only at this point.
+	* Manage to solve my problem with inputs not going to the other to focus using key instead of index. key > index
 
 Aug. 03, 2023
 	* Just found out what was wrong with my online journal devjoourn that I cannot update right the front page. It seemed that I was sending two get requests to the backend but now it's okay.
