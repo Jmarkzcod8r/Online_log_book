@@ -1,3 +1,6 @@
+Aug. 13, 2024
+	* Modified/fix an issue with inputs retaining the previous input values by first setting the value to `` and the the background to white and then clearing the inputRefs. This is still related to psalmster.netlify.app
+
 Aug. 11, 2024
 	* Codespace is actually pretty awesome. Can't believe I only utilized it only at this point.
 	* Manage to solve my problem with inputs not going to the other to focus using key instead of index. key > index
