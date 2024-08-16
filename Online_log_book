@@ -1,3 +1,6 @@
+Aug. 16, 2024
+	* Added some features to plsamster. I think it helps me get my keyboard skills in a good point which is kinda nice. Okay.
+
 Aug. 13, 2024
 	* Modified/fix an issue with inputs retaining the previous input values by first setting the value to `` and the the background to white and then clearing the inputRefs. This is still related to psalmster.netlify.app
 
