@@ -1,5 +1,13 @@
 Aug. 17, 2024
 	* Just fixed a minor issue. It seems that the loader component containing Sam the hamster has a tooltip-wrapper css className and it was messing with the page. Just took it out in the div for the tooltip.
+	* Versions 1.0.1 for Psalmster now out.
+		What's new?
+		* Fixed the title for the tab browser to 'Psalmster'
+		* User can now hover in the input area colored red or the incorrect ones and then the right answer will appear. This is after the score has been submitted and a result pop up has appeared.
+		* Fix default for psalm 1 to appear on first reload.
+		* Remove numbering on inputs.
+		* `Sam` the running hamster now added on the navbar.
+
 
 Aug. 16, 2024
 	* Added some features to plsamster. I think it helps me get my keyboard skills in a good point which is kinda nice. Okay.
