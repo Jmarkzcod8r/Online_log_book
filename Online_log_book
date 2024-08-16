@@ -6,7 +6,7 @@ Aug. 17, 2024
 		* User can now hover in the input area colored red or the incorrect ones and then the right answer will appear. This is after the score has been submitted and a result pop up has appeared.
 		* Fix default for psalm 1 to appear on first reload.
 		* Remove numbering on inputs.
-		* `Sam` the running hamster now added on the navbar.
+		* `Sam` the running hamster now added on the navbar and with a dedicated page upon click.
 
 
 Aug. 16, 2024
