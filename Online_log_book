@@ -1,6 +1,7 @@
 Aug. 16, 2024
 	* Added some features to plsamster. I think it helps me get my keyboard skills in a good point which is kinda nice. Okay.
 	* Got to practice adding an element div to an element and also adjusting the css with classlist.add and apparently the style is also to be considered since the style seems to have a lot priority,
+	* echo 200 | sudo tee /sys/class/backlight/amdgpu_bl1/brightness -> This is how I adjusted my linux laptop on the brightness.
 
 Aug. 13, 2024
 	* Modified/fix an issue with inputs retaining the previous input values by first setting the value to `` and the the background to white and then clearing the inputRefs. This is still related to psalmster.netlify.app
