@@ -1,5 +1,6 @@
 Aug. 18, 2024
 	* I should add a recent button to my onlinen journal web app jmdevjourn.netlify.app to show the recent logs I had some interaction with and to show a list for it.
+	* I think I'm gonna prioritize indeed.ph and jobstreet.ph when it comes to job search more than onlinejobs.ph at the current moment.
 
 Aug. 17, 2024
 	* Just fixed a minor issue. It seems that the loader component containing Sam the hamster has a tooltip-wrapper css className and it was messing with the page. Just took it out in the div for the tooltip.
