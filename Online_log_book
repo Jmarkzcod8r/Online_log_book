@@ -1,4 +1,5 @@
 Dec. 23, 2024
+	* Currently wtaching Theo share about Xstate aas an alternative to Zustand though I currently understand nothing much.
 	* I'm thinking of making a system by which a referrer can have a link to promote my products and with this 
 	I think I'll be using shoppee, vercel (for personal info of referrer) and also spreadsheet for I think as a secondary
 	database. Primary would be mongodb. I'm thinking either vercel or netllify for this but netlify seems to be the better
