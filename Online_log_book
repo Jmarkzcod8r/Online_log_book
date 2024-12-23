@@ -1,7 +1,8 @@
 Dec. 23, 2024
 	* I'm thinking of making a system by which a referrer can have a link to promote my products and with this 
 	I think I'll be using shoppee, vercel (for personal info of referrer) and also spreadsheet for I think as a secondary
-	database. Primary would be mongodb.
+	database. Primary would be mongodb. I'm thinking either vercel or netllify for this but netlify seems to be the better
+	option for this raw system.
 
 Sep. 04, 2024
 	* Version 1.0.2 for psalmster now out:
