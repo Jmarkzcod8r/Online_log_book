@@ -1,4 +1,7 @@
 Jan. 07, 2025
+	* Progress Report [jmgarage] #01:
+			Manage to make a basic site quite similar to spiritreports.blogspot.com but without much functionality of the search bar but still 
+	    	good enough. Also, I decided to deploy it first to netlify. The picture seems to be working perfectly with webp.
 	* I think I like the initial page of the previous version of nextjs.
 	* Decided to name my project: 'jm-garage'
 	* Nextjs has a new feature called turbodev which is something I have yet to learn more about.
