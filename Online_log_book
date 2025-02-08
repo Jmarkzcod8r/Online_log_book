@@ -1,7 +1,9 @@
 Feb. 08, 2025
+	* I think redisinsight is best to have a database that does not expire compared to upstash.
 	* Started familiarizing myself once again with redis more particularly redisinsight in abble to fix the search
 		functionality for my online log book app once again.Take note of the expiration.
-	* I think redisinsight is best to have a database that does not expire compared to upstash.
+	* https://www.youtube.com/watch?v=yta9xLUGKgM&t=68s -> This video might speed up the process.
+	
 
 Feb. 05, 2025
 	* Adjusted the dynamic screening capability of my online journal app but the search box still isn't working.
