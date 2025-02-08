@@ -1,3 +1,6 @@
+Feb. 08, 2025
+	* I think redisinsight is best to have a database that does not expire compared to upstash.
+
 Feb. 05, 2025
 	* Adjusted the dynamic screening capability of my online journal app but the search box still isn't working.
 
