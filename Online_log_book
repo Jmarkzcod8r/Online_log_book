@@ -1,4 +1,4 @@
-Feb. 08, 2025
+Feb. 08, 2025		++ Resume Polishing ++
 	* I think redisinsight is best to have a database that does not expire compared to upstash.
 	* Started familiarizing myself once again with redis more particularly redisinsight in abble to fix the search
 		functionality for my online log book app once again.Take note of the expiration.
