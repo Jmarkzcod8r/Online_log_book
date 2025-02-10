@@ -1,4 +1,6 @@
 Feb. 10, 2025
+	* All good now. Seach function is now working on netlify.app. I adjusted so that at getData backend, the data will 
+		will be sent to redis if none is in there which I set the expiration to 12 hrs.
 	* The good things is that the search function is okay in local but not solely in production.
 	* Made some progress with the search function for my online logbook app. Still not the same as it was before.
 	* I'm really liking the versatility of redis. I fixed the search functionality for my online logbook using redis 
