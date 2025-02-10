@@ -1,5 +1,5 @@
 Feb. 10, 2025
-	* I'm really liking the versatility of redis. I fix the search functionality for my online logbook using redis 
+	* I'm really liking the versatility of redis. I fixed the search functionality for my online logbook using redis 
 		through upstash. The api key with redis is identical with upstash.
 
 Feb. 09, 2025
