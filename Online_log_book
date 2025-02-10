@@ -1,3 +1,7 @@
+Feb. 10, 2025
+	* I'm really liking the versatility of redis. I fix the search functionality for my online logbook using redis 
+		through upstash
+
 Feb. 09, 2025
 	* I think I need a sample for redisinsight once more.
 
