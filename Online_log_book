@@ -1,3 +1,6 @@
+Feb. 12, 2025
+        * Cursor.com -> this is good for software and web development.
+
 FEb. 11, 2025
 	* My online logbook app is now fixed once again. I configured the backend of the getting data so that a successful 
 		fetch from Mongodb means the database in redis will also be updated.
