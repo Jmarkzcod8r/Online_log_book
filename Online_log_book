@@ -1,4 +1,7 @@
 Feb. 14, 2025
+	* Got docker running. 'sudo docker build -t my-nextjs-app .' should be in the right root directory.
+	* Blind 75 leetcode questions -> https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions -> This is worth studying I guess.
+	* I think it's best to include docker and paymongo to my resume.
 	* Made some additional progress with revisions to my resume.
 
 Feb. 12, 2025
