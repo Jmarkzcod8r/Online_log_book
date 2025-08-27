@@ -1,5 +1,5 @@
 Aug. 27, 2025
-	* In order for tha backend to make some changes to the database, the backend needs to 2 things: The dbConnection and the schema.
+	* In order for tha backend to make some changes to the database, the backend needs to 2 things: The dbConnection (Mongodb_URI) and the schema (contains mongoose).
 	* Started to familiarize myself with firebase once again.
 	* I guess i can only activate the login to my web app if a user clicks the profile button on the main menu.
 	* Made some progressive steps into making a login page for my jigzexplorer web app. I seem to be having problem with my firestore.
