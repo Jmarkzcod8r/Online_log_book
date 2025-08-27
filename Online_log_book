@@ -1,6 +1,18 @@
 Aug. 27, 2025
 	* Started to familiarize myself with firebase once again.
 	* I guess i can only activate the login to my web app if a user clicks the profile button on the main menu.
+	* Made some progressive steps into making a login page for my jigzexplorer web app. I seem to be having problem with my firestore.
+	* In order to speed up my integration with mongodb to my jigzexplorer web app, I think it's best I do a backtrack.
+
+August 26, 2025
+	* I need to make a new database for my jigzexplorer web app: email, firstname, surname, countries-score: [Denmark: #, Germany: #, etc.], over-all score, unlock-countires, etc..
+	* `npm run build` just made my web app smoother.
+	* useParams > useSearchParams
+	* I've modified my code so that both .jpg and ,webp files would be kept.
+	* I need to look into a company or app that knew how to handle scaling when it comes to a leaderboard.
+
+August 25, 2025
+	* The pics get enlarged based on the dimensions and this is something I need to fix. 
 
 Aug. 10, 2025
 	* It's been a while.
