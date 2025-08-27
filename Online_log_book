@@ -1,3 +1,6 @@
+Aug. 28, 2025
+	* Yes! I was able to get a proper connection to mongodb in this jigzexplorer web app.
+
 Aug. 27, 2025
 	* In order for tha backend to make some changes to the database, the backend needs to 2 things: The dbConnection (Mongodb_URI) and the schema (contains mongoose).
 	* Started to familiarize myself with firebase once again.
