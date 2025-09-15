@@ -3,6 +3,7 @@ Sep. 16, 2025
 		from the paddle website but first I need to purchase the website, `jigzexplorer.com` or something like that.
 	* Regarding the database, I still need to update the databases in firestore and mongodb. I need to add the fields: premium: No or Yes, affiliate: None (default)
 	* I think a webhook is like a fishing pole that fishes for notifications from a website.
+	* I need to test out a webhook using netlify.
 
 Aug. 29, 2025
 	* I turns out I just need to scale down then whole pic with frames besides it and the pieces below setup for the phone screen.
