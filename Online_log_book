@@ -1,3 +1,6 @@
+Sep. 24, 2024
+	* Using nameservers on porkbun with netlify seems to be disappointing. I used DNS for now. I hope that works.
+
 Sep. 19, 2025
 	* I need to adjust the country list page to make the back button and the logo have the same function.
 	* I need to integrate the new website with netlify and then with the payment system.
