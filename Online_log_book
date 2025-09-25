@@ -1,4 +1,6 @@
-Sep. 24, 2024
+Sep. 25, 2025
+	* Adjusted my DNS at porkbun in the hopes of making my website jigzexplorer.quest faster.
+Sep. 24, 2025
 	* The website seems to be fast on mobile so I wonder why it is kinda slow in this laptop but maybe it is because I'm only using hotspot to have some connection in this device.
 	* Jigzexplorer.quest is now up. Now I need to integrate paddle with it.
 	* Using nameservers on porkbun with netlify seems to be disappointing. I used DNS for now. I hope that works.
