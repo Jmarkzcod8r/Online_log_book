@@ -1,4 +1,5 @@
 Sep. 28, 2025
+	* I seem to be having trouble with the dynamic payment right now.
 	* On the live paddle account, I need to make an api key for the server and then a client token for the front-end which is in Developer Tools => Authentication.
 		Also, I need to update the Catalog for the products. It seems that the client-side token is more reliable than the api key.
 	* I think the reason my live website isn't simulating a checkout is because of the successURL.
