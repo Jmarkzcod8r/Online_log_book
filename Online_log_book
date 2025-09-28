@@ -1,3 +1,6 @@
+Sep. 29, 2025
+	* My dynamic payment feature is down and I don't know why but for now, I'll use the client side token to create transactions and use a webhook to update the database.
+
 Sep. 28, 2025
 	* Developer Tools -> Simulation ... This is most likely for testing out webhooks.
 	* I seem to be having trouble with the dynamic payment right now.
