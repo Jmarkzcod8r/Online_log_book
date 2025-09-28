@@ -1,7 +1,9 @@
 Sep. 28, 2025
 	* How to add webhook on nextjs webapp:
 		1. Ensure app is on the web and not on localhost only.
-		2. Open your sandbox paddle account -> Developer Tools -> Notification -> Add (+ New destination) -> Input your app endpoint (ex.../api/webhook)
+		2. Open your sandbox paddle account -> Developer Tools -> Notification -> Add (+ New destination) -> Input your app endpoint (ex.../api/webhook) and configure
+		3. Copy secret key and add to your apps environment variables.
+		4. Make the endpoint to your web app (ex. app/api/webhook/route.ts).
 
 Sep. 27, 2025
 	* I need to watch the video tutorial on paddle once again cause I need the payment system to be live now.
