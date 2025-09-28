@@ -1,4 +1,5 @@
 Sep. 28, 2025
+	* i need to also add the env variables in github thru settings if I want to use the codespace really well.
 	* How to add webhook on nextjs webapp:
 		1. Ensure app is on the web and not on localhost only.
 		2. Open your sandbox paddle account -> Developer Tools -> Notification -> Add (+ New destination) -> Input your app endpoint (ex.../api/webhook) and configure
