@@ -1,4 +1,5 @@
 Sep. 28, 2025
+	* On the live paddle account, I need to make an api key for the server and then a client token for the front-end.
 	* I think the reason my live website isn't simulating a checkout is because of the successURL.
 	* I think I'll use 'smartdiary.co' as a reference.
 	* I found the `request website approval` in the default payment link in the checkout settings of my real-paddle account and not on the sandbox. Now, I need to set
