@@ -1,4 +1,6 @@
 Sep. 28, 2025
+	* I found the `request website approval` in the default payment link in the checkout settings of my real-paddle account and not on the sandbox. Now, I need to set
+		everything up before I click the button. Maybe, it would be best to setup a free package aside the premium one so that users can know the difference.
 	* I need to also add the env variables in github thru settings if I want to use the codespace really well.
 	* How to add webhook on nextjs webapp:
 		1. Ensure app is on the web and not on localhost only.
