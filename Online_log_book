@@ -1,4 +1,5 @@
 Sep. 29, 2025
+    * I'll have to configure the web app to use the standard simple payment for now.
 	* My dynamic payment feature is down and I don't know why but for now, I'll use the client side token to create transactions and use a webhook to update the database.
 
 Sep. 28, 2025
