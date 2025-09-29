@@ -1,4 +1,5 @@
 Sep. 29, 2025
+    * I think the dynamic payment for paddle is suitable for e-commerce websites where the products database is the main while the catalog is the secondary.
     * I should add a button so that people can give comments, recommendations and advices for my web app.
     * I'll have to configure the web app to use the standard simple payment for now.
 	* My dynamic payment feature is down and I don't know why but for now, I'll use the client side token to create transactions and use a webhook to update the database.
