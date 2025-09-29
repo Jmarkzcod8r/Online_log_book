@@ -1,4 +1,6 @@
 Sep. 29, 2025
+	* I need to configure the web app to include an environment variable that would set whether the web app is in production or sandbox mode.
+	* Just made some api keys for the production mode of paddle. Also, I just added a product in the catalog which is the premium package for the web app.
     * I think the dynamic payment for paddle is suitable for e-commerce websites where the products database is the main while the catalog is the secondary.
     * I should add a button so that people can give comments, recommendations and advices for my web app.
     * I'll have to configure the web app to use the standard simple payment for now.
