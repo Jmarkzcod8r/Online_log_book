@@ -1,4 +1,5 @@
 Oct. 16, 2025
+	* In order for me to fully test out the web hook, I need to make a tunnel thru ngrok to expose it to the internet and not just in localhost.
 	* Add and converted webp images to jigzexplorer yesterday.
 
 Oct. 09, 2025
