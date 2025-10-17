@@ -1,4 +1,5 @@
 Oct. 16, 2025
+	* I should have made a reset button to clear out all the data of a specific player.
 	* I need to make 2 webhook simulation. One is subscription activated and the other is for cancelling. The webhook must console.log the subscription ID 
 		for me to better work well with it. Then, the databases for firestore and mongodb must be updated. I need to make a new collection both for firebase and
 		mongodb. I need to enable trial but this time, the scores won't be recorded and also I need to add tokens to the database and maybe a new page for them.
