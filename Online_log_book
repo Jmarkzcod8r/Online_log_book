@@ -1,6 +1,6 @@
 Oct. 20, 2025
 	* Apparently one needs to make a component hook with zustand which is like a helper.
-	* Just watch a tutorial video by PedroTech about zustand. Apparently, create and set are like a parent and a child and the two goes hand in hand together. Installing zimmer 
+	* Just watch a tutorial video by PedroTech about zustand. Apparently, create and set are like a parent and a child and the two goes hand in hand together. Installing Immer 
 		seems to be also helpful in dealing with nested data.
 	* I managed to play with how to cancel and pause a subscription in paddle. Normally, it would take effect on the next billing cycle but I just found out how to make
 		it take effect immediately in case I would be using it.
