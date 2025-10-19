@@ -1,3 +1,6 @@
+Oct. 19, 2025
+	* I need a bit of polishing in my web app before I can try for an approval for paddle.
+
 Oct. 16, 2025
 	* I should have made a reset button to clear out all the data of a specific player.
 	* I need to make 2 webhook simulation. One is subscription activated and the other is for cancelling. The webhook must console.log the subscription ID 
