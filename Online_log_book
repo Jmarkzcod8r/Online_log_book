@@ -1,3 +1,7 @@
+Oct. 20, 2025
+	* I managed to play with how to cancel and pause a subscription in paddle. Normally, it would take effect on the next billing cycle but I just found out how to make
+		it take effect immediately in case I would be using it.
+
 Oct. 19, 2025
 	* I need a bit of polishing in my web app before I can try for an approval for paddle.
 	* I managed to polish my activate-subscription backend and link the item to be purchased to my catalog.
