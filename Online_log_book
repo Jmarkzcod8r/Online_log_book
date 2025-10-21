@@ -1,3 +1,6 @@
+Oct. 22, 2025
+	* Putting a reset and settings page for my website seems to be beneficial for me.
+
 Oct. 20, 2025
 	* Apparently one needs to make a component hook with zustand which is like a helper.
 	* Just watch a tutorial video by PedroTech about zustand. Apparently, create and set are like a parent and a child and the two goes hand in hand together. Installing Immer 
