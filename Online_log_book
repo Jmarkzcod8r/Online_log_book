@@ -1,4 +1,5 @@
 Oct. 31, 2025
+	* I'll try to wrap my layout.tsx with zustand and see if that works.
 	* Tried incorporating zustand to jigzexplorer with minimal result. I may try to do the basic first to get some much needed understanding. 
 
 Oct. 22, 2025
