@@ -1,3 +1,13 @@
+Nov. 2, 2025
+	* I need to prioritize this one.
+	* Upon reviewing your domain, I need you to confirm some details before I can proceed with the verification process. Please provide me with the following information:
+		The URL link to where you plan to embed the Paddle checkout
+		The URL link to the Terms & Conditions page (please make sure it mentions your company's name) - for any questions about what to include, Paddle's Customer Handbook can help
+		The URL link to the Refund Policy page - alternatively, you can mention it on your Terms & Conditions page. (Paddle has a 14-day minimum refund policy, as seen in our Buyer Terms)
+		The URL link to the Privacy Policy page
+		The URL link to the pricing page
+		For this product category we require you to complete this Chargeback Questionnaire. Please do so for review.
+
 Oct. 31, 2025
 	* I'll try to wrap my layout.tsx with zustand and see if that works.
 	* Tried incorporating zustand to jigzexplorer with minimal result. I may try to do the basic first to get some much needed understanding. 
