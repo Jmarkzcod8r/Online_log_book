@@ -1,4 +1,7 @@
 November 13, 2025
+	* 'Jay Mark Gutierrez' -> CEO (Chief Executive Officer) -> UHNWI (Ultra High Net Worth Individual). 
+	* I managed to make 
+	* /home/jmarkz08/Documents/P1/Redis_mock1.0/redis-nextjs-fulltext-search -> this is the directory for my redis reference. 
 	* The login page upon successful sign in updates the firestore database and mongodb but I need to add another database and that is redis.
     * I need to revisit my old redis sample project to integrate redis into the website. I think I'll have to make a helper function and maybe name it 'updateRedis-profile' or something like that.
 	* I still need to try paddle for my website jigzexplorer.quest. I'll use my own debit card for now.
