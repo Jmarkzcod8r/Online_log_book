@@ -1,4 +1,6 @@
 November 13, 2025
+	* Zustand for global state, redis for source of truth, firestore for leaderboad, score and ATH and Mongodb for back-up.
+	* I think I'm starting to get how zustand works. It is great for navigating across multiple pages as long as you don't hit the back and refresh page. 
 	*  A good practice would be to not save settings of a game in the localstorage. Things that can affect the score.
 	* I need to modify the profile database as well as the country score database. I need to add an all-time-high field to the scoring mechanism.
 	* Just got my paddle verified. Thank You Lord!
