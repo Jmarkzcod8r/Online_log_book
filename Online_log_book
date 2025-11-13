@@ -1,4 +1,5 @@
 November 13, 2025
+    * I need to revisit my old redis sample project to integrate redis into the website. I think I'll have to make a helper function and maybe name it 'updateRedis-profile' or something like that.
 	* I still need to try paddle for my website jigzexplorer.quest. I'll use my own debit card for now.
 	* Zustand for global state, redis for source of truth, firestore for leaderboad, score and ATH and Mongodb for back-up.
 	* I think I'm starting to get how zustand works. It is great for navigating across multiple pages as long as you don't hit the back and refresh page. 
