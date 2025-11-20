@@ -1,3 +1,7 @@
+Nov. 20, 2025
+	* I made some significant improvements today. Apparently, zustand and snapshot works best in a global setting. I have to delay tokens and settings for now to focus on paddle.
+		Also, I need to complete the picture for North Macedonia and United Kingdom.
+
 Nov. 14, 2025
 	* To-do list for jigzexplorer"
 		(1) Leaderboard page: Take out the email display
