@@ -1,5 +1,6 @@
 Nov. 21, 2025
 	* Expanded the data structure for the paddle subscription of jigzexplorer. I may want to included a trial period of 7 days.
+	* The refund policy is also something I need to consider.
 	* I made some nice progress with my paddle and I think I'll follow what chatgpt recommended. 
 	* I may as well rely on webhook to sync data with firestore and zustand.
 
