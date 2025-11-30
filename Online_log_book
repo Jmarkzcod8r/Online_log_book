@@ -1,3 +1,6 @@
+Dec. 1, 2025
+	* I was finally able to open a checkout in the client side with the use of a server api in the backend.
+
 Nov. 30, 2025
 	* Netlify's function logs are really helpful. I should have known about them sooner.
 	* I was able to make a checkout pop up only using the client token.
