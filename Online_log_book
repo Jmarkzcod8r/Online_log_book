@@ -1,4 +1,5 @@
 Dec. 2, 2025
+	* (catch (err)) has been pretty useful in troubleshooting.
 	* I'm looking at a lot of eventTypes right now in the webhook: 
 		Order / Lifecycle
 			(1) transaction.ready → checkout started
