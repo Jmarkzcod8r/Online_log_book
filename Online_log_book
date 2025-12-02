@@ -1,6 +1,8 @@
-Dec. 2, 2025
+Dec. 3, 2025
 	* having trouble cancelling a subscription as of the moment.
 	* (catch (err)) has been pretty useful in troubleshooting.
+
+Dec. 2, 2025
 	* I'm looking at a lot of eventTypes right now in the webhook: 
 		Order / Lifecycle
 			(1) transaction.ready → checkout started
