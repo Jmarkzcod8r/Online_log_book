@@ -1,3 +1,7 @@
+Dec. 2, 2025
+	* I guess when it comes to webhooks I cannot just use the client side to control whether it is sandbox or production. It is much more complicated than that. I need to active and deactive in
+		paddle -> Developer Tools -> Notification.
+
 Dec. 1, 2025
 	* Thank You Lord!
 	* I was finally able to open a checkout in the client side with the use of a server api in the backend.
