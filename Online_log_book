@@ -1,4 +1,5 @@
-Dec. 3, 2025
+Dec. 3, 2025	
+	* I hope using "@paddle/paddle-node-sdk"; will help me in cancelling a subscription and at this point the subscriptions.update seems to be the way to go.
 	* Maybe I shoould put the backend at /subscriptions/{subscription_id}/cancel
 	* having trouble cancelling a subscription as of the moment.
 	* (catch (err)) has been pretty useful in troubleshooting.
