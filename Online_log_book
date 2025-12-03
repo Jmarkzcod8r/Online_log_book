@@ -1,4 +1,5 @@
 Dec. 3, 2025	
+	* I think I need to add another field in the countries named unlockbyPremium to be a boolean. 
 	* I also need to set the webp converte so that it can only be use once a day for non-premium users.
 	* My premium status in jigzexplorer means a user has full access to all the countries but what happens if he cancels? I think I have to revert to the countries
 		he hasn't unlock at those point and also a small restriction at the token which means he isn't able to change the designations. No free range at this point.
