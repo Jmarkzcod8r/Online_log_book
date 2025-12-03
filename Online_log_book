@@ -1,4 +1,5 @@
 Dec. 3, 2025	
+	* Thank You Lord! My website is now live and can accept payment. I used my bdo debit card to simulate an initial payment which is recurring every month.
 	* I think I need to add another field in the countries named unlockbyPremium to be a boolean. 
 	* I also need to set the webp converte so that it can only be use once a day for non-premium users.
 	* My premium status in jigzexplorer means a user has full access to all the countries but what happens if he cancels? I think I have to revert to the countries
