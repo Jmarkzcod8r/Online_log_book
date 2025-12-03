@@ -1,4 +1,9 @@
 Dec. 3, 2025	
+	* import { Environment, Paddle } from "@paddle/paddle-node-sdk";
+		const paddle = new Paddle(process.env.PADDLE_BILLING_TOKEN!, {
+  			environment: Environment.production, // or .sandbox   });
+		await paddle.subscriptionItems.cancel("sub_item_12345");
+		-> This is how chatgpt suggests it. I have yet to try this one.
 	* I hope using "@paddle/paddle-node-sdk"; will help me in cancelling a subscription and at this point the subscriptions.update seems to be the way to go.
 	* Maybe I shoould put the backend at /subscriptions/{subscription_id}/cancel
 	* having trouble cancelling a subscription as of the moment.
