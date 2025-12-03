@@ -1,4 +1,12 @@
 Dec. 3, 2025	
+	* I need to edit 4 things if i want to add another field in the firestore database.
+		(1) firestore database -> make a dedicated page for this one.
+		(2) login page -> When creating a new user.
+		(3) Zustand -> Edit userpfoile etc.
+		(4) Webhook
+			Optional:
+		(5) Profile/info page....
+	* I need to take out the trialing for my subscription soon.
 	* Thank You Lord! My website is now live and can accept payment. I used my bdo debit card to simulate an initial payment which is recurring every month.
 	* I think I need to add another field in the countries named unlockbyPremium to be a boolean. 
 	* I also need to set the webp converte so that it can only be use once a day for non-premium users.
