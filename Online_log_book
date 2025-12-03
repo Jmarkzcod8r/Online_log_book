@@ -1,4 +1,6 @@
 Dec. 3, 2025	
+	* My premium status in jigzexplorer means a user has full access to all the countries but what happens if he cancels? I think I have to revert to the countries
+		he hasn't unlock at those point and also a small restriction at the token which means he isn't able to change the designations. No free range at this point.
 	* I'm having the small urge to sell jigzexplorer.quest althouh at this point, I think it isn't worth anything.
 	* import { Environment, Paddle } from "@paddle/paddle-node-sdk";
 		const paddle = new Paddle(process.env.PADDLE_BILLING_TOKEN!, {
