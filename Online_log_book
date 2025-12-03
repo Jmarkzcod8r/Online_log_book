@@ -1,4 +1,5 @@
 Dec. 3, 2025
+	* Maybe I shoould put the backend at /subscriptions/{subscription_id}/cancel
 	* having trouble cancelling a subscription as of the moment.
 	* (catch (err)) has been pretty useful in troubleshooting.
 
