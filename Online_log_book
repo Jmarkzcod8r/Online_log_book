@@ -1,4 +1,5 @@
 Dec. 5, 2025
+	* When testing out tokens, I can temporarily set the price for the countries to 1 ticket for the moment.
 	* The master-slave relationships of my databases is something I need to be familiarized with.
 	* Canceled the one-dollar-price subscription and thankfully the webhook was just right and it also updated the firestore database.
 	* I need agents for jigzexplorer.quest.
