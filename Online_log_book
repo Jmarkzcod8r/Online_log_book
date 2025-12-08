@@ -1,4 +1,6 @@
 Dec. 8, 2025
+	* "You're currently using a version of Next.js affected by a critical security vulnerability. To protect your project, we're blocking further deploys until you update your Next.js version." -> This is retty 
+		annoying and apparently as long as this is showing, I cannot really update my app. I' gonna have to resolve this one anytime soon.
 	* I need to moify the settings page so that the + and - buttons don't directly change the values in the zustand but it shall be done as a whole in the save button. I may need to make a 
 		state for this one which is a list of objects. I should also modify zustand in the global layout so that it wil re-run when any changes is done to the settings also with the help of zustand.
 	* Swa.fire seems to reset the changes to the settings of zustand.
