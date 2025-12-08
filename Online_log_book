@@ -1,3 +1,9 @@
+Dec. 8, 2025
+	* I need to moify the settings page so that the + and - buttons don't directly change the values in the zustand but it shall be done as a whole in the save button. I may need to make a 
+		state for this one which is a list of objects. I should also modify zustand in the global layout so that it wil re-run when any changes is done to the settings also with the help of zustand.
+	* Swa.fire seems to reset the changes to the settings of zustand.
+	* My settings page is slowly taking shape. 
+
 Dec. 5, 2025
 	* My synczustandfirebase() helper function seems to be like a mini webhook for my firestore database.
 	* When testing out tokens, I can temporarily set the price for the countries to 1 ticket for the moment.
