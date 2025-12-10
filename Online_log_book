@@ -1,3 +1,6 @@
+Dec. 10, 2025
+	* I finally was able to fix te vulnerability part in my netlify deploy and made some changes in my settings page.
+
 Dec. 8, 2025
 	* "You're currently using a version of Next.js affected by a critical security vulnerability. To protect your project, we're blocking further deploys until you update your Next.js version." -> This is retty 
 		annoying and apparently as long as this is showing, I cannot really update my app. I' gonna have to resolve this one anytime soon.
