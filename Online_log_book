@@ -1,4 +1,5 @@
 Dec.  16, 2025
+	* Avoid 'Deleting Collection' in firebase storage.
 	* ESP 32 cam with hall effect sensor now working but i haven't intergrated the wifi part yet. 
 	* Tried installing arduino IDE here in linux laptop but the port button seems to be disabled. 
 
