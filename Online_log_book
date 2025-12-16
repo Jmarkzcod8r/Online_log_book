@@ -1,3 +1,7 @@
+Dec.  16, 2025
+	* ESP 32 cam with hall effect sensor now working but i haven't intergrated the wifi part yet. 
+	* Tried installing arduino IDE here in linux laptop but the port button seems to be disabled. 
+
 Dec. 10, 2025
 	* Made some improvement to this web app and in the future, I think it only takes one good programmer to manage the updates and 
 		new features for this web app.
