@@ -1,3 +1,6 @@
+Dec. 19, 2025
+	* I managed to make a websocket work in a nextjs app I just made.
+
 Dec.  16, 2025
 	* Avoid 'Deleting Collection' in firebase storage.
 	* ESP 32 cam with hall effect sensor now working but i haven't intergrated the wifi part yet. 
