@@ -1,5 +1,5 @@
 Dec. 19, 2025
-	* I managed to make a websocket work in a nextjs app I just made.
+	* I managed to make a websocket work in a nextjs app I just made. Now, I need to make the esp32 with hall effect sensor connect to it. 
 
 Dec.  16, 2025
 	* Avoid 'Deleting Collection' in firebase storage.
