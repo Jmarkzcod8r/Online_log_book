@@ -1,4 +1,5 @@
 Dec. 19, 2025
+	* I stand corrected 127.0.0.1 means 'this device' os ifconfig in the terminal is the way to go for this linux setup.
 	* It seems that the IP address for my laptop changes depending on the type of internet connection. For 5G: 192.168.1.15 but for 2.4G: 127.0.0.1
 	* I managed to make a websocket work in a nextjs app I just made. Now, I need to make the esp32 with hall effect sensor connect to it. 
 
