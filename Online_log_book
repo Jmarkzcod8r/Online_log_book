@@ -1,3 +1,7 @@
+Dec. 21, 2025
+    * I made some real progress with esp32 but using its bluetooth is tougher than then wifi. The ble code may have been uploaded but the bluetooth is
+        is still not showing up.
+
 Dec. 19, 2025
 	* I think nextjs is better to be the client and esp 32 is the server for now.
 	* I stand corrected 127.0.0.1 means 'this device' os ifconfig in the terminal is the way to go for this linux setup.
