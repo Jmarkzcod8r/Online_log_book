@@ -1,3 +1,6 @@
+Dec. 22, 2025
+	* Good news! I was finally able to make blekeyboard works but it is only for my samsung tablet and not the laptop. the pc or my phone. Making a new skech and using an example as a template apparently did the trick.
+
 Dec. 21, 2025
 	* I just found out that you can use esp32 bluetooth to make a chat.
     * I made some real progress with esp32 but using its bluetooth is tougher than then wifi. The ble code may have been uploaded but the bluetooth is
