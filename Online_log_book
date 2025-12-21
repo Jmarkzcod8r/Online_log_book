@@ -1,4 +1,5 @@
 Dec. 22, 2025
+	* I need to make the esp32 bluetooth more discoverable.
 	* Good news! I was finally able to make blekeyboard works but it is only for my samsung tablet and not the laptop. the pc or my phone. Making a new skech and using an example as a template apparently did the trick.
 
 Dec. 21, 2025
