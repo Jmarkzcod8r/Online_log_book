@@ -1,4 +1,5 @@
 Dec. 23, 2025
+	* Setting up flutter in the local device seems to be a bit of a challenge unlike in the firebase studio.
 	* i may need to edit the accessibility in the settings of the phone by going into the downloaded/installed services.
 	* Flutter doctor seems to be a very good way of seeing if flutter can be run on the computer.
 
