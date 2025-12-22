@@ -1,4 +1,5 @@
 Dec. 23, 2025
+	* the android studio download seems to be the biggest file needed for my local setup @ 1.4GB. Wifi is best for the setup and not data connection apparently.
 	* Setting up flutter in the local device seems to be a bit of a challenge unlike in the firebase studio.
 	* i may need to edit the accessibility in the settings of the phone by going into the downloaded/installed services.
 	* Flutter doctor seems to be a very good way of seeing if flutter can be run on the computer.
