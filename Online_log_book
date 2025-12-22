@@ -1,4 +1,5 @@
 Dec. 22, 2025
+	* Started using firebase studio to make a flutter app which is pretty nice! Also, I've discovered that you can allow insecure content on a site by visiting the settings which I still need to verify. 
 	* I need to try using a python script and esp32 websocket server.
 	* I need to make the esp32 bluetooth more discoverable.
 	* Good news! I was finally able to make blekeyboard works but it is only for my samsung tablet and not the laptop. the pc or my phone. Making a new skech and using an example as a template apparently did the trick.
