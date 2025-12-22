@@ -1,3 +1,7 @@
+Dec. 23, 2025
+	* i may need to edit the accessibility in the settings of the phone by going into the downloaded/installed services.
+	* Flutter doctor seems to be a very good way of seeing if flutter can be run on the computer.
+
 Dec. 22, 2025
 	* I was able to connect the firebase studio to my local esp32 websocket server by allowing insecure connection in the site settings.
 	* I left my esp32 at home! Haayyyy...!!!
