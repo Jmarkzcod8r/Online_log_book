@@ -1,3 +1,7 @@
+Dec. 24, 2025
+	* The accessibility option is really annoying right now.
+	* I managed to make an app and installed in my phone that connects to the websocket server esp32. 
+
 Dec. 23, 2025
 	* I seem to be having trouble installing a simple flutter app in my phone via usb.
 	* It seems that the mDNS is very useful in putting a label to an esp32 websocket despite any changesin its ip address.
