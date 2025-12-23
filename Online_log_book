@@ -1,4 +1,6 @@
 Dec. 23, 2025
+	* It seems that the mDNS is very useful in putting a label to an esp32 websocket despite any changesin its ip address.
+	* I need to make a new flutter project before I got to use the flutter doctor.
 	* the android studio download seems to be the biggest file needed for my local setup @ 1.4GB. Wifi is best for the setup and not data connection apparently.
 	* Setting up flutter in the local device seems to be a bit of a challenge unlike in the firebase studio.
 	* i may need to edit the accessibility in the settings of the phone by going into the downloaded/installed services.
