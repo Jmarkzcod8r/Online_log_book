@@ -1,4 +1,6 @@
 Dec. 24, 2025
+	* /home/jmarkz08/Desktop/etc/Flutter/app2/build/flutter_inappwebview/intermediates/runtime_library_classes_jar/debug/classes.jar: D8: java.lang.NullPointerException: 
+		Cannot invoke "String.length()" because "<parameter1>" is null -> This error is persistently annoying.
 	* So, in flutter, gradle is like the construction manager or the head chef of a restaurant.
 	* flutter clean and flutter run seems to go hand in hand together.
 	* I had to restart Dart:Analysis server
