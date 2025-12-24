@@ -1,4 +1,5 @@
 Dec. 24, 2025
+	* So, in flutter, gradle is like the construction manager or the head chef of a restaurant.
 	* flutter clean and flutter run seems to go hand in hand together.
 	* I had to restart Dart:Analysis server
 	* There 2 build.grade in my flutter app and it seems that when one changes, the other has to be updated as well.
