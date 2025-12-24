@@ -1,4 +1,5 @@
 Dec. 24, 2025
+	* The flutter app seems to be working on the chrome once again for now.
 	* /home/jmarkz08/Desktop/etc/Flutter/app2/build/flutter_inappwebview/intermediates/runtime_library_classes_jar/debug/classes.jar: D8: java.lang.NullPointerException: 
 		Cannot invoke "String.length()" because "<parameter1>" is null -> This error is persistently annoying.
 	* So, in flutter, gradle is like the construction manager or the head chef of a restaurant.
