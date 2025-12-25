@@ -1,3 +1,8 @@
+Dec. 25, 2025
+    * Now, I need to modify the code so that video starts when a data is receives and stops whenever a succeeding data has not been received for a specific period of time 
+       and then run again when new data is accounted for.
+    * I finally configured the flutter app to be controllable by the esp32. Hurrah!!
+
 Dec. 24, 2025
 	* The flutter app seems to be working on the chrome once again for now.
 	* /home/jmarkz08/Desktop/etc/Flutter/app2/build/flutter_inappwebview/intermediates/runtime_library_classes_jar/debug/classes.jar: D8: java.lang.NullPointerException: 
