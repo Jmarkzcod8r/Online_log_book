@@ -1,4 +1,5 @@
 jan. 5, 2025
+	* Also, BLE with nimble is the way to go.
 	* Troubleshooted why the scan ble button didn't work in my flutter app and it turns out that the location needs to be turned on first.
 
 Jan. 4, 2205
