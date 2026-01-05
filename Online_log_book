@@ -1,4 +1,5 @@
 jan. 5, 2025
+	* Maximum is 3,145,728 bytes for AI thinker esp32 cam-mb while only 1,310,720 bytes for esp32 c6. which you need to multiply by 2.6 to catch up.
 	* I need to check my other esp32 wroom with 30 pins if it can handle the big code I have made since the c6 seems to be lacking. 
 	* Also, BLE with nimble is the way to go.
 	* Troubleshooted why the scan ble button didn't work in my flutter app and it turns out that the location needs to be turned on first.
