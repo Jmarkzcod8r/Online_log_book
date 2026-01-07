@@ -1,4 +1,5 @@
 Jan. 7, 2025
+	* First time integrating location dependency for my flutter app.
 	* I think I'll tyr Kicad first before easyeda.
 	* Downloaded easyeda for the linux laptop but esp32 seems to be hard to integrate. I think I need a youtube tutorial as a reference.
 	* "If you aren't open for failure, you aren't yet close to success."
