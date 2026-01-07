@@ -1,3 +1,6 @@
+Jan. 7, 2025
+	* Theo moving from nextjs to tanstack makes me want to try the framework even more although I think it's not much of a priority as of the moment.
+
 jan. 5, 2025
 	* Partition scheme saved the day.
 	* Maximum is 3,145,728 bytes for AI thinker esp32 cam-mb while only 1,310,720 bytes for esp32 c6. which you need to multiply by 2.6 to catch up.
