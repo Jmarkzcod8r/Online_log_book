@@ -1,3 +1,6 @@
+Jan. 8, 2025
+	* It seems I can scan for nearby ble devices even if they are on other networks including esp32 devices but connecting to their websocket becomes impossible pretty hard.
+
 Jan. 7, 2025
 	* It seems that the wire to be use for the esp32 has some influence as it needs to be one that can deliver data.
 	* First time integrating location dependency for my flutter app.
