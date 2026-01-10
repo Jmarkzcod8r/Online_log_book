@@ -1,3 +1,6 @@
+Jan. 10, 2026
+    * I think i need to make the apk for the app downloadable via google playstore and also a site maybe in github.
+
 Jan. 8, 2025
 	* It seems I can scan for nearby ble devices even if they are on other networks including esp32 devices but connecting to their websocket becomes impossible pretty hard.
 
