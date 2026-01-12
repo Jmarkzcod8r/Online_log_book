@@ -8,9 +8,11 @@ Jan. 12, 2026
 			Comment: This is genius because it solves a problem for other people.
 		(3) Set up a simple landing page to collect user sign-ups while you work on your MVP. -> You can use Gamma for this and integrate it with zapier.
 		(4) Web app or mobile?
-		(5) Consider using supabase for the database.
+		(5) Consider using supabase for the database.-> Free tier can accomodate to 10,000 free users.
 		(6) Use Claude Code.
 		(7) Marketing -> 50% of you making an app. Attention is the new currency.
+			(7.1) For faceless marketing: Reddit, Discord, Quora -> Ue keyword. 
+			(7.2_ Stay away from influencer marketing.
 		
     * I think I need to make a test build for my epoxy resin.
     * My 3D printer is now working. Now I need to design a container for my esp32. Also, the PLA is pretty strong.
