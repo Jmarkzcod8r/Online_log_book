@@ -1,4 +1,6 @@
 Jan. 15, 2025
+	* I think I should make the pcb and then determin how to make the container from there.
+	* Esp32 is slighlt longer than the esp32 c6 although they have the same width.
 	* The nail or screw holder proved to be sub-optimal. The print turned out to be decent this time. I think I shouldn't have included the adhersion because taking it out was time-consuming. Also, the 
 		output doesn't go back to its original state once stretched out at a specific point.
 
