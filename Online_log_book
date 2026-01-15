@@ -1,4 +1,5 @@
 Jan. 15, 2025
+	* Using the 2 battery in series to power my esp32 circuit was not what I hoped for. Firstly, the unit behaved like in the past using a cable that is sub-optimal and for power only.
 	* I think I should make the pcb and then determin how to make the container from there.
 	* Esp32 is slighlt longer than the esp32 c6 although they have the same width.
 	* The nail or screw holder proved to be sub-optimal. The print turned out to be decent this time. I think I shouldn't have included the adhersion because taking it out was time-consuming. Also, the 
