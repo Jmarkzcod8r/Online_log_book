@@ -1,4 +1,5 @@
 Jan. 15, 2025
+	* Perhaps, I need some thicker walls for my 3d print.
 	* Portrait orientation seems to be the way to go. Also, custom slicing seems to work best for now in the easywre slicer.
 	* Using the 2 battery in series to power my esp32 circuit was not what I hoped for. Firstly, the unit behaved like in the past using a cable that is sub-optimal and for power only.
 	* I think I should make the pcb and then determin how to make the container from there.
