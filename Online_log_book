@@ -1,4 +1,8 @@
 Jan. 16, 2025
+	* I also dug deeper to boot and reset. boot has not much function without reset and can be bypassed by manipulating gpio0.
+	* I noticed that the type c usb uses 2 x 5.1k ohm resistors and the esp32 c6 uses usb to uart and usb to serial (This is the default type).
+	* Espressif, the makers or manufacturers of esp32 seems really friendly when it comes to sharing the documentation for their products. For the esp32c6, the schematics can be downloaded here:
+		https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitc-1/user_guide.html . Now, I just need to transfer this to kicad and build my pcb in there.
 	* "To be a billionaire is not easy and it's supposed to be." - anonymouse
 	* It's good to know the continuity function of the tester is working fine.
 	* I think for determining the premium features, I should consider the variables I have.
