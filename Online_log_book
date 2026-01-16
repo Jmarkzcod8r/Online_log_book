@@ -1,4 +1,5 @@
 Jan. 16, 2025
+	* "To be a billionaire is not easy and it's supposed to be." - anonymouse
 	* It's good to know the continuity function of the tester is working fine.
 	* I think for determining the premium features, I should consider the variables I have.
 	* Tried setting the auto stop to 3 seconds for the flutter app but it produced not the best of result. I'll revert back to 5 seconds and make it adjustable or premium users.
