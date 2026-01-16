@@ -1,4 +1,5 @@
 Jan. 16, 2025
+	* In my LDO or volatge regulator, I have decoupling capacitors which serves like a buffer pond so that when the circuit needs a sudden burst of power, it is there to solve that problem.
 	* I also dug deeper to boot and reset. boot has not much function without reset and can be bypassed by manipulating gpio0.
 	* I noticed that the type c usb uses 2 x 5.1k ohm resistors and the esp32 c6 uses usb to uart and usb to serial (This is the default type).
 	* Espressif, the makers or manufacturers of esp32 seems really friendly when it comes to sharing the documentation for their products. For the esp32c6, the schematics can be downloaded here:
