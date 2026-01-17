@@ -1,4 +1,5 @@
 Jan. 17, 2025
+	* Tried to run DRC on my pcb and it has a lot of issues.
 	* I had a slight problem with the boot function in a way that in the schematics it wasn't connected to IO0. Now fixed.
 	* Time to make some cool apps!
 	* Yes! My google developer account is now active @ https://play.google.com/console/u/1/developers/6141124161189218850/app-list.
