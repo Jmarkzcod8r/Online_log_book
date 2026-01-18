@@ -1,4 +1,5 @@
 Jan. 17, 2025
+	* I'll make sure to use and esp32 with a built in rgb led light for production.
 	* Tried to run DRC on my pcb and it has a lot of issues.
 	* I had a slight problem with the boot function in a way that in the schematics it wasn't connected to IO0. Now fixed.
 	* Time to make some cool apps!
