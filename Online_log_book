@@ -1,5 +1,7 @@
-Jan. 17, 2025
+Jan. 18, 2026
 	* I'll make sure to use and esp32 with a built in rgb led light for production.
+
+Jan. 17, 2026
 	* Tried to run DRC on my pcb and it has a lot of issues.
 	* I had a slight problem with the boot function in a way that in the schematics it wasn't connected to IO0. Now fixed.
 	* Time to make some cool apps!
