@@ -1,4 +1,5 @@
 Jan. 19, 2026
+	* Video on the app is now playing smoothly. Now, I think I need to make a hot reset button to hot restart the app.
 	* Optimize my codes. Also, it seems that removing the console that counts helps in smoothing the video. This was the case for BLE.
 	* Maybe setstate is the culprit for the mini lag.
 	* It seems that you can have multify notify function submitting to an app from the esp32.
