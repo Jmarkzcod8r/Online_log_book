@@ -1,4 +1,5 @@
 Jan. 19, 2026
+	* Maybe setstate is the culprit for the mini lag.
 	* It seems that you can have multify notify function submitting to an app from the esp32.
 	* Finally got the reed sensor working by removing 'if((millis()-lastDebounceTime) > debounceDelay) {...' etc.
 	* DPDWR - for arduino -> Define -> Pinmode -> Digital Write/Read -> 'Down Payment, Don't withdarw right now'
