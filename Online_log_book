@@ -1,4 +1,5 @@
 Jan. 18, 2026	
+	* It seems that you can have multify notify function submitting to an app from the esp32.
 	* Finally got the reed sensor working by removing 'if((millis()-lastDebounceTime) > debounceDelay) {...' etc.
 	* DPDWR - for arduino -> Define -> Pinmode -> Digital Write/Read -> 'Down Payment, Don't withdarw right now'
 	* When it comes to supports, Ultimake Cura is definitely better than easyware slicer.
