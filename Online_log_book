@@ -1,4 +1,5 @@
 Jan. 19, 2026
+	* Optimize my codes. Also, it seems that removing the console that counts helps in smoothing the video. This was the case for BLE.
 	* Maybe setstate is the culprit for the mini lag.
 	* It seems that you can have multify notify function submitting to an app from the esp32.
 	* Finally got the reed sensor working by removing 'if((millis()-lastDebounceTime) > debounceDelay) {...' etc.
