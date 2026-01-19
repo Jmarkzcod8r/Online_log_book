@@ -1,10 +1,12 @@
-Jan. 18, 2026	
+Jan. 19, 2026
 	* It seems that you can have multify notify function submitting to an app from the esp32.
 	* Finally got the reed sensor working by removing 'if((millis()-lastDebounceTime) > debounceDelay) {...' etc.
 	* DPDWR - for arduino -> Define -> Pinmode -> Digital Write/Read -> 'Down Payment, Don't withdarw right now'
 	* When it comes to supports, Ultimake Cura is definitely better than easyware slicer.
 	* When working with a duplicated copy, I think it is best not to name them almost similar.
-	* My latest 3d printed box with partial holes went bette than expected but I need to adjust the hole to female and not male. Maybe another .75mm of allowance will do.
+
+Jan. 18, 2026	
+	* My latest 3d printed box with partial holes went better than expected but I need to adjust the hole to female and not male. Maybe another .75mm of allowance will do.
 	* I was able to transmit data via BLE and seeing it at nRFConnect.
 	* I'll make sure to use and esp32 with a built in rgb led light for production.
 
