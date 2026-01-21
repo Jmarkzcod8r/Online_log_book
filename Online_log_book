@@ -1,4 +1,7 @@
 Jan 22, 2026
+	* I think I get it why the white screen of death is appearing and it's because of different applicationID. Gemini chat provided the fix but I got to sleep now. 
+		I'll do it tomorrow.
+	* 'Deep Sleep' for my MCU (micro controller units) is something I need to consider for battery saving.
 	* Changing the applicationId and namespace in the build.gradle.kts seems to produce an error. WIth this unchanged, the 'flutter run --release' is good.
 
 Jan. 21, 2026
