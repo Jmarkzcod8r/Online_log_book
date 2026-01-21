@@ -1,3 +1,6 @@
+Jan 22, 2026
+	* Changing the applicationId and namespace in the build.gradle.kts seems to produce an error.
+
 Jan. 21, 2026
 	* The white screen of death is really annoying apparently. Gemini chat stated that it is usually because of multiple accounts in the device.
 	* I was able to install the flutter app using the keys.
