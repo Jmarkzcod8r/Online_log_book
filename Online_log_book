@@ -1,4 +1,5 @@
 Jan 22, 2026
+    * Perhaps one of the best practices would be to connect the parts one by one running a DRC check each time for pcb modeling.
     * I think one of the best use of a raspberry pi is to notify.
     * It seems that the nrf52840 is another chip that is not so easily acquired.
     * I just ordered a BMI 270 from China and I think this is one of the most difficult chip to acquire.
