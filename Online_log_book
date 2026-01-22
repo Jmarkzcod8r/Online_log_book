@@ -1,3 +1,7 @@
+Jan. 23, 2026
+	* Tried to make an esp32 battery monitoring but the fluctuation is a big turn off. Gemini chat recommended using capacitors and larger resistors but I guess I'll 
+		probably just do it next time.
+
 Jan 22, 2026
 	* 'xdg-open .' -> This command opens the containing folder of the pwd.
 	* Yes! I was finally able to install the app using google play.
