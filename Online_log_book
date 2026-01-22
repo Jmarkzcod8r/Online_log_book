@@ -1,4 +1,5 @@
 Jan 22, 2026
+    * It seems that the nrf52840 is another chip that is not so easily acquired.
     * I just ordered a BMI 270 from China and I think this is one of the most difficult chip to acquire.
 	* I think I get it why the white screen of death is appearing and it's because of different applicationID. Gemini chat provided the fix but I got to sleep now. 
 		I'll do it tomorrow.
