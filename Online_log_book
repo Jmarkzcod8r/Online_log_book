@@ -1,4 +1,6 @@
 Jan 22, 2026
+	* 'xdg-open .' -> This command opens the containing folder of the pwd.
+	* Yes! I was finally able to install the app using google play.
     * Perhaps one of the best practices would be to connect the parts one by one running a DRC check each time for pcb modeling.
     * I think one of the best use of a raspberry pi is to notify.
     * It seems that the nrf52840 is another chip that is not so easily acquired.
