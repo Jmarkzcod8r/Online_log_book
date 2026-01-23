@@ -1,4 +1,5 @@
 Jan. 24, 2026
+	* Just made a new project named 'Esp32_watch_IMU' intended for the watch like esp32 unit.
 	* I was able to make a pcb passing all the tests in the DRC. Hurrah! Thank You Lord!
 	* https://www.flux.ai/ -> I should try using this more.
 
