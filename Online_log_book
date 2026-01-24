@@ -1,5 +1,5 @@
 jan. 25. 2026
-	* Esp32 c3 super mini ble keyboard now online.
+	* Esp32 c3 super mini ble keyboard now online but I seem to be having an issue of it being undiscoverable in my tablet.
 	* I need to make the esp32-c3 dynamic for the premium feature.
 	* c3 supermini is now online.
 	* Although the c3 is much weaker when it comes to ble connectivity, it is much spacier.
