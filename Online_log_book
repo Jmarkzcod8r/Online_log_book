@@ -1,4 +1,5 @@
 jan. 25. 2026
+	* I need to make the esp32-c3 dynamic for the premium feature.
 	* c3 supermini is now online.
 	* Although the c3 is much weaker when it comes to ble connectivity, it is much spacier.
 
