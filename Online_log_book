@@ -1,3 +1,6 @@
+jan. 25. 2026
+	* Although the c3 is much weaker when it comes to ble connectivity, it is much spacier.
+
 Jan. 24, 2026
 	* board suddenly change from c3 to c6. this might be the culprit.
     * I need to make the mcu unkt (esp32 of nrf52) dynamic for the premium ble feature.
