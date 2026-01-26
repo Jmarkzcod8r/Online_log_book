@@ -1,6 +1,7 @@
 jan. 26, 2026
 	* I should add the version at the top beside the app title 'Playaeton ver. 1.0.xx etc.'
 	* Also, I need to make a button that would delete and reconstruct the youtube screen.
+	* I should configure the app to ask the user to update once a new version is released.
 
 Jan. 25. 2026
 	* Esp32 c3 super mini ble keyboard now online but I seem to be having an issue of it being undiscoverable in my tablet.
