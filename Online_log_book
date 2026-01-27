@@ -1,4 +1,5 @@
 jan. 27, 2026
+	* The tact button is now a no-go for my fluter proxy esp32 unit but I do need a restart button in the flutter app which will basically reconstruct the whole thing and reset the scanned ble connections.
 	* I need to try to order to jlcpcb and for my google flutter app to escape the internal testing.
 	* I need to make a bill of materials.
 	* The black duct and electrical tape can convery a low for the ir sensor.
