@@ -7,6 +7,7 @@ Jan. 28, 2026
 		(5) Change the position of the play and pause buttons as well as added a 3rd one which is the 'restart'.
 		(7) Add a quickalert to the youtube search button to say 'Feature free while on beta testing'.
 		(8) Add an auto-update to check for new versions of the app.
+		(9) Add navigation on top to show the home page and the login page while both being indexed and this is placd on top of the auto-control widget.
 	* I need to make a prospect list of people who can be my testers.
 	* I should ask my friends for their emails and for them to download the app. I should tell them that I am developing an app right now and I need some testers.
 	* I set up an account at https://groups.google.com/u/1/g/playaeton-closed-testers but I seem to be having trouble sending it for review. Gemini chat responded by I should fill up the tasks first like setting privacy policy, app access, ads,
