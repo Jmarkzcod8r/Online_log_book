@@ -1,3 +1,7 @@
+jan. 28, 2026
+	* I set up an account at https://groups.google.com/u/1/g/playaeton-closed-testers but I seem to be having trouble sending it for review. Gemini chat responded by I should fill up the tasks first like setting privacy policy, app access, ads,
+		content rating, etc,.
+
 jan. 27, 2026
 	* I need a slighlty bigger screw to lock in place the mini breadboard.
 	* The tact button is now a no-go for my fluter proxy esp32 unit but I do need a restart button in the flutter app which will basically reconstruct the whole thing and reset the scanned ble connections.
