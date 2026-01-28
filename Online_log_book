@@ -1,6 +1,6 @@
 Jan. 28, 2026
 	* What's new? 1.0.3+4
-		(1) Version number added besides the playaeton Label on top as well as a cycling icon which changes to rocket for premium users.
+		(1) Version number added besides the playaeton Label on top as well as the icon.
 		(2) Change the name of the app from com.jmarkz08.youtubeplay2 to com.jmarkz08.playaeton.
 		(3) Remove out the websocket Ip widget.
 		(4) Install quickalert to the auto-control mode.
