@@ -1,3 +1,6 @@
+jan. 29, 2026
+	* Just downloaded some schematics for the TCRT5000 from github. At this point, I need the schematics for the TCRT5000 that is rectangular like what I have now and make the led in the middle while slightly reducing the length.
+
 Jan. 28, 2026
 	* I need to modify number 5 since it doesn't work well.
 	* flutter pub run flutter_launcher_icons:main -> This is what i should use to update the new icon.
