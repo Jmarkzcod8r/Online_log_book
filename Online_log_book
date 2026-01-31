@@ -18,7 +18,7 @@ Jan. 28, 2026
 		(2) Change the name of the app from com.jmarkz08.youtubeplay2 to com.jmarkz08.playaeton.
 		(3) Remove out the websocket Ip widget.
 		(4) Install quickalert to the auto-control mode.
-		(5) Change the position of the play and pause buttons as well as added a 3rd one which is the 'restart'.
+		(5) Change the position of the play and pause buttons as well as added a 3rd one which is the 'restart/refresh'.
 		(6) Add to console a reminder to ensure location is on if nothing is on the list after a successful scan.
 		(7) Add a quickalert to the youtube search button to say 'Feature free while on beta testing'.
 		(8) Add an auto-update to check for new versions of the app.
