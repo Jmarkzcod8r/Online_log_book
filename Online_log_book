@@ -1,4 +1,5 @@
 Feb. 1, 2025
+	* board is now okay in arduino IDE but the uploading of code has an issue.
 	* It seems I need a bootloader for the nrf52.
 
 Jan. 31, 2026
