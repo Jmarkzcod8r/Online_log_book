@@ -1,3 +1,6 @@
+Feb. 3, 2025
+    * I need to make brochures for playaeton and also use versioning for it.
+
 Feb. 1, 2025
 	* I now have a working code that can make led bulbs blink.
 	* board is now okay in arduino IDE but the uploading of code has an issue. RST to GND seems to work.
