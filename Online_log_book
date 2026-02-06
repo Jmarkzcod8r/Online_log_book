@@ -1,3 +1,6 @@
+Feb. 7, 2026
+	* I think it's best to upload code in the nrf52once the nice!nano folder opens.
+
 Feb. 6, 2026
 	* tried sketch -> export compiled binary. This seemed to have reset my bootloader.
 	* my nrf52 seems to be a headache uploading some code once again.
