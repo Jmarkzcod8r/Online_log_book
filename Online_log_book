@@ -1,4 +1,5 @@
 Feb. 7, 2026
+	* BMI 270 not found!
 	* Reset by pulling the cable from the usb port on the laptop seems to be better than in the nrf52
 	* Nordix nrf52840 dk seems to be okay
 	* I think it's best to upload code in the nrf52once the nice!nano folder opens.
