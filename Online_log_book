@@ -1,5 +1,5 @@
 Feb. 6, 2026
-	* tried sketch -> export compiled binary
+	* tried sketch -> export compiled binary. This seemed to have reset my bootloader.
 	* my nrf52 seems to be a headache uploading some code once again.
 
 Feb. 5, 2026
