@@ -1,4 +1,5 @@
 Feb. 7, 2026
+	* I think I'll abandon the arduino IDE for vscode + PlatformIo. The good news is the nrf52 seems to be woking. rst to bat+ (top most-right side) of the chip seems to have fix.
 	* uploding code to nrf52 using arduino ide continues to be a pain. Maybe I should use other ide or use python.
 	* BMI 270 not found!
 	* Reset by pulling the cable from the usb port on the laptop seems to be better than in the nrf52
