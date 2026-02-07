@@ -1,4 +1,6 @@
 Feb. 7, 2026
+	* I found a better way of uploading code to the nrf52 by first exporting compiled library and then 'python3 ~/.arduino15/packages/adafruit/hardware/nrf52/1.7.0/tools/uf2conv/uf2conv.py \
+			~/Arduino/nr52_BMI/build/adafruit.nrf52.feather52840/nr52_BMI.ino.hex \-c -f 0xADA52840 -o ~/Desktop/flash_me.uf2 and then copying the flash_me.uf2 file into the usb folder of nice!nano
 	* I think I'll abandon the arduino IDE for vscode + PlatformIo. The good news is the nrf52 seems to be woking. rst to bat+ (top most-right side) of the chip seems to have fix.
 	* uploding code to nrf52 using arduino ide continues to be a pain. Maybe I should use other ide or use python.
 	* BMI 270 not found!
