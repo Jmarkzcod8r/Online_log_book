@@ -1,4 +1,5 @@
-Feb. 19, 2025
+Feb. 19, 2025\
+	* Nordic seems to be better at lighitng up led bulbs than bluefruit.
 	* My spare nrf52840 seems to be not working on the vcc side. Still, this chip continues to be annoying as ever.
 
 Feb. 15, 2026
