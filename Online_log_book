@@ -1,4 +1,5 @@
 Feb. 19, 2025
+    * I tried powering up the nrf52840 with a lilypad coin size battery but it seems to be wanting more power. I'll try removing the ble for now.
 	* I should try powering up the nrf52840 without the  ble for now.
 	* I need screenshot for numberin going up and for list of countries to choose for my app.
 	* I finally identified the pin number for most of the nrf52840 nice!nano gpio.
