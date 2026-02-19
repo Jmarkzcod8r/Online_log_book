@@ -1,3 +1,6 @@
+Feb. 20, 2025
+	* My 1.1 version is now working but it still has no deep sleep which I am working on for 1.2
+
 Feb. 19, 2025
 	* My portable nrf52840 ir sensor proxy unit is now online and the trick to make it work was using a 100uF capacitor isntead of just 10uF. Now, I need to establish a percentage of the  battery life.
     * I tried powering up the nrf52840 with a lilypad coin size battery but it seems to be wanting more power. I'll try removing the ble for now.
