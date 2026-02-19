@@ -1,5 +1,5 @@
 Feb. 19, 2025
-	* My portable nrf52840 ir sensor proxy unit is now online and the trick to make it work was using a 100uF capacitor isntead of just 10uF.
+	* My portable nrf52840 ir sensor proxy unit is now online and the trick to make it work was using a 100uF capacitor isntead of just 10uF. Now, I need to establish a percentage of the  battery life.
     * I tried powering up the nrf52840 with a lilypad coin size battery but it seems to be wanting more power. I'll try removing the ble for now.
 	* I should try powering up the nrf52840 without the  ble for now.
 	* I need screenshot for numberin going up and for list of countries to choose for my app.
