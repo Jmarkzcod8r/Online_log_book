@@ -1,4 +1,5 @@
 Feb. 20, 2025
+	* Important: Disconnect B+ and B- if connecting type-C USB or you might have a mini explosion.
 	* My spare nrf52840 has I think a defected VCC but with the setup gemini suggested it might not matter that much.
 	* The nrf52840 is sucking all the current that a simple led bulb will not light if it is active.
 	* I have 3 x cr2025 coin size batteries. I thought the first two are almost dead until I started using the B+ and B-.
