@@ -1,4 +1,7 @@
-Feb. 20, 2025
+Feb. 21, 2026
+	* Mynrf52840 is now working and right now I'm doing a stress test. battery level is at 100% currently.
+
+Feb. 20, 2026
 	* Important: Disconnect B+ and B- if connecting type-C USB or you might have a mini explosion.
 	* My spare nrf52840 has I think a defected VCC but with the setup gemini suggested it might not matter that much.
 	* The nrf52840 is sucking all the current that a simple led bulb will not light if it is active.
@@ -8,7 +11,7 @@ Feb. 20, 2025
 	* 02/20/2026 0224H -> Battery is currently at 100%.
 	* My 1.1 version is now working but it still has no deep sleep which I am working on for 1.2
 
-Feb. 19, 2025
+Feb. 19, 2026
 	* My portable nrf52840 ir sensor proxy unit is now online and the trick to make it work was using a 100uF capacitor isntead of just 10uF. Now, I need to establish a percentage of the  battery life.
     * I tried powering up the nrf52840 with a lilypad coin size battery but it seems to be wanting more power. I'll try removing the ble for now.
 	* I should try powering up the nrf52840 without the  ble for now.
