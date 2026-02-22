@@ -1,4 +1,5 @@
 Feb. 22, 2026
+    * I think I'll just use ziploc for the packaging that way i can freebie a small screwdriver.
 	* I think in the initial years of a business, good reviews > good sales.
 	* Maybe I should halt the development of the portable nr52 ir sensor to focus on the marketing of the c3 supermini.
     * My nrf52840 can now connect via ble but the ir sensor seems to be erratic even with the capacitor in place. I should check the code whether I have enabled the gpio power source for high output.
