@@ -1,4 +1,5 @@
 Feb. 22, 2026
+	* Maybe I should halt the development of the portable nr52 ir sensor to focus on the marketing of the c3 supermini.
     * My nrf52840 can now connect via ble but the ir sensor seems to be erratic even with the capacitor in place. I should check the code whether I have enabled the gpio power source for high output.
         Another thing I can do at this point is to try a lipo small battery maybe 3.7V as a power cource. Maybe there are some at Majestic.
 
