@@ -1,3 +1,6 @@
+Feb. 23, 2026
+	* I think one of the advantages of nrf52840 is that it can be use as a charging unit for 3.7V Li-ion batteries.
+
 Feb. 22, 2026
     * I need to use replit more.
     * I see now that the recommended voltage for the nrf52840 is 3.7V.
