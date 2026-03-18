@@ -1,3 +1,7 @@
+Mar. 18, 2026
+	* I think I'll make it so that the esp32 c3 super mini has no switch.
+	* Tried production last night and all pieces worked well. I still need to edit the code though to include the battery percentage and change the name to 'Playaeton-MP01' or Playaeton-SP23'.
+
 Mar. 16, 2026
 	* It seems that the transparent mini breadboard is bigger than the red one I originally have right now.
 
