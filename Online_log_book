@@ -1,3 +1,6 @@
+Mar. 20, 2025
+	* getting the battery monitoring feature is such a pain as ever in the nrf52840 nice!nano. But, I think we have some hope using '#define BATT_PIN A2'
+
 Mar. 18, 2026
 	* I think I'll make it so that the esp32 c3 super mini has no switch.
 	* Tried production last night and all pieces worked well. I still need to edit the code though to include the battery percentage and change the name to 'Playaeton-MP01' or Playaeton-SP23'.
