@@ -1,4 +1,5 @@
 Mar. 20, 2025
+    * Maybe I shoul try using the raw for now.
     * The batt percentage is still confusing me right now for the MP01.
 	* getting the battery monitoring feature is such a pain as ever in the nrf52840 nice!nano. But, I think we have some hope using '#define BATT_PIN A2'
 
