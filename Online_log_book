@@ -1,4 +1,5 @@
 Apr. 1, 2026
+	* Do not use 'led_builtin' as code for nrf52840
 	* I think it is times like this when I need a voltage manipulator.
 	* Maybe I should buy more led bulbs.
 	* I could sell some multimeter maybe.
