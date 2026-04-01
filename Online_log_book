@@ -1,4 +1,5 @@
 Apr. 1, 2026
+	* Building up the code for the nrf52840 nice!nano voltage monitoring remains to be a pain. I wonder what my workaround for this one would be.
 	* I think I made some good progress configuring the code for the batery level.
 
 Mar. 26, 2026
