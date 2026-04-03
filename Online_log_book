@@ -1,3 +1,6 @@
+April 3, 2026
+    * 482jobs seems really interesting.
+
 Apr. 1, 2026
 	* Do not use 'led_builtin, led_red or led_blue' as code for nrf52840
 	* I think it is times like this when I need a voltage manipulator.
